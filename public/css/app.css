@@ -1,0 +1,141 @@
+:root {
+    --color-marrom: #834b24;
+    --color-marrom-mid: #cc884d;
+    --color-marrom-light: #e0a76c;
+    --color-cinza-dark: #282828;
+    --color-cinza: #353434;
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    overflow-x: hidden !important;
+    background-color: #ffffff;
+}
+body,
+ul,
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.content {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+[data-animate] {
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.9s cubic-bezier(0.65, 0, 0.35, 1);
+}
+[data-animate="left"] {
+    transform: translateX(-50px);
+}
+[data-animate="right"] {
+    transform: translateX(50px);
+}
+[data-animate="top"] {
+    transform: translateY(-50px);
+}
+[data-animate="bottom"] {
+    transform: translateY(50px);
+}
+[data-animate="fade"] {
+    transform: scale(0.98);
+}
+[data-animate="scale"] {
+    transform: scale(0.5);
+}
+.animate.active {
+    pointer-events: auto;
+    opacity: 1;
+    transform: none;
+}
+.box-float {
+    -webkit-box-shadow: 0 0 19px -4px rgba(0, 0, 0, .6);
+    -moz-box-shadow: 0 0 19px -4px rgba(0,0,0,.6);
+    box-shadow: 0 0 19px -4px rgba(0, 0, 0, .6);
+    background: #B05C22;
+    background: linear-gradient(180deg, rgba(176, 92, 34, 1) 0%, rgba(246, 202, 142, 1) 50%, rgba(176, 92, 34, 1) 100%);
+    border-radius: 50px;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 9;
+    padding: 10px 0px;
+}
+.box-float ul {
+    display: flex;
+    flex-direction: column;
+}
+.box-float ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+}
+.box-float svg {
+    width: 40px;
+    height: 40px;
+    fill: #000;
+}
+.box-float a:hover svg {
+    fill: var(--color-marrom);
+}
+
+.box-float svg.linkedin,
+.box-float svg.email {
+    width: 35px;
+}
+/*
+.box-float li.wpp {
+    background-color: var(--color-roxo);
+}
+.box-float li.instagram {
+    background-color: var(--color-verde);
+}
+.box-float li.instagram svg,
+.box-float li.linkedin svg {
+    fill: var(--color-roxo);
+}
+.box-float li.email {
+    background-color: var(--color-ciano);
+}
+.box-float li.email svg {
+    fill: var(--color-verde);
+}
+.box-float li.linkedin {
+    background-color: #dedcda;
+}
+*/
+@media (max-width: 800px) {
+    .box-float {
+        right: 1rem;
+        bottom: 1rem;
+    }
+    .box-float svg {
+        width: 40px;
+        height: 40px;
+    }
+    .box-float svg.linkedin,
+    .box-float svg.email {
+        width: 36px;
+    }
+}

@@ -1,0 +1,68 @@
+section.saiba-mais {
+    background-color: #4f4f4f;
+}
+section.saiba-mais .area-text {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    min-height: 180px;
+}
+section.saiba-mais .area-text h3 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+}
+section.saiba-mais .area-text h3 a {
+    color: #dda368;
+    padding: 0 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+section.saiba-mais .area-text h3 a span {
+    font-weight: 800;
+    border-bottom: 2px solid transparent;
+}
+section.saiba-mais .tag-arrow {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #AE581E;
+    background: linear-gradient(120deg, rgba(174, 88, 30, 1) 0%, rgba(223, 166, 107, 1) 100%);
+}
+section.saiba-mais .tag-arrow svg {
+    fill: #4f4f4f;
+    width: 25px;
+}
+section.saiba-mais .area-text h3 a:hover span {
+    transition: .2s;
+    border-color: #dda368;
+}
+section.saiba-mais .area-text h3 a:hover {
+    transition: .2s;
+    filter: brightness(1.1);
+}
+section.saiba-mais .area-text h3 a:hover svg {
+    transition: .2s;
+    fill: #fff;
+}
+@media (max-width: 500px) {
+    section.saiba-mais .area-text img {
+        width: 80px;
+    }
+    section.saiba-mais .area-text h3 {
+        font-size: 1.25rem;
+    }
+    section.saiba-mais .area-text {
+        gap: 10px;
+    }
+}

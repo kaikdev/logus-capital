@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Força domínio sem WWW (ESSENCIAL)
+    RewriteCond %{HTTP_HOST} ^www\.globalsilver\.com\.br$ [NC]
+    RewriteRule ^(.*)$ https://globalsilver.com.br/$1 [L,R=301]
+    
+    # Authorization headers
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Trailing slash
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Front controller
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+</IfModule>

@@ -1,0 +1,69 @@
+[17-Dec-2025 02:04:33 America/Fortaleza] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php:1122
+Stack trace:
+#0 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(1122): ReflectionClass->__construct('config')
+#1 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(933): Illuminate\Container\Container->build('config')
+#2 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(864): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make('config', Array)
+#5 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(138): Illuminate\Foundation\Application->make('config', Array)
+#6 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(321): app('config')
+#7 /home1/fatim865/public_html/novo/public/index.php(22): config('app.url')
+#8 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php:1124
+Stack trace:
+#0 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(933): Illuminate\Container\Container->build('config')
+#1 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve('config', Array, true)
+#2 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(864): Illuminate\Foundation\Application->resolve('config', Array)
+#3 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make('config', Array)
+#4 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(138): Illuminate\Foundation\Application->make('config', Array)
+#5 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(321): app('config')
+#6 /home1/fatim865/public_html/novo/public/index.php(22): config('app.url')
+#7 {main}
+  thrown in /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 1124
+[17-Dec-2025 02:07:13 America/Fortaleza] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php:1122
+Stack trace:
+#0 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(1122): ReflectionClass->__construct('config')
+#1 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(933): Illuminate\Container\Container->build('config')
+#2 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(864): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make('config', Array)
+#5 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(138): Illuminate\Foundation\Application->make('config', Array)
+#6 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(321): app('config')
+#7 /home1/fatim865/public_html/novo/public/index.php(22): config('app.url')
+#8 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php:1124
+Stack trace:
+#0 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(933): Illuminate\Container\Container->build('config')
+#1 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve('config', Array, true)
+#2 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(864): Illuminate\Foundation\Application->resolve('config', Array)
+#3 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make('config', Array)
+#4 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(138): Illuminate\Foundation\Application->make('config', Array)
+#5 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(321): app('config')
+#6 /home1/fatim865/public_html/novo/public/index.php(22): config('app.url')
+#7 {main}
+  thrown in /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 1124
+[17-Dec-2025 02:08:21 America/Fortaleza] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php:1122
+Stack trace:
+#0 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(1122): ReflectionClass->__construct('config')
+#1 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(933): Illuminate\Container\Container->build('config')
+#2 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(864): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make('config', Array)
+#5 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(138): Illuminate\Foundation\Application->make('config', Array)
+#6 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(321): app('config')
+#7 /home1/fatim865/public_html/novo/public/index.php(22): config('app.url')
+#8 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php:1124
+Stack trace:
+#0 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(933): Illuminate\Container\Container->build('config')
+#1 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve('config', Array, true)
+#2 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php(864): Illuminate\Foundation\Application->resolve('config', Array)
+#3 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make('config', Array)
+#4 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(138): Illuminate\Foundation\Application->make('config', Array)
+#5 /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(321): app('config')
+#6 /home1/fatim865/public_html/novo/public/index.php(22): config('app.url')
+#7 {main}
+  thrown in /home1/fatim865/public_html/novo/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 1124

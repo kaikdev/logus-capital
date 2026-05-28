@@ -1,0 +1,228 @@
+section.banner {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+}
+section.banner .swiper,
+section.banner .swiper-wrapper,
+section.banner .swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+section.banner .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section.banner h1.title-banner-swipper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000000;
+}
+main {
+    background-image: url("../img/contato/background-main.webp");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+main::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5%;
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(213 213 213) 100%);
+    pointer-events: none;
+}
+main .content {
+    padding: 2rem 1rem 5rem 1rem;
+}
+main .content > .left {
+    width: 100%;
+}
+main .content > .left,
+.left form.form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.left form.form-contato {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+form.form-contato .grid-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+main .content > .left h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #fff;
+    background: linear-gradient(90deg, 
+        rgba(149, 77, 28, 1) 0%, 
+        rgba(126, 74, 37, 1) 2%, 
+        rgba(0, 0, 0, 1) 50%, 
+        rgba(0, 0, 0, 0.4) 75%, 
+        rgba(0, 0, 0, 0) 100%
+    );
+    padding: 5px 0 10px 10px;
+    max-width: 400px;
+}
+main .content > .left h1 strong {
+    font-weight: 700;
+}
+main .left p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+form.form-contato input,
+form.form-contato textarea {
+    padding: 15px 1rem;
+    border-radius: 35px;
+    border: 2px solid #dca169;
+    background-color: #e6e6e6;
+    outline: none;
+    width: 100%;  
+}
+form.form-contato input::placeholder,
+form.form-contato textarea::placeholder {
+    color: #a5a1a1;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+form.form-contato input:focus,
+form.form-contato textarea:focus {
+    transition: .3s;
+    border-color: #543119;
+}
+form.form-contato button {  
+    background: #B05C22;
+    background: linear-gradient(110deg, rgba(176, 92, 34, 1) 0%, rgba(246, 202, 142, 1) 50%, rgba(176, 92, 34, 1) 100%);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 8px 1rem;
+    border-radius: 30px;
+    max-width: 230px;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 0 19px -4px rgba(0, 0, 0, .6);
+    -moz-box-shadow: 0 0 19px -4px rgba(0,0,0,.6);
+    box-shadow: 0 0 19px -4px rgba(0, 0, 0, .6);
+}
+form.form-contato button:hover {
+    color: var(--color-marrom);
+    transition: .3s;
+}
+h3.text-decoration {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    white-space: nowrap;
+    writing-mode: vertical-lr;
+    writing-mode: sideways-lr;
+    text-orientation: mixed;
+    color: #c7c7c7;
+    font-size: 5.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: italic;
+    pointer-events: none;
+}
+
+/* --- BG Effect Lead --- */
+.bg-effect-default.left {
+    pointer-events: none;
+    position: absolute;
+    top: -150px;
+    left: 0;
+    transform: translateY(50%);
+    width: 10%;
+    height: 150px;
+    background: #AE581E;
+    background: linear-gradient(120deg, rgba(223, 166, 107, 1) 0%, rgba(174, 88, 30, 1) 100%);
+    border-radius: 0 120px 120px 0;
+}
+.bg-effect-default.right {
+    pointer-events: none;
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 150px;
+    background: #AE581E;
+    background: linear-gradient(120deg, rgba(174, 88, 30, 1) 0%, rgba(223, 166, 107, 1) 100%);
+    border-radius: 120px 0 0 120px;
+}
+@media (max-width: 1600px) {
+    .bg-effect-default {
+        width: 70px !important;
+    }
+}
+@media (max-width: 700px) {
+    .bg-effect-default {
+        display: none !important;
+    }
+}
+/* --- END - BG Effect Lead --- */
+
+@media (max-width: 1250px) {
+    main .content > .left {
+        padding-right: 7rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    form.form-contato .grid-input {
+        flex-direction: column;
+    }
+    .left form.form-contato {
+        gap: 1rem;
+    }
+    main .content {
+        padding: 2rem 1rem 3rem 1rem;
+    }
+    section.banner h1.title-banner-swipper {
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        width: calc(100% - 2rem);
+    }
+    section.banner h1.title-banner-swipper br {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    main .content > .left {
+        padding: 0;
+    }
+    h3.text-decoration {
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    section.saiba-mais .area-text h3 a {
+        white-space: nowrap;
+    }
+}

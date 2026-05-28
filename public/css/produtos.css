@@ -1,0 +1,195 @@
+section.banner {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+}
+section.banner .swiper,
+section.banner .swiper-wrapper,
+section.banner .swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+section.banner .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section.banner h1.title-banner-swipper {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    min-width: 50%;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000000;
+}
+main {
+    padding-top: 3rem;
+    background-image: url("../img/produtos/background-main.webp");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 0 1rem 3rem;
+    position: relative;
+}
+main .content > .left,
+main .content > .right {
+    width: 100%;
+}
+main .title {
+    position: relative;
+    background: linear-gradient(90deg, 
+        rgba(149, 77, 28, 1) 0%, 
+        rgba(126, 74, 37, 1) 2%, 
+        rgba(0, 0, 0, 1) 50%, 
+        rgba(0, 0, 0, 0.4) 75%, 
+        rgba(0, 0, 0, 0) 100%
+    );
+    padding: 5px 0 10px 10px;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+main h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+main h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+main .left p {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 1.5rem;
+    line-height: 2;
+    font-size: 1rem;
+    font-weight: 500;
+}
+main .left p strong {
+    font-weight: 900;
+}
+main .left p.chamada {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #ae6730;
+    text-transform: uppercase;
+}
+main .content > .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    height: 650px;
+}
+.area-img .swiper-produtos {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.area-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid #dca169;
+    border-radius: 1rem;
+}
+
+/* --- BG Effect Lead --- */
+.bg-effect-default.left {
+    pointer-events: none;
+    position: absolute;
+    top: -150px;
+    left: 0;
+    transform: translateY(50%);
+    width: 10%;
+    height: 150px;
+    background: #AE581E;
+    background: linear-gradient(120deg, rgba(223, 166, 107, 1) 0%, rgba(174, 88, 30, 1) 100%);
+    border-radius: 0 120px 120px 0;
+}
+.bg-effect-default.right {
+    pointer-events: none;
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 150px;
+    background: #AE581E;
+    background: linear-gradient(120deg, rgba(174, 88, 30, 1) 0%, rgba(223, 166, 107, 1) 100%);
+    border-radius: 120px 0 0 120px;
+}
+@media (max-width: 1600px) {
+    .bg-effect-default {
+        width: 70px !important;
+    }
+}
+@media (max-width: 700px) {
+    .bg-effect-default {
+        display: none !important;
+    }
+}
+/* --- END - BG Effect Lead --- */
+
+@media (max-width: 1400px) {
+    main .content {
+        gap: 2rem;
+    }
+}
+@media (max-width: 1000px) {
+    main .content {
+        flex-direction: column;
+    }
+    main {
+        padding-top: 2rem;
+    }
+    section.banner h1.title-banner-swipper {
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        width: calc(100% - 2rem);
+    }
+    section.banner h1.title-banner-swipper br {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .area-img {
+        width: 100%;
+        height: auto;
+    }
+    main .title {
+        gap: 1rem;
+    }
+}
+@media (max-width: 520px) {
+    main h1 {
+        font-size: 1.2rem;
+    }
+}
