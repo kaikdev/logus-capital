@@ -78,9 +78,9 @@ return [
     |
     */
 
-    'locale' => 'pt_BR',
-    'fallback_locale' => 'pt_BR',
-    'available_locales' => ['pt_BR', 'en', 'es'],
+    'locale' => 'pt_br',
+    'fallback_locale' => 'pt_br',
+    'available_locales' => ['pt_br', 'en'],
 
     /*
     |--------------------------------------------------------------------------

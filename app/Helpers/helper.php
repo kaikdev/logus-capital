@@ -42,13 +42,13 @@
             'APP_URL_ARTICLES' => 'http://127.0.0.1:8081/adm/acompanhe/',
 
             //client
-            'client' => 'Global Silver',
-            'email-client' => 'contato@globalsilver.com.br',
+            'client' => 'Logus Capital',
+            'email-client' => 'contato@loguscapital.com.br',
             'subjectMail' => 'Subject',
 
             // whats number
-            'link-whats1' => "https://wa.me/5511943711242",
-            'whats1' =>  "(11) 94371-1242",
+            'link-whats1' => "https://wa.me/5511900000000",
+            'whats1' =>  "(11) 90000-0000",
             'link-whats2' => "https://api.whatsapp.com/send?phone=5511",
             'whats2' => '',
 
