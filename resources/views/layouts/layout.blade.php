@@ -572,6 +572,8 @@
 
     @include('includes.footer')
 
+
+    {{--
     <div class="box-float">
         <ul>
             <li class="wpp">
@@ -600,7 +602,6 @@
         </ul>
     </div>
     
-    {{-- 
     <!--Popup Lgpd-->
     <div class="pop-up-cookie" id="popup">
         <div class="content-wrapper">

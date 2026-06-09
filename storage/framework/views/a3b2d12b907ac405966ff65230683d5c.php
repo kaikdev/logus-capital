@@ -49,6 +49,33 @@
                 speed: 1500,
             });
         });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const title = document.querySelector('.title-banner-swipper');
+
+            if (!title) return;
+
+            const html = title.innerHTML;
+            const parts = html.split(/(<br\s*\/?>)/i);
+
+            let delay = 0;
+
+            title.innerHTML = parts.map(part => {
+                if (part.match(/<br\s*\/?>/i)) {
+                    return part;
+                }
+
+                return part
+                    .trim()
+                    .split(/\s+/)
+                    .map(word => {
+                        const span = `<span class="word" style="animation-delay:${delay}s">${word}</span>`;
+                        delay += 0.15;
+                        return span;
+                    })
+                    .join(' ');
+            }).join('');
+        });
     </script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.layout', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\kaikg\Downloads\logus-capital\resources\views/pages/index.blade.php ENDPATH**/ ?>
