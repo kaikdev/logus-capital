@@ -1,7 +1,9 @@
 :root {
     --azul: #012853;
     --azul-dark: #132c52;
+    --azul-light: #42577b;
     --cinza: #c0c0c0;
+    --cinza-dark: #7f7f7f;
 }
 html {
     scroll-behavior: smooth;

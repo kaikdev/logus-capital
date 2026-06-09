@@ -24,6 +24,209 @@
         </div>
     </section>
 
+    <main>
+        <div class="content">
+            <div class="proposito">
+                <div class="title-default">
+                    <h1>
+                        <?php echo __('home.title1'); ?>
+
+                    </h1>
+
+                    <h2>
+                        <?php echo __('home.subtitle1'); ?>
+
+                    </h2>
+                </div>
+
+                <div class="conteudo">
+                    <div class="left">
+                        <p>
+                            <?php echo __('home.text1'); ?>
+
+                        </p>
+
+                        <p>
+                            <?php echo __('home.text2'); ?>
+
+                        </p>
+
+                        <a href="#" class="link">
+                            <?php echo __('home.link1'); ?>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z"/></svg>
+                        </a>
+                    </div>
+
+                    <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Propósito" loading="lazy">
+                </div>
+            </div>
+
+            <div class="diferenciais">
+                <div class="title-default">
+                    <h1>
+                        <?php echo __('home.title2'); ?>
+
+                    </h1>
+
+                    <h2>
+                        <?php echo __('home.subtitle2'); ?>
+
+                    </h2>
+                </div>
+
+                <div class="conteudo">
+                    <div class="top">
+                        <div class="item">
+                            <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Imagem Diferenciais">
+
+                            <p>
+                                <?php echo __('home.diferenciais1'); ?>
+
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Imagem Diferenciais">
+
+                            <p>
+                                <?php echo __('home.diferenciais2'); ?>
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+                        <div class="item">
+                            <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Imagem Diferenciais">
+
+                            <p>
+                                <?php echo __('home.diferenciais3'); ?>
+
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Imagem Diferenciais">
+                            
+                            <p>
+                                <?php echo __('home.diferenciais4'); ?>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="atuacao">
+                <div class="title-default">
+                    <h1>
+                        <?php echo __('home.title3'); ?>
+
+                    </h1>
+
+                    <h2>
+                        <?php echo __('home.subtitle3'); ?>
+
+                    </h2>
+                </div>
+
+                <div class="conteudo">
+                    <p>
+                        <?php echo __('home.text3'); ?>
+
+                    </p>
+
+                    <p>
+                        <?php echo __('home.text4'); ?>
+
+                    </p>
+
+                    <a href="#" class="link">
+                        <?php echo __('home.link2'); ?>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="decisoes">
+                <div class="title-default">
+                    <h1>
+                        <?php echo __('home.title4'); ?>
+
+                    </h1>
+
+                    <h2>
+                        <?php echo __('home.subtitle4'); ?>
+
+                    </h2>
+                </div>
+
+                <div class="conteudo">
+                    <div class="left">
+                        <p>
+                            <?php echo __('home.text5'); ?>
+
+                        </p>
+
+                        <a href="#" class="link">
+                            <?php echo __('home.link3'); ?>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z"/></svg>
+                        </a>
+                    </div>
+
+                    <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Decisões" loading="lazy">
+                </div>
+            </div>
+
+            <div class="visao">
+                <div class="title-default">
+                    <h1>
+                        <?php echo __('home.title5'); ?>
+
+                    </h1>
+
+                    <h2>
+                        <?php echo __('home.subtitle5'); ?>
+
+                    </h2>
+                </div>
+
+                <div class="conteudo">
+                    <img src="<?php echo e(asset('img/home/visao.webp')); ?>" alt="Visão" loading="lazy">
+
+                    <p>
+                        <?php echo __('home.text6'); ?>
+
+                    </p>
+
+                    <p>
+                        <?php echo __('home.text7'); ?>
+
+                    </p>
+
+                    <p>
+                        <?php echo __('home.text8'); ?>
+
+                    </p>
+
+                    <a href="#">
+                        <span>
+                            <?php echo __('home.link4'); ?>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z"/></svg>
+                        </span>
+
+                        <?php echo __('home.sublink4'); ?>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <!-- 
     <?php echo $__env->make('includes.lead', [
         'title' => __('leads.lead.title'),
