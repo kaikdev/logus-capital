@@ -1,42 +1,19 @@
 footer {
     overflow: hidden;
-    background-color: #fff;
+    background-color: var(--azul-dark);
     position: relative;
-}
-footer::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40%;
-    height: 100%;
-    background-color: #282828;
-}
-footer::before {
-    content: '';
-    position: absolute;
-    right: calc(40% - 50px);
-    top: 0;
-    width: 50px;
-    height: 100%;
-    background: #fff;
-    transform: skewX(-7deg);
-    transform-origin: top;
-    z-index: 1;
 }
 footer .content {
     padding: 3rem 1rem;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     gap: 2rem;
 }
 footer .content > .right {
-    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    z-index: 1;
 }
 footer a.logo {
     display: inline-flex;
@@ -48,24 +25,12 @@ footer .content > .left {
     display: flex;
     align-items: flex-start;
     justify-content: left;
-    gap: 3rem;
-}
-footer .sobre {
-    max-width: 300px;
-}
-footer .sobre a {
-    font-weight: 600;
-    color: var(--color-marrom);
-    font-family: "Montserrat", sans-serif;
-}
-footer .sobre a:hover {
-    transition: .2s;
-    color: var(--color-marrom-light);
+    gap: 4rem;
 }
 footer .content > .left h4 {
     font-size: 1rem;
-    font-weight: 800;
-    color: #000;
+    font-weight: 600;
+    color: #fff;
     margin-bottom: 0.5rem;
 }
 footer .content > .left ul {
@@ -78,15 +43,15 @@ footer .content > .left ul {
 footer svg {
     width: 20px;
     min-width: 20px;
-    fill: #000;
+    fill: #fff;
 }
 footer .content > .left p,
 footer .content > .left ul a {
-    color: var(--color-marrom);
-    font-weight: 600;
+    color: #fff;
+    font-weight: 400;
 }
 footer .content > .left ul a {
-    color: var(--color-marrom);
+    color: #fff;
     white-space: nowrap;
     transition: .2s; 
 }
@@ -97,11 +62,47 @@ footer .content > .left .contato a {
 }
 footer .content > .left ul a:hover,
 footer .content > .left ul a.active {
-    color: var(--color-marrom-light);
+    color: var(--azul-white);
     text-decoration: underline;
 }
 footer .content > .left ul a:hover svg {
-    fill: var(--color-marrom-light);
+    fill: var(--azul-white);
+}
+.siga .redes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+}
+.siga .redes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.siga .redes a svg {
+    width: 35px;
+    height: auto;
+}
+.siga a.store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 1rem;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: max-content;
+    transition: all .3s ease;
+}
+.siga a.store img {
+    width: 100%;
+    max-width: 120px;
+}
+.siga a.store:hover {
+    border-color: var(--azul);
+    background-color: var(--azul-white);
 }
 .by-engenho {
     display: flex;
@@ -118,23 +119,15 @@ footer .content > .left ul a:hover svg {
     justify-content: center;
     padding: 5px;
 }
-@media (min-width: 1700px) {
-    footer::after {
-        width: 43%;
-    }
-    footer::before {
-        width: 100px;
-        right: calc(39%);
-    }
-}
-@media (min-width: 2400px) {
-    footer::before {
-        width: 150px;
+@media (max-width: 1250px) {
+    footer a.logo img {
+        width: 200px;
+        height: auto;
     }
 }
 @media (max-width: 1120px) {
     footer .content {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 1rem;
         padding: 0;
     }
@@ -143,28 +136,38 @@ footer .content > .left ul a:hover svg {
         flex-direction: column;
         gap: 2rem;
         max-width: 100%;
-        padding: 2rem 1rem 1rem;
-    }
-    footer .sobre {
-        max-width: 100%;
-    }
-    footer::before,
-    footer::after {
-        display: none;
+        padding: 1rem 1rem 2rem;
     }
     footer .content > .right {
         width: 100%;
-        background-color: #282828;
-        padding: 2rem 1rem;
+        padding: 2rem 1rem 0;
     }
-}
-@media (max-width: 400px) {
+    footer .content > .left h4 {
+        margin-bottom: 15px;
+    }
+    footer .content > .left ul {
+        gap: 15px;
+    }
     footer .content > .left ul a {
         white-space: normal;
     }
     footer .content > .left ul a br {
         display: none;
     }
+}
+@media (max-width: 600px) {
+    footer a.logo img {
+        width: 200px;
+        height: auto;
+    }
+    footer .siga {
+        width: 100%;
+    }
+    .siga a.store {
+        max-width: 100%;
+    }
+}
+@media (max-width: 400px) {
     .by-engenho img {
         width: 220px;
         height: auto;

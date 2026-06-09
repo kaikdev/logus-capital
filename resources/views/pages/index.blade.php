@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 {{-- SEO --}}
-@section('title', __('main.footer.link_1'))
+@section('title', __('main.header.link_0'))
 @section('description-seo', $metatag->description ?? getItem('client'))
 
 @section('head')
@@ -213,7 +213,7 @@
             </div>
         </div>
     </main>
-    
+
     @include('includes.lead', [
         'title' => __('leads.lead.title'),
         'subtitle' => __('leads.lead.subtitle'),

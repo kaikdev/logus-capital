@@ -53,11 +53,8 @@
             'whats2' => '',
 
             // telefones numner
-            'link-phone1' => 'tel:+55112028-1057',
-            'phone1' => '(11) 2028-1057',
-            
-            'link-phone2' => 'tel:+55112028-1037',
-            'phone2' => '(11) 2028-1037',
+            'link-phone1' => 'tel:+55113071-4449',
+            'phone1' => '(11) 3071-4449',
 
             // social medias
             'linkedin' => 'https://www.linkedin.com/in/',
@@ -73,9 +70,13 @@
             'acomp-image-resolution' => '200 x 200' ,
             'equipe-image-resolution' => '200 x 200' ,
 
-            'link-address' => 'https://maps.app.goo.gl/nQ1YKNpWZ7pg7M7m6',
-            'address' => 'Sales Central Office Brasil – <br> Escritório de Vendas: <br> Rua Guaimbé, 572 - Mooca <br> CEP: 03118-020 - São Paulo - SP',
-            'iframe-address' => '<iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9972266392074!2d-46.67010768856845!3d-23.532602160448903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57e1c6f1d323%3A0x5c0ceea3b8a64c69!2sClilton%20Guimar%C3%A3es%20Advocacia!5e0!3m2!1spt-BR!2sbr!4v1758658073208!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+            'link-address' => 'https://maps.app.goo.gl/EgWfsKuxeE8xkL359',
+            'address' => 'Rua Bandeira Paulista, 726 <br>
+            Conjunto 111 <br>
+            The Flag Corporate Center <br> 
+            São Paulo/SP <br>
+            CEP: 04532-002',
+            'iframe-address' => ''
         );
 
         if (isset($array[$data]))

@@ -1,4 +1,8 @@
 header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -206,8 +210,7 @@ header.active ul.navigation-links {
     header {
         padding: 10px 1rem;
     }
-    header a.logo img {
-        width: auto;
-        height: 60px;
+    header .content {
+        gap: 1rem;
     }
 }

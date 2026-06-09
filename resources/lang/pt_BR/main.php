@@ -2,6 +2,7 @@
 
 return [
     'header' => [
+        'link_0' => 'Home',
         'link_1' => 'Quem Somos',
         'link_2' => 'Diferenciais',
         'link_3' => 'Atuação',
@@ -15,17 +16,20 @@ return [
     ],
     'footer' => [
         'title' => 'Navegue',
-        'link_1' => 'Home',
-        'link_2' => 'A Empresa',
-        'link_3' => 'Produtos',
-        'link_4' => 'Área de Atuação',
-        'link_5' => 'Contato'
     ],
     'contato' => [
         'title' => 'Contato',
-        'phone_1' => '(11) 2028-1057',
-        'phone_2' => '(11) 2028-1037',
-        'whats_1' => '(11) 94371-1242',
-        'endereco' => 'Sales Central Office Brasil – <br> Escritório de Vendas: <br> Rua Guaimbé, 572 - Mooca <br> CEP: 03118-020 - São Paulo - SP',
+        'phone_1' => '+55 11 3071-4449',
+        'whats_1' => '+55 11 3071-4449',
+        'endereco' => '
+            Rua Bandeira Paulista, 726 <br>
+            Conjunto 111 <br>
+            The Flag Corporate Center <br> 
+            São Paulo/SP <br>
+            CEP: 04532-002
+        ',
     ],
+    'siga' => [
+        'title' => 'Siga-nos',
+    ]
 ];

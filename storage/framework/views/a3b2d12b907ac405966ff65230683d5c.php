@@ -1,4 +1,4 @@
-<?php $__env->startSection('title', __('main.footer.link_1')); ?>
+<?php $__env->startSection('title', __('main.header.link_0')); ?>
 <?php $__env->startSection('description-seo', $metatag->description ?? getItem('client')); ?>
 
 <?php $__env->startSection('head'); ?>
@@ -226,7 +226,7 @@
             </div>
         </div>
     </main>
-    
+
     <?php echo $__env->make('includes.lead', [
         'title' => __('leads.lead.title'),
         'subtitle' => __('leads.lead.subtitle'),
