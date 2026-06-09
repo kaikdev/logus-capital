@@ -10,7 +10,8 @@ use Illuminate\Support\Facades\Session;
 
 Route::group([
         'prefix' => '{locale}',
-        'where' => ['locale' => 'pt_br|en']
+        'where' => ['locale' => 'pt_br|en'],
+        'middleware' => ['setlocale']
     ], function () {
 
     // Rota Home
@@ -80,4 +81,3 @@ Route::get('/{any}', function ($any) {
 
     return redirect('/' . $locale . '/' . $any);
 })->where('any', '^(?!pt_br|en).*$');
-
