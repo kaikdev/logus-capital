@@ -108,7 +108,7 @@
 
                         <div class="item">
                             <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Imagem Diferenciais">
-                            
+
                             <p>
                                 <?php echo __('home.diferenciais4'); ?>
 
@@ -226,14 +226,12 @@
             </div>
         </div>
     </main>
-
-    <!-- 
+    
     <?php echo $__env->make('includes.lead', [
         'title' => __('leads.lead.title'),
         'subtitle' => __('leads.lead.subtitle'),
         'botao' => __('leads.lead.botao'),
     ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
-    -->
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('scripts'); ?>

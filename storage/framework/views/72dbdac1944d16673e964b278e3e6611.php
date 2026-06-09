@@ -1,4 +1,4 @@
-<?php if (! $__env->hasRenderedOnce('941c3ed3-17bf-4cd0-a2f9-e2a052ef0a93')): $__env->markAsRenderedOnce('941c3ed3-17bf-4cd0-a2f9-e2a052ef0a93'); ?>
+<?php if (! $__env->hasRenderedOnce('edf6c61f-b7dc-443d-9ef4-6fb71af311d0')): $__env->markAsRenderedOnce('edf6c61f-b7dc-443d-9ef4-6fb71af311d0'); ?>
     <?php $__env->startPush('styles'); ?>
         <link rel="stylesheet" href="<?php echo e(asset('css/lead.css')); ?>" media="print" onload="this.media='all'">
     <?php $__env->stopPush(); ?>
@@ -15,20 +15,18 @@
 
             <form action="<?php echo e(route('lead-submit')); ?>" method="POST">
                 <?php echo csrf_field(); ?>
-                <div class="item-input">
-                    <label for="name">
-                        <?php echo e(__('leads.lead.label_1')); ?>
+                <div class="area-inputs-lead">
+                    <div class="item-input">
+                        <input type="text" id="name" name="name" placeholder="<?php echo e(__('leads.lead.label_1')); ?>" required>
+                    </div>
 
-                    </label>
-                    <input type="text" id="name" name="name" placeholder="<?php echo e(__('leads.lead.placeholder')); ?>" required>
-                </div>
+                    <div class="item-input">
+                        <input placeholder="<?php echo e(__('leads.lead.label_2')); ?>" type="text" id="phone" name="phone" oninput="this.value = formatPhone(this.value)" maxlength="15" required>
+                    </div>
 
-                <div class="item-input">
-                    <label for="email">
-                        <?php echo e(__('leads.lead.label_2')); ?>
-
-                    </label>
-                    <input type="email" id="email" name="email" placeholder="<?php echo e(__('leads.lead.placeholder')); ?>" required>
+                    <div class="item-input">
+                        <input type="email" id="email" name="email" placeholder="<?php echo e(__('leads.lead.label_3')); ?>" required>
+                    </div>
                 </div>
 
                 <div class="area-termos">
@@ -44,8 +42,22 @@
             </form>
         </div>
     </div>
-
-    <div class="bg-effect-default left"></div>
-    <div class="bg-effect-default right"></div>
 </section>
-<?php /**PATH C:\Users\kaikg\Downloads\logus-capital\resources\views/includes/lead.blade.php ENDPATH**/ ?>
+
+<?php $__env->startSection('scripts'); ?>
+    <script>
+        function formatPhone(value) {
+            const numbers = value.replace(/\D/g, '');
+            
+            if (numbers.length <= 10) {
+                return numbers.replace(/(\d{2})(\d{4})(\d{0,4})/, function(_, a, b, c) {
+                    return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
+                });
+            }
+            
+            return numbers.replace(/(\d{2})(\d{5})(\d{0,4})/, function(_, a, b, c) {
+                return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
+            });
+        }
+    </script>
+<?php $__env->stopSection(); ?><?php /**PATH C:\Users\kaikg\Downloads\logus-capital\resources\views/includes/lead.blade.php ENDPATH**/ ?>

@@ -14,18 +14,18 @@
 
             <form action="{{ route('lead-submit') }}" method="POST">
                 @csrf
-                <div class="item-input">
-                    <label for="name">
-                        {{ __('leads.lead.label_1') }}
-                    </label>
-                    <input type="text" id="name" name="name" placeholder="{{ __('leads.lead.placeholder') }}" required>
-                </div>
+                <div class="area-inputs-lead">
+                    <div class="item-input">
+                        <input type="text" id="name" name="name" placeholder="{{ __('leads.lead.label_1') }}" required>
+                    </div>
 
-                <div class="item-input">
-                    <label for="email">
-                        {{ __('leads.lead.label_2') }}
-                    </label>
-                    <input type="email" id="email" name="email" placeholder="{{ __('leads.lead.placeholder') }}" required>
+                    <div class="item-input">
+                        <input placeholder="{{ __('leads.lead.label_2') }}" type="text" id="phone" name="phone" oninput="this.value = formatPhone(this.value)" maxlength="15" required>
+                    </div>
+
+                    <div class="item-input">
+                        <input type="email" id="email" name="email" placeholder="{{ __('leads.lead.label_3') }}" required>
+                    </div>
                 </div>
 
                 <div class="area-termos">
@@ -40,7 +40,22 @@
             </form>
         </div>
     </div>
-
-    <div class="bg-effect-default left"></div>
-    <div class="bg-effect-default right"></div>
 </section>
+
+@section('scripts')
+    <script>
+        function formatPhone(value) {
+            const numbers = value.replace(/\D/g, '');
+            
+            if (numbers.length <= 10) {
+                return numbers.replace(/(\d{2})(\d{4})(\d{0,4})/, function(_, a, b, c) {
+                    return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
+                });
+            }
+            
+            return numbers.replace(/(\d{2})(\d{5})(\d{0,4})/, function(_, a, b, c) {
+                return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
+            });
+        }
+    </script>
+@endsection

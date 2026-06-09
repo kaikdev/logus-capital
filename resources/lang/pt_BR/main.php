@@ -13,10 +13,6 @@ return [
         'link_9' => 'Cliente',
         'link_10' => 'Parceiro'
     ],
-    'sobre' => [
-        'title' => 'Sobre',
-        'text' => 'A Global Silver é uma empresa especializada na comercialização de produtos para tratamento de superfície de metais não ferrosos, entre eles, Cobre, Latão, Alumínio e Aço Inox.',
-    ],
     'footer' => [
         'title' => 'Navegue',
         'link_1' => 'Home',

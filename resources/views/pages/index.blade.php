@@ -112,7 +112,7 @@
 
                         <div class="item">
                             <img src="{{ asset('img/home/proposito.webp') }}" alt="Imagem Diferenciais">
-                            
+
                             <p>
                                 {!! __('home.diferenciais4') !!}
                             </p>
@@ -213,14 +213,12 @@
             </div>
         </div>
     </main>
-
-    <!-- 
+    
     @include('includes.lead', [
         'title' => __('leads.lead.title'),
         'subtitle' => __('leads.lead.subtitle'),
         'botao' => __('leads.lead.botao'),
     ])
-    -->
 @endsection
 
 @section('scripts')

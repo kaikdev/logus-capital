@@ -1,7 +1,7 @@
 section.area-lead {
     width: 100%;
     min-height: 280px;
-    background-image: url("../img/lead/background-home.webp");
+    background-image: url("../img/lead/bg-lead.webp");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,8 +16,9 @@ section.area-lead h2 {
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 1.2;
-    color: #fff;
+    color: var(--azul);
     text-transform: uppercase;
+    text-align: center;
     margin-bottom: 1rem;
 }
 section.area-lead h2 span {
@@ -27,82 +28,85 @@ section.area-lead h2 span {
 section.area-lead form {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
 }
-section.area-lead .item-input label {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
+.area-inputs-lead {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.area-inputs-lead .item-input {
+    width: 100%;
 }
 section.area-lead input[type="text"],
 section.area-lead input[type="email"] {
     width: 100%;
     height: 35px;
     padding: 5px 10px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: none !important;
+    border-radius: 0px;
     outline: none !important;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     border: 1px solid transparent;
-    background-color: #dedede;
+    background-color: #fff;
+    color: var(--azul);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 section.area-lead input[type="text"]::placeholder,
 section.area-lead input[type="email"]::placeholder {
-    color: #000;
+    color: var(--azul);
+    text-transform: uppercase;
 }
 section.area-lead .item-input input:focus {
-    border-color: var(--color-marrom);
+    border-color: var(--azul);
 }
 section.area-lead .box-lead {
-    max-width: 600px;
+    max-width: 900px;
 }
 section.area-lead .area-termos {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 5px;
     text-align: center;
-    color: #fff;
+    color: var(--azul);
     font-size: 14px;
-    font-weight: 400;
 }
 section.area-lead .area-termos label {
     cursor: pointer;
+    font-weight: 500;
 }
 section.area-lead .area-termos input {
     cursor: pointer;
 }
 section.area-lead .area-termos a {
-    color: #fff;
-    border-bottom: 1px solid #fff;
+    color: var(--azul);
+    border-bottom: 1px solid var(--azul);
 }
 section.area-lead .area-termos a:hover {
-    transition: .3s;
-    color: var(--color-marrom-light);
-    border-color: var(--color-marrom-light);
+    transition: all .3s ease;
+    color: var(--azul-white);
+    border-color: var(--azul-white);
 }
 section.area-lead button.btn-lead {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 120px;
+    width: 100%;
+    max-width: 170px;
     margin: 0 auto;
     margin-top: 10px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    background-color: var(--color-marrom);
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--azul);
     color: #fff;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 0;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transition: .3s;
+    transition: all .3s ease;
 }
 section.area-lead button.btn-lead:hover {
-    background-color: var(--color-marrom-mid);
+    background-color: var(--azul-white);
 }
 @media (max-width: 1020px) {
     section.area-lead {
@@ -115,18 +119,25 @@ section.area-lead button.btn-lead:hover {
     section.area-lead .box-lead {
         max-width: 100%;
     }
-    section.area-lead h2 {
-        margin-bottom: 1rem;
-    }
     section.area-lead h2 span {
-        display: inline-block;
+        display: contents;
+    }
+    .area-inputs-lead {
+        flex-direction: column;
+    }
+    section.area-lead .area-termos {
+        justify-content: flex-start;
     }
     section.area-lead .area-termos label {
         text-align: left;
     }
+    section.area-lead .area-termos label,
+    section.area-lead .area-termos label a {
+        font-weight: 600;
+    }
 }
 @media (max-width: 450px) {
     section.area-lead {
-        background-position-x: 60%;
+        background-position-x: 55%;
     }
 }
