@@ -16,17 +16,26 @@ Route::group([
     // Rota Home
     Route::get('/', [EmFocoController::class, 'home'])->name('home');
 
-    // Rota A Empresa
-    Route::get('/empresa', fn() => view('pages.empresa'))->name('empresa');
+    // Rota Quem Somos
+    Route::get('/quem-somos', fn() => view('pages.quem-somos'))->name('quem-somos');
 
-    // Rota Produto TP-056E
-    Route::get('/produtos/tp-056e', fn() => view('pages.tp-056e'))->name('produtos.tp-056e');
+    // Rota Diferenciais
+    Route::get('/diferenciais', fn() => view('pages.diferenciais'))->name('diferenciais');
 
-    // Rota Produto AD-035
-    Route::get('/produtos/ad-035', fn() => view('pages.ad-035'))->name('produtos.ad-035');
+    // Rota Atuação
+    Route::get('/atuacao', fn() => view('pages.atuacao'))->name('atuacao');
 
-    // Rota Áreas de Atuação
-    Route::get('/areas-de-atuacao', fn() => view('pages.areas-de-atuacao'))->name('areas-de-atuacao');
+    // Rota Decisão
+    Route::get('/decisao', fn() => view('pages.decisao'))->name('decisao');
+
+    // Rota Visão
+    Route::get('/visao', fn() => view('pages.visao'))->name('visao');
+
+    // Rota Time
+    Route::get('/time', fn() => view('pages.time'))->name('time');
+
+    // Rota FAQ
+    Route::get('/faq', fn() => view('pages.faq'))->name('faq');
 
     // Rotas Contato
     Route::get('/contato', fn() => view('pages.contato'))->name('contato');

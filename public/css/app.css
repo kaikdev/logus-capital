@@ -1,9 +1,7 @@
 :root {
-    --color-marrom: #834b24;
-    --color-marrom-mid: #cc884d;
-    --color-marrom-light: #e0a76c;
-    --color-cinza-dark: #282828;
-    --color-cinza: #353434;
+    --azul: #012853;
+    --azul-dark: #132c52;
+    --cinza: #c0c0c0;
 }
 html {
     scroll-behavior: smooth;

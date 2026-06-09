@@ -8,7 +8,7 @@
                 </h4>
 
                 <p>
-                    <a href="{{ route_lang('empresa') }}">
+                    <a href="{{ route_lang('home') }}">
                         {{ __('main.sobre.text') }}
                     </a>
                 </p>
@@ -27,30 +27,10 @@
                     </li>
 
                     <li>
-                        <a href="{{ route_lang('empresa') }}" class="{{ Route::is('empresa*') ? 'active' : '' }}">
+                        <a href="{{ route_lang('home') }}" class="{{ Route::is('home*') ? 'active' : '' }}">
                             {{ __('main.footer.link_2') }}
                         </a>
                     </li>
-
-                    <li>
-                        <a href="{{ route_lang('produtos.tp-056e') }}" class="{{ Route::is('produtos.tp-056e') ? 'active' : '' }}">
-                            {{ __('main.footer.link_3') }}
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="{{ route_lang('areas-de-atuacao') }}" class="{{ Route::is('areas-de-atuacao*') ? 'active' : '' }}">
-                            {{ __('main.footer.link_4') }}
-                        </a>
-                    </li>
-                    
-                    {{--
-                    <li>
-                        <a href="{{ route_lang('em-foco') }}" class="{{ Route::is('em-foco*') ? 'active' : '' }}">
-                            Em foco
-                        </a>
-                    </li>
-                    --}}
                     
                     <li>
                         <a href="{{ route_lang('contato') }}" class="{{ Route::is('contato*') ? 'active' : '' }}">

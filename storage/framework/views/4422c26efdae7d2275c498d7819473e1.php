@@ -9,7 +9,7 @@
                 </h4>
 
                 <p>
-                    <a href="<?php echo e(route_lang('empresa')); ?>">
+                    <a href="<?php echo e(route_lang('home')); ?>">
                         <?php echo e(__('main.sobre.text')); ?>
 
                     </a>
@@ -31,27 +31,11 @@
                     </li>
 
                     <li>
-                        <a href="<?php echo e(route_lang('empresa')); ?>" class="<?php echo e(Route::is('empresa*') ? 'active' : ''); ?>">
+                        <a href="<?php echo e(route_lang('home')); ?>" class="<?php echo e(Route::is('home*') ? 'active' : ''); ?>">
                             <?php echo e(__('main.footer.link_2')); ?>
 
                         </a>
                     </li>
-
-                    <li>
-                        <a href="<?php echo e(route_lang('produtos.tp-056e')); ?>" class="<?php echo e(Route::is('produtos.tp-056e') ? 'active' : ''); ?>">
-                            <?php echo e(__('main.footer.link_3')); ?>
-
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="<?php echo e(route_lang('areas-de-atuacao')); ?>" class="<?php echo e(Route::is('areas-de-atuacao*') ? 'active' : ''); ?>">
-                            <?php echo e(__('main.footer.link_4')); ?>
-
-                        </a>
-                    </li>
-                    
-                    
                     
                     <li>
                         <a href="<?php echo e(route_lang('contato')); ?>" class="<?php echo e(Route::is('contato*') ? 'active' : ''); ?>">

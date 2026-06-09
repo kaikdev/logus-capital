@@ -1,30 +1,17 @@
 header {
     padding: 1rem;
-    max-height: 120px;
     display: flex;
     align-items: center;
-    background: #954D1C;
-    background: linear-gradient(110deg, rgba(149, 77, 28, 1) 0%, rgba(126, 74, 37, 1) 2%, rgba(0, 0, 0, 1) 50%, rgba(126, 74, 37, 1) 98%, rgba(149, 77, 28, 1) 100%);
+    background: var(--azul);
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
-    z-index: 3;
     width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-header.fixed {
-    position: fixed;
-    top: 0px;
 }
 header .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     max-width: 1200px;
     position: relative;
 }
@@ -34,13 +21,41 @@ header a.logo {
     justify-content: center;
     outline: none;
 }
-header .right ul {
+.top-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.top-head a,
+.top-head span {
+    color: #fff;
+    font-weight: 600;
+}
+.top-head a {
+    border-bottom: 1px solid transparent;
+    transition: all .3s ease;
+}
+.top-head a:hover {
+    border-color: #fff;
+}
+.top-head > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header .right .ul {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 2rem;
+    gap: 1.5rem;
 }
-header .right ul .separator {
+header .right .ul .separator {
     width: 3px;
     height: 40px;
     background-color: #d9d9d9;
@@ -56,13 +71,12 @@ header .right li a {
     letter-spacing: 1px;
     white-space: nowrap;
     color: #fff;
-    transition: transform 0.2s ease;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
 }
 header .right li a:hover,
 header .right li a.active {
-    transform: scale(1.05);
-    text-decoration: underline;
-    color: #fdd596;
+    border-color: #fff;
 }
 header .content>.right {
     position: relative;
@@ -113,121 +127,49 @@ header.active ul.navigation-links {
     pointer-events: all !important;
     z-index: 99 !important;
 }
-
-.scroll-text {
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-    padding: 1rem 0;
-    background: #774623;
-    background: linear-gradient(0deg, rgba(119, 70, 35, 1) 0%, rgba(89, 55, 32, 1) 50%, rgba(40, 32, 28, 1) 100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 115px;
-}
-.scroll-content {
-    display: inline-flex;
-    width: max-content;
-    animation: 40s linear infinite scroll;
-    letter-spacing: -1px;
-    letter-spacing: 1.5px
-}
-.scroll-content span {
-    padding: 0 10px;
-    /*color: #39271a;*/
-    color: #39271aa8;
-    flex-shrink: 0;
-    font-size: 3rem;
-    font-weight: 900;
-    font-style: italic;
-    text-transform: uppercase;
-}
-@keyframes scroll {
-    0% {
-        transform: translateX(0)
+@media (max-width: 1250px) {
+    header a.logo img {
+        width: 200px;
+        height: auto;
     }
-    100% {
-        transform: translateX(calc(-100% / 2))
+    header .right li a {
+        font-size: 0.8rem;
     }
 }
-
-body {
-    padding-top: 115px;
-}
-
-.area-idiomas {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.area-idiomas a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.area-idiomas.mobile {
-    display: none;
-}
-
-ul.navigation-links .produtos {
-    position: relative;
-}
-
-.produtos .drop {
-    position: absolute;
-    top: calc(100% + 5px);
-    left: 0;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(10px);
-    transition: .25s;
-    display: grid;
-    gap: 5px;
-}
-.produtos:hover .drop {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-.produtos.open .drop {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-.produtos .drop a {
-    background-color: #a58d67;
-    color: #fff !important;
-    font-size: 16px;
-    transform: none !important;
-    padding: 2px 5px;
-}
-
-@media (max-width: 1400px) {
-    body {
-        padding-top: 220px;
-    }
-    header {
-        left: 0;
-        transform: none;
-    }
-}
-
 @media (max-width: 1150px) {
-    header .right ul .separator {
+    header .right .ul .separator {
         display: none;
     }
     header .btnMobile {
         display: flex !important;
+    }
+    header .right .ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .top-head {
+        margin-bottom: 0;
+        padding-bottom: 1rem;
+        flex-direction: column;
+        width: calc(100% - 1rem);
+        align-items: flex-start;
+        border-bottom: 2px solid #173665;
+    }
+    .top-head .left {
+        gap: 1rem;
+        font-size: 0.75rem;
+    }
+    .top-head .parceiros {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .top-head .parceiros span {
+        display: none;
+    }
+    header .right li a,
+    .top-head .parceiros a {
+        font-size: 0.9rem;
     }
     header ul.navigation-links {
         display: flex !important;
@@ -239,11 +181,11 @@ ul.navigation-links .produtos {
         position: fixed !important;
         width: 55% !important;
         min-width: 250px;
-        row-gap: 30px !important;
+        row-gap: 1rem;
         justify-content: center !important;
         align-items: start !important;
         height: 100dvh !important;
-        background: var(--color-marrom);
+        background: var(--azul-dark);
         color: #fff !important;
         padding-left: 1rem !important;
         justify-content: center !important;
@@ -259,40 +201,13 @@ ul.navigation-links .produtos {
     header .right li a.active {
         transform: scale(1);
     }
-    .produtos.open .drop {
-        position: relative;
-        top: auto;
-        transform: translateY(10px);
-    }
-    .produtos .drop a {
-        padding: 5px;
-    }
 }
 @media (max-width: 600px) {
     header {
         padding: 10px 1rem;
-        top: 80px;
     }
     header a.logo img {
         width: auto;
         height: 60px;
-    }
-    body {
-        padding-top: 160px;
-    }
-    .scroll-content span {
-        font-size: 2.5rem;
-    }
-    .scroll-text {
-        padding: 8px 0;
-        height: 80px;
-    }
-    .area-idiomas.desktop {
-        display: none;
-    }
-    .area-idiomas.mobile {
-        display: flex;
-        position: relative;
-        gap: 10px;
     }
 }

@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'scroll_text' => [
-        'palavra_1' => 'EXCELÊNCIA',
-        'palavra_2' => 'COMPROMISSO',
-        'palavra_3' => 'TRANSPARÊNCIA',
-        'palavra_4' => 'AGILIDADE'
-    ],
     'header' => [
-        'link_1' => 'A Empresa',
-        'link_2' => 'Produtos',
-        'link_3' => 'Área de Atuação',
-        'link_4' => 'Contato'
+        'link_1' => 'Quem Somos',
+        'link_2' => 'Diferenciais',
+        'link_3' => 'Atuação',
+        'link_4' => 'Decisão',
+        'link_5' => 'Visão',
+        'link_6' => 'Time',
+        'link_7' => 'FAQ',
+        'link_8' => 'Contato',
+        'link_9' => 'Cliente',
+        'link_10' => 'Parceiro'
     ],
     'sobre' => [
         'title' => 'Sobre',
