@@ -10,11 +10,11 @@
 @endsection
 
 @section('content')
-    {{--
     <section class="banner">
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
+                    {{-- 
                     <img 
                         src="{{ asset('img/produtos/banner2.webp') }}" 
                         srcset="
@@ -26,7 +26,10 @@
                         alt="Banner"
                         fetchpriority="high"
                     >
-                    
+                    --}}
+
+                    <video src="{{ asset('video/video-home.mp4') }}" autoplay muted loop></video>
+
                     <h1 class="title-banner-swipper">
                         {!! __('home.banner') !!}
                     </h1>
@@ -34,7 +37,6 @@
             </div>
         </div>
     </section>
-    --}}
 
     <!-- 
     @include('includes.lead', [

@@ -7,7 +7,22 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
-    
+    <section class="banner">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    
+
+                    <video src="<?php echo e(asset('video/video-home.mp4')); ?>" autoplay muted loop></video>
+
+                    <h1 class="title-banner-swipper">
+                        <?php echo __('home.banner'); ?>
+
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- 
     <?php echo $__env->make('includes.lead', [
