@@ -22,13 +22,13 @@ section.banner h1.title-banner-swipper {
     padding: 0 1rem;
     margin: 0 auto;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     line-height: 1;
     color: var(--azul);
 }
 .title-banner-swipper .word {
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     line-height: 1;
     display: inline-block;
     opacity: 0;
@@ -58,7 +58,7 @@ main .content {
     margin-bottom: 2rem;
 }
 .title-default h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
     color: var(--azul);
@@ -66,13 +66,13 @@ main .content {
     border-right: 2px solid var(--azul);
 }
 .title-default h2 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.1;
     color: var(--cinza-dark);
 }
 main p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: var(--azul);
 }
@@ -95,7 +95,7 @@ main a.link {
     align-items: center;
     gap: 5px;
     max-width: max-content;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     font-style: italic;
     color: var(--azul-light);
@@ -142,7 +142,7 @@ main a.link:hover {
     pointer-events: none;
 }
 .diferenciais .item p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #fff;
     position: relative;
@@ -228,7 +228,7 @@ main .visao {
     transition: all .3s ease;
 }
 .visao a span {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -256,6 +256,9 @@ main .visao {
     }
 }
 @media (max-width: 1000px) {
+    section.banner h1.title-banner-swipper {
+        font-size: 2.5rem;
+    }
     section.banner .swiper-slide {
         height: 400px;
     }

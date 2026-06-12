@@ -45,7 +45,7 @@ section.area-lead input[type="email"] {
     padding: 5px 10px;
     border-radius: 0px;
     outline: none !important;
-    font-size: 0.8rem;
+    font-size: 1rem;
     border: 1px solid transparent;
     background-color: #fff;
     color: var(--azul);
@@ -96,7 +96,7 @@ section.area-lead button.btn-lead {
     max-width: 170px;
     margin: 0 auto;
     margin-top: 10px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     background-color: var(--azul);
     color: #fff;
