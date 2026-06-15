@@ -51,8 +51,8 @@
     <script type="application/ld+json">{ "@context": "https://schema.org", "@type": "Organization", "name": "{{ getItem('client') }}", "url": "{{ url()->current() }}", "logo": "{{ asset('img/logus-capital.png') }}", "contactPoint": { "@type": "ContactPoint", "telephone": "{{ getItem('whats1') }}", "contactType": "customer service", "contactOption": "TollFree", "areaServed": "BR", "availableLanguage": "Portuguese" }, "sameAs": [ "{{ url()->current() }}" ]}</script>
     @endverbatim
 
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}" media="print" onload="this.media='all'">  
-    <link rel="stylesheet" href="{{ asset('css/header.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">  
+    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
     
     <link rel="stylesheet" href="{{ asset('css/style-popup.css') }}" media="print" onload="this.media='all'">
     
@@ -569,8 +569,7 @@
     @yield('content')
 
     @include('includes.footer')
-
-
+    
     {{--
     <div class="box-float">
         <ul>

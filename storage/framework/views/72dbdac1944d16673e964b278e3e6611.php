@@ -1,4 +1,4 @@
-<?php if (! $__env->hasRenderedOnce('1edbfa34-23d2-4e73-aa36-f2f588762530')): $__env->markAsRenderedOnce('1edbfa34-23d2-4e73-aa36-f2f588762530'); ?>
+<?php if (! $__env->hasRenderedOnce('2184927a-da58-4b76-b1c8-3ae64098fd3e')): $__env->markAsRenderedOnce('2184927a-da58-4b76-b1c8-3ae64098fd3e'); ?>
     <?php $__env->startPush('styles'); ?>
         <link rel="stylesheet" href="<?php echo e(asset('css/lead.css')); ?>" media="print" onload="this.media='all'">
     <?php $__env->stopPush(); ?>
@@ -44,20 +44,18 @@
     </div>
 </section>
 
-<?php $__env->startSection('scripts'); ?>
-    <script>
-        function formatPhone(value) {
-            const numbers = value.replace(/\D/g, '');
+<script>
+    function formatPhone(value) {
+        const numbers = value.replace(/\D/g, '');
             
-            if (numbers.length <= 10) {
-                return numbers.replace(/(\d{2})(\d{4})(\d{0,4})/, function(_, a, b, c) {
-                    return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
-                });
-            }
-            
-            return numbers.replace(/(\d{2})(\d{5})(\d{0,4})/, function(_, a, b, c) {
+        if (numbers.length <= 10) {
+            return numbers.replace(/(\d{2})(\d{4})(\d{0,4})/, function(_, a, b, c) {
                 return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
             });
         }
-    </script>
-<?php $__env->stopSection(); ?><?php /**PATH C:\Users\kaikg\Downloads\logus-capital\resources\views/includes/lead.blade.php ENDPATH**/ ?>
+            
+        return numbers.replace(/(\d{2})(\d{5})(\d{0,4})/, function(_, a, b, c) {
+            return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
+        });
+    }
+</script><?php /**PATH C:\Users\kaikg\Downloads\logus-capital\resources\views/includes/lead.blade.php ENDPATH**/ ?>

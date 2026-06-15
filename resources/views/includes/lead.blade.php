@@ -42,20 +42,18 @@
     </div>
 </section>
 
-@section('scripts')
-    <script>
-        function formatPhone(value) {
-            const numbers = value.replace(/\D/g, '');
+<script>
+    function formatPhone(value) {
+        const numbers = value.replace(/\D/g, '');
             
-            if (numbers.length <= 10) {
-                return numbers.replace(/(\d{2})(\d{4})(\d{0,4})/, function(_, a, b, c) {
-                    return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
-                });
-            }
-            
-            return numbers.replace(/(\d{2})(\d{5})(\d{0,4})/, function(_, a, b, c) {
+        if (numbers.length <= 10) {
+            return numbers.replace(/(\d{2})(\d{4})(\d{0,4})/, function(_, a, b, c) {
                 return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
             });
         }
-    </script>
-@endsection
+            
+        return numbers.replace(/(\d{2})(\d{5})(\d{0,4})/, function(_, a, b, c) {
+            return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
+        });
+    }
+</script>

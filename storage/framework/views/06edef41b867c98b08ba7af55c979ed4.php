@@ -51,8 +51,8 @@
     <script type="application/ld+json">{ "@context": "https://schema.org", "@type": "Organization", "name": "{{ getItem('client') }}", "url": "{{ url()->current() }}", "logo": "{{ asset('img/logus-capital.png') }}", "contactPoint": { "@type": "ContactPoint", "telephone": "{{ getItem('whats1') }}", "contactType": "customer service", "contactOption": "TollFree", "areaServed": "BR", "availableLanguage": "Portuguese" }, "sameAs": [ "{{ url()->current() }}" ]}</script>
     
 
-    <link rel="stylesheet" href="<?php echo e(asset('css/app.css')); ?>" media="print" onload="this.media='all'">  
-    <link rel="stylesheet" href="<?php echo e(asset('css/header.css')); ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="<?php echo e(asset('css/app.css')); ?>">  
+    <link rel="stylesheet" href="<?php echo e(asset('css/header.css')); ?>">
     
     <link rel="stylesheet" href="<?php echo e(asset('css/style-popup.css')); ?>" media="print" onload="this.media='all'">
     
@@ -569,8 +569,7 @@
     <?php echo $__env->yieldContent('content'); ?>
 
     <?php echo $__env->make('includes.footer', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
-
-
+    
     
 
     <!-- ANIMAÇÕES -->

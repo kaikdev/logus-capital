@@ -222,9 +222,9 @@
 @endsection
 
 @section('scripts')
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <script defer>
+    <script>
         document.addEventListener("DOMContentLoaded", function () {
 
             const swiper = new Swiper(".banner .swiper", {
@@ -239,7 +239,11 @@
         });
 
         document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM carregado');
+
             const title = document.querySelector('.title-banner-swipper');
+
+            console.log(title);
 
             if (!title) return;
 

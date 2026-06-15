@@ -104,6 +104,7 @@ main a.link {
     transition: all .3s ease;
 }
 main a.link svg {
+    min-width: 15px;
     width: 15px;
     height: auto;
     fill: var(--azul-light);
@@ -183,7 +184,7 @@ main a.link:hover {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 5rem;
+    gap: 3rem;
 }
 .decisoes .left {
     display: flex;
