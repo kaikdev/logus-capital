@@ -1,5 +1,9 @@
 section.saiba-mais {
-    background-color: #4f4f4f;
+    background-color: var(--azul);
+    background-image: url("../img/saiba-mais/bg.webp");
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 section.saiba-mais .area-text {
     padding: 1rem;
@@ -9,25 +13,26 @@ section.saiba-mais .area-text {
     text-align: center;
     gap: 1rem;
     flex-wrap: wrap;
-    min-height: 180px;
+    min-height: 140px;
 }
 section.saiba-mais .area-text h3 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     line-height: 1.2;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
     color: #fff;
 }
 section.saiba-mais .area-text h3 a {
-    color: #dda368;
+    color: #fff;
     padding: 0 5px;
     display: inline-flex;
     align-items: center;
     gap: 10px;
 }
 section.saiba-mais .area-text h3 a span {
-    font-weight: 800;
-    border-bottom: 2px solid transparent;
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+    transition: all .3s ease;
 }
 section.saiba-mais .tag-arrow {
     width: 35px;
@@ -36,31 +41,29 @@ section.saiba-mais .tag-arrow {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background: #AE581E;
-    background: linear-gradient(120deg, rgba(174, 88, 30, 1) 0%, rgba(223, 166, 107, 1) 100%);
+    background: #fff;
 }
 section.saiba-mais .tag-arrow svg {
-    fill: #4f4f4f;
+    fill: var(--azul);
     width: 25px;
 }
 section.saiba-mais .area-text h3 a:hover span {
-    transition: .2s;
-    border-color: #dda368;
+    border-color: #fff;
 }
 section.saiba-mais .area-text h3 a:hover {
-    transition: .2s;
+    transition: all .3s ease;
     filter: brightness(1.1);
 }
 section.saiba-mais .area-text h3 a:hover svg {
-    transition: .2s;
-    fill: #fff;
+    transition: all .3s ease;
+    fill: var(--azul-white);
 }
 @media (max-width: 500px) {
     section.saiba-mais .area-text img {
         width: 80px;
     }
     section.saiba-mais .area-text h3 {
-        font-size: 1.25rem;
+        font-size: 1.6rem;
     }
     section.saiba-mais .area-text {
         gap: 10px;

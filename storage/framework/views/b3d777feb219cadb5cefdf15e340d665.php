@@ -11,36 +11,74 @@
 <?php $__env->startSection('content'); ?>
     <main>
         <div class="content">
-            <div class="proposito">
+            <div class="quem-somos">
                 <div class="title-default">
                     <h1>
-                        <?php echo __('home.title1'); ?>
+                        <?php echo __('quem-somos.title1'); ?>
 
                     </h1>
 
                     <h2>
-                        <?php echo __('home.subtitle1'); ?>
+                        <?php echo __('quem-somos.subtitle1'); ?>
 
                     </h2>
                 </div>
 
                 <div class="conteudo">
-                    <div class="left">
-                        <p>
-                            <?php echo __('home.text1'); ?>
+                    <p>
+                        <?php echo __('quem-somos.text1'); ?>
 
-                        </p>
+                    </p>
 
-                        <p>
-                            <?php echo __('home.text2'); ?>
+                    <p>
+                        <?php echo __('quem-somos.text2'); ?>
 
-                        </p>
+                    </p>
+
+                    <div class="area-videos">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WWEt1EOje68?si=iZuJBz9rAsMo_oG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WWEt1EOje68?si=iZuJBz9rAsMo_oG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WWEt1EOje68?si=iZuJBz9rAsMo_oG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
 
-                    <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Propósito" loading="lazy">
+                    <p>
+                        <?php echo __('quem-somos.text3'); ?>
+
+                    </p>
+
+                    <p>
+                        <?php echo __('quem-somos.text4'); ?>
+
+                    </p>
+
+                    <div class="servico">
+                        <div class="left">
+                            <p>
+                                <?php echo __('quem-somos.service1'); ?>
+
+                            </p>
+
+                            <p>
+                                <?php echo __('quem-somos.service2'); ?>
+
+                            </p>
+                        </div>
+
+                        <div class="img">
+                            <img src="<?php echo e(asset('img/icone-logus-capital.webp')); ?>" alt="Logus Capital" width="100" height="115">
+                        </div>
+
+                        <div class="right">
+                            <p>
+                                <?php echo __('quem-somos.service3'); ?>
+
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
     </main>
 

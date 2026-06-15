@@ -1,4 +1,4 @@
-<?php if (! $__env->hasRenderedOnce('b179555b-2014-4882-b840-520561c2d8dd')): $__env->markAsRenderedOnce('b179555b-2014-4882-b840-520561c2d8dd'); ?>
+<?php if (! $__env->hasRenderedOnce('90e92186-b8e4-444f-b2b3-b1729f1e1c07')): $__env->markAsRenderedOnce('90e92186-b8e4-444f-b2b3-b1729f1e1c07'); ?>
     <?php $__env->startPush('styles'); ?>
         <link rel="stylesheet" href="<?php echo e(asset('css/saiba-mais.css')); ?>" media="print" onload="this.media='all'">
     <?php $__env->stopPush(); ?>
@@ -18,7 +18,7 @@
                     </span>
 
                     <div class="tag-arrow">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z"/></svg>
                     </div>
                 </a>
             </h3>
