@@ -83,11 +83,19 @@ main .content > div {
     height: 7px;
     background-color: #1f437f;
 }
+.item .top {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+}
 .item .icone {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
+    min-width: 50px;
+    min-height: 50px;
     width: 50px;
     height: 50px;
     background-color: #1f437f;
