@@ -47,7 +47,7 @@
                         </div>
 
                         <div class="area-img">
-                            <img src="{{ asset('img/img/icone-logus-capital.webp') }}" alt="">
+                            <img src="{{ asset('img/icone-logus-capital.webp') }}" alt="Logus Capital" width="150" height="auto">
                         </div>
 
                         <div class="right">
@@ -64,6 +64,18 @@
                             </p>
                         </div>
                     </div>
+
+                    <h3>
+                        {!! __('atuacao.title-text') !!}
+                    </h3>
+
+                    <p>
+                        {!! __('atuacao.text3') !!}
+                    </p>
+
+                    <p>
+                        {!! __('atuacao.text4') !!}
+                    </p>
                 </div>
             </div>
         </div>

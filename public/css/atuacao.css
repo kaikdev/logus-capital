@@ -38,17 +38,64 @@ main p {
 main .content > div {
     padding: 3rem 0;
 }
-.diferenciais .conteudo {
+.atuacao .conteudo {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-
-
-
-
-
-
+.conteudo h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--azul);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 2px solid var(--cinza);
+}
+.polygon-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    position: relative;
+    margin: 1rem 0;
+}
+.polygon-img .area-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.polygon-img .left,
+.polygon-img .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190px;
+    min-width: 150px;
+}
+.polygon-img .left {
+    text-align: end;
+}
+.polygon-img .right {
+    text-align: left;
+}
+.polygon-img .left p:nth-child(2) {
+    padding-right: 2rem;
+}
+.polygon-img .right p:nth-child(2) {
+    padding-left: 2rem;
+}
+.polygon-img .left p:nth-child(3),
+.polygon-img .right p:nth-child(3) {
+    position: relative;
+    top: 10px;
+}
+.polygon-img p {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 @media (max-width: 800px) {
     .title-default {
         flex-direction: column;
@@ -65,5 +112,40 @@ main .content > div {
     }
     .title-default h2 br {
         text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .polygon-img img {
+        width: 100px;
+    }
+    .polygon-img .left, 
+    .polygon-img .right {
+        height: 135px;
+    }
+    .polygon-img {
+        gap: 100px;
+    }
+}
+@media (max-width: 450px) {
+    .polygon-img {
+        overflow: hidden;
+        gap: 50px;
+    }
+    .polygon-img .left, 
+    .polygon-img .right,
+    .polygon-img .left, 
+    .polygon-img img {
+        transform: scale(0.85);
+    }
+}
+@media (max-width: 375px) {
+    .polygon-img {
+        gap: 25px;
+    }
+    .polygon-img .left, 
+    .polygon-img .right,
+    .polygon-img .left, 
+    .polygon-img img {
+        transform: scale(0.75);
     }
 }

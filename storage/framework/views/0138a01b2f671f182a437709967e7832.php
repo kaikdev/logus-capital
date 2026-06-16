@@ -26,7 +26,67 @@
 
                 <div class="conteudo">
                     <p>
-                        <?php echo __('atuacao.text'); ?>
+                        <?php echo __('atuacao.text1'); ?>
+
+                    </p>
+
+                    <p>
+                        <?php echo __('atuacao.text2'); ?>
+
+                    </p>
+
+                    <div class="polygon-img">
+                        <div class="left">
+                            <p>
+                                <?php echo __('atuacao.word1'); ?>
+
+                            </p>
+
+                            <p>
+                                <?php echo __('atuacao.word3'); ?>
+
+                            </p>
+
+                            <p>
+                                <?php echo __('atuacao.word5'); ?>
+
+                            </p>
+                        </div>
+
+                        <div class="area-img">
+                            <img src="<?php echo e(asset('img/icone-logus-capital.webp')); ?>" alt="Logus Capital" width="150" height="auto">
+                        </div>
+
+                        <div class="right">
+                            <p>
+                                <?php echo __('atuacao.word2'); ?>
+
+                            </p>
+
+                            <p>
+                                <?php echo __('atuacao.word4'); ?>
+
+                            </p>
+
+                            <p>
+                                <?php echo __('atuacao.word6'); ?>
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3>
+                        <?php echo __('atuacao.title-text'); ?>
+
+                    </h3>
+
+                    <p>
+                        <?php echo __('atuacao.text3'); ?>
+
+                    </p>
+
+                    <p>
+                        <?php echo __('atuacao.text4'); ?>
 
                     </p>
                 </div>
