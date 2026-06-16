@@ -1,0 +1,72 @@
+main {
+    background-image: url("../img/home/bg-home.webp");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+main .content {
+    padding: 0 1rem;
+}
+.title-default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--cinza);
+}
+.title-default h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--azul);
+    padding: 1rem 1rem 1rem 0;
+    border-right: 2px solid var(--azul);
+}
+.title-default h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.1;
+    color: var(--cinza-dark);
+}
+main p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--azul);
+}
+main .content > div {
+    padding: 3rem 0;
+}
+.decisao .conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.conteudo h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--azul);
+}
+
+
+
+@media (max-width: 800px) {
+    .title-default {
+        flex-direction: column;
+    }
+    .title-default h1 {
+        padding: 0 0 1rem;
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid var(--azul);
+        text-align: center;
+    }
+    .title-default h2 {
+        text-align: center;
+    }
+    .title-default h2 br {
+        text-align: center;
+    }
+}
