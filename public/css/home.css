@@ -209,7 +209,8 @@ main .visao {
 .visao img {
     display: flex;
     width: 100%;
-    height: 240px;
+    max-height: 240px;
+    aspect-ratio: 21 / 9;
     object-fit: cover;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }

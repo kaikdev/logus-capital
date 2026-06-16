@@ -1,0 +1,149 @@
+main {
+    background-image: url("../img/home/bg-home.webp");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+main .content {
+    padding: 0 1rem;
+}
+.title-default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--cinza);
+}
+.title-default h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--azul);
+    padding: 1rem 1rem 1rem 0;
+    border-right: 2px solid var(--azul);
+}
+.title-default h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.1;
+    color: var(--cinza-dark);
+}
+main p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--azul);
+}
+main .content > div {
+    padding: 3rem 0;
+}
+.visao .conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.visao .area-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.visao .area-top > .titulo {
+    width: 100%;
+}
+.coluna-texto {
+    width: calc(50% - 1rem);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.area-video {
+    width: calc(50% - 1rem);
+}
+.area-video iframe {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+a.link {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    background-color: var(--azul);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 1rem;
+    width: 100%;
+    max-width: 400px;
+    transition: all .3s ease;
+}
+a.link span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: all .3s ease;
+}
+a.link span svg {
+    width: 15px;
+    height: auto;
+    fill: #fff;
+    transition: all .3s ease;
+}
+a.link:hover {
+    background-color: var(--azul-white);
+}
+.conteudo h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--azul);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--cinza);
+}
+
+.img-end {
+    display: flex;
+    width: 100%;
+    max-height: 240px;
+    aspect-ratio: 21 / 9;
+    object-fit: cover;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media (max-width: 1100px) {
+    .coluna-texto,
+    .area-video {
+        width: 100%;
+    }
+    .area-video {
+        order: -1;
+    }
+    a.link {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .title-default {
+        flex-direction: column;
+    }
+    .title-default h1 {
+        padding: 0 0 1rem;
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid var(--azul);
+        text-align: center;
+    }
+    .title-default h2 {
+        text-align: center;
+    }
+}
