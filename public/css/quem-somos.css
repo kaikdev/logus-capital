@@ -93,6 +93,13 @@ main .content > div {
 }
 
 @media (max-width: 1000px) {
+    .area-videos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .area-videos iframe {
+        min-height: auto;
+    }
     .servico {
         flex-direction: column;
     }
