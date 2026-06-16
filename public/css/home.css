@@ -98,19 +98,18 @@ main a.link {
     font-size: 1.2rem;
     font-weight: 500;
     font-style: italic;
-    color: var(--azul-light);
+    color: var(--azul);
     border-bottom: 2px solid transparent;
-
     transition: all .3s ease;
 }
 main a.link svg {
     min-width: 15px;
     width: 15px;
     height: auto;
-    fill: var(--azul-light);
+    fill: var(--azul);
 }
 main a.link:hover {
-    border-color: var(--azul-light);
+    border-color: var(--azul);
 }
 .proposito img {
     width: 100%;
