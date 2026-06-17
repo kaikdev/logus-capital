@@ -147,9 +147,3 @@ a.link:hover {
         text-align: center;
     }
 }
-
-@media (max-width: 600px) {
-    section.saiba-mais .area-text h3 a {
-        display: block;
-    }
-}

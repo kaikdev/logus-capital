@@ -214,3 +214,8 @@ button.item a:hover svg {
         display: none;
     }
 }
+@media (max-width: 600px) {
+    section.saiba-mais .area-text h3 a {
+        display: block;
+    }
+}

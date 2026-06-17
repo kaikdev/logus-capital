@@ -61,8 +61,14 @@ section.saiba-mais .area-text h3 a:hover svg {
     fill: var(--azul-white);
 }
 @media (max-width: 600px) {
+    section.saiba-mais .area-text h3 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
     section.saiba-mais .area-text h3 a {
-        display: inline-block;
+        display: flex;
     }
 }
 @media (max-width: 500px) {
