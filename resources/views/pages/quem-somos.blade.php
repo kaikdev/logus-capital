@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="quem-somos">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('quem-somos.title1') !!}
                     </h1>
@@ -23,31 +23,31 @@
                 </div>
 
                 <div class="conteudo">
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('quem-somos.text1') !!}
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('quem-somos.text2') !!}
                     </p>
 
                     <div class="area-videos">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WWEt1EOje68?si=iZuJBz9rAsMo_oG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="animate" data-animate="top" width="560" height="315" src="https://www.youtube.com/embed/WWEt1EOje68?si=iZuJBz9rAsMo_oG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WWEt1EOje68?si=iZuJBz9rAsMo_oG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="animate" data-animate="top" width="560" height="315" src="https://www.youtube.com/embed/WWEt1EOje68?si=iZuJBz9rAsMo_oG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WWEt1EOje68?si=iZuJBz9rAsMo_oG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="animate" data-animate="top" width="560" height="315" src="https://www.youtube.com/embed/WWEt1EOje68?si=iZuJBz9rAsMo_oG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('quem-somos.text3') !!}
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('quem-somos.text4') !!}
                     </p>
 
-                    <div class="servico">
+                    <div class="servico animate" data-animate="fade">
                         <div class="left">
                             <p>
                                 {!! __('quem-somos.service1') !!}

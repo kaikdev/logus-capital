@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="faq">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('faq.title1') !!}
                     </h1>
@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="conteudo">
-                    <div class="left">
+                    <div class="left animate" data-animate="top">
                         <button type="button" class="section on">
                             {!! __('faq.section1') !!}
                             
@@ -86,7 +86,7 @@
                     </div>
 
                     <div class="right" id="faq">
-                        <div class="questions on">
+                        <div class="questions on animate" data-animate="fade">
                             <div class="item">
                                 <button type="button">
                                     {!! __('faq.questions1.title1') !!}
@@ -124,7 +124,7 @@
                             </div>
                         </div>
 
-                        <div class="questions">
+                        <div class="questions animate" data-animate="fade">
                             <div class="item">
                                 <button type="button">
                                     {!! __('faq.questions2.title1') !!}
@@ -174,7 +174,7 @@
                             </div>
                         </div>
 
-                        <div class="questions">
+                        <div class="questions animate" data-animate="fade">
                             <div class="item">
                                 <button type="button">
                                     {!! __('faq.questions3.title1') !!}
@@ -236,7 +236,7 @@
                             </div>
                         </div>
 
-                        <div class="questions">
+                        <div class="questions animate" data-animate="fade">
                             <div class="item">
                                 <button type="button">
                                     {!! __('faq.questions4.title1') !!}
@@ -274,7 +274,7 @@
                             </div>
                         </div>
 
-                        <div class="questions">
+                        <div class="questions animate" data-animate="fade">
                             <div class="item">
                                 <button type="button">
                                     {!! __('faq.questions5.title1') !!}
@@ -300,7 +300,7 @@
                             </div>
                         </div>
 
-                        <div class="questions">
+                        <div class="questions animate" data-animate="fade">
                             <div class="item">
                                 <button type="button">
                                     {!! __('faq.questions6.title1') !!}

@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="atuacao">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         <?php echo __('atuacao.title1'); ?>
 
@@ -25,29 +25,29 @@
                 </div>
 
                 <div class="conteudo">
-                    <p>
+                    <p class="animate" data-animate="top">
                         <?php echo __('atuacao.text1'); ?>
 
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="top">
                         <?php echo __('atuacao.text2'); ?>
 
                     </p>
 
                     <div class="polygon-img">
                         <div class="left">
-                            <p>
+                            <p class="animate" data-animate="top">
                                 <?php echo __('atuacao.word1'); ?>
 
                             </p>
 
-                            <p>
+                            <p class="animate" data-animate="right">
                                 <?php echo __('atuacao.word3'); ?>
 
                             </p>
 
-                            <p>
+                            <p class="animate" data-animate="bottom">
                                 <?php echo __('atuacao.word5'); ?>
 
                             </p>
@@ -58,34 +58,34 @@
                         </div>
 
                         <div class="right">
-                            <p>
+                            <p class="animate" data-animate="bottom">
                                 <?php echo __('atuacao.word2'); ?>
 
                             </p>
 
-                            <p>
+                            <p class="animate" data-animate="left">
                                 <?php echo __('atuacao.word4'); ?>
 
                             </p>
 
-                            <p>
+                            <p class="animate" data-animate="top">
                                 <?php echo __('atuacao.word6'); ?>
 
                             </p>
                         </div>
                     </div>
 
-                    <h3>
+                    <h3 class="animate" data-animate="fade">
                         <?php echo __('atuacao.title-text'); ?>
 
                     </h3>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         <?php echo __('atuacao.text3'); ?>
 
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         <?php echo __('atuacao.text4'); ?>
 
                     </p>

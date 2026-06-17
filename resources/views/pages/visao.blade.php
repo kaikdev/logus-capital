@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="visao">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('visao.title1') !!}
                     </h1>
@@ -24,20 +24,20 @@
 
                 <div class="conteudo">
                     <div class="area-top">
-                        <p>
+                        <p class="animate" data-animate="top">
                             {!! __('visao.text1') !!}
                         </p>
 
                         <div class="coluna-texto">
-                            <p class="mid">
+                            <p class="mid animate" data-animate="left">
                                 {!! __('visao.text2') !!}
                             </p>
 
-                            <p>
+                            <p class="animate" data-animate="left">
                                 {!! __('visao.text3') !!}
                             </p>
 
-                            <div class="area-link">
+                            <div class="area-link animate" data-animate="top">
                                 <a href="#" class="link">
                                     <span>
                                         {!! __('visao.link') !!}
@@ -49,40 +49,40 @@
                             </div>
                         </div>
 
-                        <div class="area-video">
+                        <div class="area-video animate" data-animate="bottom">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/WWEt1EOje68?si=iZuJBz9rAsMo_oG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
 
-                    <h3>
+                    <h3 class="animate" data-animate="fade">
                         {!! __('visao.title-text') !!}
                     </h3>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('visao.text4') !!}
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('visao.text5') !!}
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('visao.text6') !!}
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('visao.text7') !!}
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('visao.text8') !!}
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('visao.text9') !!}
                     </p>
 
-                    <img src="{{ asset('img/home/visao.webp') }}" class="img-end" alt="Visão" loading="lazy">
+                    <img src="{{ asset('img/home/visao.webp') }}" class="img-end animate" data-animate="top" alt="Visão" loading="lazy">
                 </div>
             </div>
         </div>

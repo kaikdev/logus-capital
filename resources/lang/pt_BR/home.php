@@ -2,6 +2,7 @@
 
 return [
     'banner' => 'Redefinindo a forma <br> como patrimônios <br> são geridos',
+    'banner2' => 'Exemplo de titulo <br> para outros banners <br> do site.',
     'title1' => 'Propósito da Logus',
     'subtitle1' => 'Da inquietação com o mercado <br> nasceu uma forma diferente de atuar',
     'text1' => '

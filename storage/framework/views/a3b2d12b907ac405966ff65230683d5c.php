@@ -11,12 +11,19 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    
-
                     <video src="<?php echo e(asset('video/video-home.mp4')); ?>" autoplay muted loop></video>
 
                     <h1 class="title-banner-swipper">
                         <?php echo __('home.banner'); ?>
+
+                    </h1>
+                </div>
+
+                <div class="swiper-slide">
+                    <video src="<?php echo e(asset('video/video-home.mp4')); ?>" autoplay muted loop></video>
+
+                    <h1 class="title-banner-swipper">
+                        <?php echo __('home.banner2'); ?>
 
                     </h1>
                 </div>
@@ -27,7 +34,7 @@
     <main>
         <div class="content">
             <div class="proposito">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         <?php echo __('home.title1'); ?>
 
@@ -39,7 +46,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="left">
                     <div class="left">
                         <p>
                             <?php echo __('home.text1'); ?>
@@ -58,12 +65,12 @@
                         </a>
                     </div>
 
-                    <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Propósito" loading="lazy">
+                    <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Propósito">
                 </div>
             </div>
 
             <div class="diferenciais">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         <?php echo __('home.title2'); ?>
 
@@ -75,7 +82,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="fade">
                     <div class="top">
                         <div class="item">
                             <img src="<?php echo e(asset('img/home/diferenciais-1.webp')); ?>" alt="Imagem Diferenciais">
@@ -119,7 +126,7 @@
             </div>
 
             <div class="atuacao">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         <?php echo __('home.title3'); ?>
 
@@ -131,7 +138,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="left">
                     <p>
                         <?php echo __('home.text3'); ?>
 
@@ -151,7 +158,7 @@
             </div>
 
             <div class="decisoes">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         <?php echo __('home.title4'); ?>
 
@@ -163,7 +170,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="top">
                     <div class="left">
                         <p>
                             <?php echo __('home.text5'); ?>
@@ -182,7 +189,7 @@
             </div>
 
             <div class="visao">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         <?php echo __('home.title5'); ?>
 
@@ -194,7 +201,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="top">
                     <img src="<?php echo e(asset('img/home/visao.webp')); ?>" alt="Visão" loading="lazy">
 
                     <p>
@@ -243,7 +250,7 @@
             const swiper = new Swiper(".banner .swiper", {
                 loop: true,
                 rewind: true,
-                effect: "slide",
+                effect: "fade",
                 autoplay: {
                     delay: 5000,
                 },

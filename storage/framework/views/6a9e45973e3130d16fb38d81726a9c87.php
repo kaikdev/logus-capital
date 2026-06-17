@@ -9,7 +9,7 @@
     <main>
         <div class="content">
             <div class="contato">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         <?php echo __('contato.title1'); ?>
 
@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="conteudo">
-                    <div class="left">
+                    <div class="left animate" data-animate="fade">
                         <form class="form-contato" action="<?php echo e(route('contato.enviar')); ?>" method="POST">
                             <?php echo csrf_field(); ?>
                             
@@ -82,11 +82,11 @@
                     </div>
 
                     <div class="right">
-                        <div class="area-img">
+                        <div class="area-img animate" data-animate="top">
                             <img src="<?php echo e(asset('img/contato/contato-1.webp')); ?>" alt="Imagem contato">
                         </div>
 
-                        <div class="area-img">
+                        <div class="area-img animate" data-animate="bottom">
                             <img src="<?php echo e(asset('img/contato/contato-2.webp')); ?>" alt="Imagem contato">
                         </div>
                     </div>

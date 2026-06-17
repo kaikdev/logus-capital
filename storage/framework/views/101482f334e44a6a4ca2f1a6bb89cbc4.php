@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="time">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         <?php echo __('time.title1'); ?>
 
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="conteudo">
-                    <h3>
+                    <h3 class="animate" data-animate="top">
                         <?php echo __('time.title-text1'); ?>
 
                     </h3>
@@ -151,7 +151,7 @@
                         </div>
                     </div>
 
-                    <h3 class="cons">
+                    <h3 class="cons animate" data-animate="top">
                         <?php echo __('time.title-text2'); ?>
 
                     </h3>

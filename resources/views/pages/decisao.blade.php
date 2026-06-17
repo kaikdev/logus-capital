@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="decisao">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('decisao.title1') !!}
                     </h1>
@@ -23,15 +23,15 @@
                 </div>
 
                 <div class="conteudo">
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('decisao.text1') !!}
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('decisao.text2') !!}
                     </p>
 
-                    <div class="area-itens">
+                    <div class="area-itens animate" data-animate="fade">
                         <div class="item">
                             <div class="top">
                                 <div class="icone">
@@ -181,15 +181,15 @@
                         </div>
                     </div>
 
-                    <h4>
+                    <h4 class="animate" data-animate="fade">
                         {!! __('decisao.title-text') !!}
                     </h4>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('decisao.text3') !!}
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('decisao.text4') !!}
                     </p>
                 </div>

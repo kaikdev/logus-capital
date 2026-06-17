@@ -24,7 +24,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="fade">
                     <div class="item-def" id="mini1">
                         <div class="area-img">
                             <img src="<?php echo e(asset('img/home/diferenciais-1.webp')); ?>" alt="<?php echo __('diferenciais.item1.title'); ?>">

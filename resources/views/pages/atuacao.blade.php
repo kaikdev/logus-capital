@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="atuacao">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('atuacao.title1') !!}
                     </h1>
@@ -23,25 +23,25 @@
                 </div>
 
                 <div class="conteudo">
-                    <p>
+                    <p class="animate" data-animate="top">
                         {!! __('atuacao.text1') !!}
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="top">
                         {!! __('atuacao.text2') !!}
                     </p>
 
                     <div class="polygon-img">
                         <div class="left">
-                            <p>
+                            <p class="animate" data-animate="top">
                                 {!! __('atuacao.word1') !!}
                             </p>
 
-                            <p>
+                            <p class="animate" data-animate="right">
                                 {!! __('atuacao.word3') !!}
                             </p>
 
-                            <p>
+                            <p class="animate" data-animate="bottom">
                                 {!! __('atuacao.word5') !!}
                             </p>
                         </div>
@@ -51,29 +51,29 @@
                         </div>
 
                         <div class="right">
-                            <p>
+                            <p class="animate" data-animate="bottom">
                                 {!! __('atuacao.word2') !!}
                             </p>
 
-                            <p>
+                            <p class="animate" data-animate="left">
                                 {!! __('atuacao.word4') !!}
                             </p>
 
-                            <p>
+                            <p class="animate" data-animate="top">
                                 {!! __('atuacao.word6') !!}
                             </p>
                         </div>
                     </div>
 
-                    <h3>
+                    <h3 class="animate" data-animate="fade">
                         {!! __('atuacao.title-text') !!}
                     </h3>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('atuacao.text3') !!}
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         {!! __('atuacao.text4') !!}
                     </p>
                 </div>

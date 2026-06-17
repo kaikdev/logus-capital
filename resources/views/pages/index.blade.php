@@ -14,24 +14,18 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    {{-- 
-                    <img 
-                        src="{{ asset('img/produtos/banner2.webp') }}" 
-                        srcset="
-                            {{ asset('img/produtos/banner2-mobile.webp') }} 480w,
-                            {{ asset('img/produtos/banner2-tablet.webp') }} 768w,
-                            {{ asset('img/produtos/banner2.webp') }} 1200w
-                        "
-                        sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, 1200px"
-                        alt="Banner"
-                        fetchpriority="high"
-                    >
-                    --}}
-
                     <video src="{{ asset('video/video-home.mp4') }}" autoplay muted loop></video>
 
                     <h1 class="title-banner-swipper">
                         {!! __('home.banner') !!}
+                    </h1>
+                </div>
+
+                <div class="swiper-slide">
+                    <video src="{{ asset('video/video-home.mp4') }}" autoplay muted loop></video>
+
+                    <h1 class="title-banner-swipper">
+                        {!! __('home.banner2') !!}
                     </h1>
                 </div>
             </div>
@@ -41,7 +35,7 @@
     <main>
         <div class="content">
             <div class="proposito">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('home.title1') !!}
                     </h1>
@@ -51,7 +45,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="left">
                     <div class="left">
                         <p>
                             {!! __('home.text1') !!}
@@ -67,12 +61,12 @@
                         </a>
                     </div>
 
-                    <img src="{{ asset('img/home/proposito.webp') }}" alt="Propósito" loading="lazy">
+                    <img src="{{ asset('img/home/proposito.webp') }}" alt="Propósito">
                 </div>
             </div>
 
             <div class="diferenciais">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('home.title2') !!}
                     </h1>
@@ -82,7 +76,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="fade">
                     <div class="top">
                         <div class="item">
                             <img src="{{ asset('img/home/diferenciais-1.webp') }}" alt="Imagem Diferenciais">
@@ -122,7 +116,7 @@
             </div>
 
             <div class="atuacao">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('home.title3') !!}
                     </h1>
@@ -132,7 +126,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="left">
                     <p>
                         {!! __('home.text3') !!}
                     </p>
@@ -149,7 +143,7 @@
             </div>
 
             <div class="decisoes">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('home.title4') !!}
                     </h1>
@@ -159,7 +153,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="top">
                     <div class="left">
                         <p>
                             {!! __('home.text5') !!}
@@ -176,7 +170,7 @@
             </div>
 
             <div class="visao">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('home.title5') !!}
                     </h1>
@@ -186,7 +180,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="top">
                     <img src="{{ asset('img/home/visao.webp') }}" alt="Visão" loading="lazy">
 
                     <p>
@@ -230,7 +224,7 @@
             const swiper = new Swiper(".banner .swiper", {
                 loop: true,
                 rewind: true,
-                effect: "slide",
+                effect: "fade",
                 autoplay: {
                     delay: 5000,
                 },

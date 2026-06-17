@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="decisao">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         <?php echo __('decisao.title1'); ?>
 
@@ -25,17 +25,17 @@
                 </div>
 
                 <div class="conteudo">
-                    <p>
+                    <p class="animate" data-animate="left">
                         <?php echo __('decisao.text1'); ?>
 
                     </p>
 
-                    <p>
+                    <p class="animate" data-animate="left">
                         <?php echo __('decisao.text2'); ?>
 
                     </p>
 
-                    <div class="area-itens">
+                    <div class="area-itens animate" data-animate="fade">
                         <div class="item">
                             <div class="top">
                                 <div class="icone">

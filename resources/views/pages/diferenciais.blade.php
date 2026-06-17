@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="diferenciais">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('diferenciais.title1') !!}
                     </h1>
@@ -22,7 +22,7 @@
                     </h2>
                 </div>
 
-                <div class="conteudo">
+                <div class="conteudo animate" data-animate="fade">
                     <div class="item-def" id="mini1">
                         <div class="area-img">
                             <img src="{{ asset('img/home/diferenciais-1.webp') }}" alt="{!! __('diferenciais.item1.title') !!}">

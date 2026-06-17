@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="contato">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         {!! __('contato.title1') !!}
                     </h1>
@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="conteudo">
-                    <div class="left">
+                    <div class="left animate" data-animate="fade">
                         <form class="form-contato" action="{{ route('contato.enviar') }}" method="POST">
                             @csrf
                             
@@ -78,11 +78,11 @@
                     </div>
 
                     <div class="right">
-                        <div class="area-img">
+                        <div class="area-img animate" data-animate="top">
                             <img src="{{ asset('img/contato/contato-1.webp') }}" alt="Imagem contato">
                         </div>
 
-                        <div class="area-img">
+                        <div class="area-img animate" data-animate="bottom">
                             <img src="{{ asset('img/contato/contato-2.webp') }}" alt="Imagem contato">
                         </div>
                     </div>
