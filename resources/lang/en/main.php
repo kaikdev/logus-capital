@@ -3,8 +3,8 @@
 return [
     'header' => [
         'link_0' => 'Home',
-        'link_1' => 'About Us',
-        'link_2' => 'Teste Inglês',
+        'link_1' => 'Quem Somos',
+        'link_2' => 'Diferenciais',
         'link_3' => 'Atuação',
         'link_4' => 'Decisão',
         'link_5' => 'Visão',

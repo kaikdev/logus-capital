@@ -255,15 +255,11 @@
 <?php $__env->startSection('scripts'); ?>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-
-            // Esconde todos os fulls inicialmente
             document.querySelectorAll('.item-full').forEach(full => {
                 full.classList.remove('on');
             });
 
-            // Botões "Leia mais"
             document.querySelectorAll('.item-def .link').forEach(btn => {
-
                 btn.addEventListener('click', function(e) {
                     e.preventDefault();
 
@@ -277,12 +273,9 @@
                         full.classList.add('on');
                     }, 200);
                 });
-
             });
 
-            // Botões "Leia menos"
             document.querySelectorAll('.item-full a').forEach(btn => {
-
                 if (!btn.textContent.toLowerCase().includes('leia menos')) return;
 
                 btn.addEventListener('click', function(e) {
@@ -298,9 +291,7 @@
                         mini.classList.remove('hidden');
                     }, 300);
                 });
-
             });
-
         });
     </script>
 <?php $__env->stopSection(); ?>

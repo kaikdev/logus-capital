@@ -2,16 +2,16 @@
 
 return [
     'lead' => [
-        'title' => 'Receive our newsletter and stay ',
-        'subtitle' => 'informed about the market.',
-        'botao' => 'To Send',
-        'label_1' => 'Name',
-        'label_2' => 'Email',
-        'placeholder' => 'Write Here...',
-        'inicio_termos' => "I agree to Global Silver's",
-        'meio_termos' => 'and',
-        'final_termos' => '',
-        'termos_1' => 'Terms of Use',
-        'termos_2' => 'Privacy Policy.',
+        'title' => 'Uma nova forma de acompanhar o seu',
+        'subtitle' => 'patrimônio começa com uma conversa.',
+        'botao' => 'Enviar',
+        'label_1' => 'Nome',
+        'label_2' => 'WhatsApp',
+        'label_3' => 'E-mail',
+        'inicio_termos' => 'Concordo com os',
+        'meio_termos' => 'e',
+        'final_termos' => 'da Logus Capital.',
+        'termos_1' => 'Termos de Uso',
+        'termos_2' => 'Privacidade',
     ],
 ];

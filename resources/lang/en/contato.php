@@ -1,21 +1,21 @@
 <?php
 
 return [
-    'banner' => "Get in touch, we'll be<br> happy to assist you.",
+    'title1' => 'Contato',
+    'subtitle1' => '
+        Uma nova forma de acompanhar o seu <br>
+        patrimônio começa com uma conversa.
+    ',
 
-    'title' => 'Contact',
-    'subtitle' => 'Contact us',
-    
-    'text' => 'Global Silver offers its clients a complete customer service structure with specialized professionals.',
-
-    'label_1' => 'Name',
-    'label_2' => 'Phone',
-    'label_3' => 'Email',
-    'label_4' => 'Message',
-    'label_5' => 'Send',
+    'label_1' => 'Nome',
+    'label_2' => 'WhatsApp',
+    'label_3' => 'E-mail',
+    'label_4' => 'Conte brevemente como podemos ajudar',
+    'botao' => 'Enviar',
 
     'saiba' => [
-        'title' => 'Learn more about the company',
-        'subtitle' => 'Click here',
+        'title' => 'Descubra',
+        'subtitle' => 'quem somos',
+        'route' => 'quem-somos',
     ],
 ];
