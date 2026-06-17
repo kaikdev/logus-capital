@@ -78,7 +78,7 @@
                 <div class="conteudo">
                     <div class="top">
                         <div class="item">
-                            <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-1.webp')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais1'); ?>
@@ -87,7 +87,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-2.webp')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais2'); ?>
@@ -98,7 +98,7 @@
 
                     <div class="bottom">
                         <div class="item">
-                            <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-3.webp')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais3'); ?>
@@ -107,7 +107,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-4.webp')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais4'); ?>
@@ -177,7 +177,7 @@
                         </a>
                     </div>
 
-                    <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Decisões" loading="lazy">
+                    <img src="<?php echo e(asset('img/home/decisoes.webp')); ?>" alt="Decisões" loading="lazy">
                 </div>
             </div>
 

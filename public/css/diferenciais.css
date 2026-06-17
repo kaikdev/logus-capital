@@ -54,9 +54,11 @@ main .content > div {
 .item-def img {
     display: flex;
     width: 100%;
+    max-width: 530px;
     height: 100%;
     object-fit: cover;
     aspect-ratio: 16 / 9;
+    margin: 0 auto;
 }
 .item-def .text {
     width: 55%;
@@ -151,6 +153,7 @@ main a.link:hover {
     display: flex;
     justify-content: flex-end;
     overflow: hidden;
+    background-color: var(--azul);
 }
 .item-full img {
     position: absolute;
@@ -161,6 +164,7 @@ main a.link:hover {
     width: 101%;
     height: 101%;
     object-fit: cover;
+    opacity: 0.7;
 }
 .item-full .area-img h3 {
     position: relative;

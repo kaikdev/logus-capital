@@ -85,7 +85,7 @@
                 <div class="conteudo">
                     <div class="top">
                         <div class="item">
-                            <img src="{{ asset('img/home/proposito.webp') }}" alt="Imagem Diferenciais">
+                            <img src="{{ asset('img/home/diferenciais-1.webp') }}" alt="Imagem Diferenciais">
 
                             <p>
                                 {!! __('home.diferenciais1') !!}
@@ -93,7 +93,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="{{ asset('img/home/proposito.webp') }}" alt="Imagem Diferenciais">
+                            <img src="{{ asset('img/home/diferenciais-2.webp') }}" alt="Imagem Diferenciais">
 
                             <p>
                                 {!! __('home.diferenciais2') !!}
@@ -103,7 +103,7 @@
 
                     <div class="bottom">
                         <div class="item">
-                            <img src="{{ asset('img/home/proposito.webp') }}" alt="Imagem Diferenciais">
+                            <img src="{{ asset('img/home/diferenciais-3.webp') }}" alt="Imagem Diferenciais">
 
                             <p>
                                 {!! __('home.diferenciais3') !!}
@@ -111,7 +111,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="{{ asset('img/home/proposito.webp') }}" alt="Imagem Diferenciais">
+                            <img src="{{ asset('img/home/diferenciais-4.webp') }}" alt="Imagem Diferenciais">
 
                             <p>
                                 {!! __('home.diferenciais4') !!}
@@ -171,7 +171,7 @@
                         </a>
                     </div>
 
-                    <img src="{{ asset('img/home/proposito.webp') }}" alt="Decisões" loading="lazy">
+                    <img src="{{ asset('img/home/decisoes.webp') }}" alt="Decisões" loading="lazy">
                 </div>
             </div>
 

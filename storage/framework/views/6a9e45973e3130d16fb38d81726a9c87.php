@@ -83,11 +83,11 @@
 
                     <div class="right">
                         <div class="area-img">
-                            <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Imagem contato">
+                            <img src="<?php echo e(asset('img/contato/contato-1.webp')); ?>" alt="Imagem contato">
                         </div>
 
                         <div class="area-img">
-                            <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="Imagem contato">
+                            <img src="<?php echo e(asset('img/contato/contato-2.webp')); ?>" alt="Imagem contato">
                         </div>
                     </div>
                 </div>

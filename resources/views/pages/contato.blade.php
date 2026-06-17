@@ -79,11 +79,11 @@
 
                     <div class="right">
                         <div class="area-img">
-                            <img src="{{ asset('img/home/proposito.webp') }}" alt="Imagem contato">
+                            <img src="{{ asset('img/contato/contato-1.webp') }}" alt="Imagem contato">
                         </div>
 
                         <div class="area-img">
-                            <img src="{{ asset('img/home/proposito.webp') }}" alt="Imagem contato">
+                            <img src="{{ asset('img/contato/contato-2.webp') }}" alt="Imagem contato">
                         </div>
                     </div>
                 </div>
