@@ -40,10 +40,127 @@ main .content > div {
 }
 .faq .conteudo {
     display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+}
+.conteudo .left {
+    display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
+    min-width: 450px;
+}
+.conteudo .left button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 10px 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--azul);
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25); 
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
+    transition: all .3s ease;
+}
+.conteudo .left button svg {
+    fill: var(--azul);
+    transition: all .3s ease;
+}
+.conteudo .left button.on,
+.conteudo .left button:hover {
+    background-color: var(--azul);
+    color: #fff;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon svg {
+    width: 25px;
+}
+.conteudo .left button.on svg,
+.conteudo .left button:hover svg {
+    fill: #fff;
+}
+button .plus,
+button.on .minus {
+    display: flex;
+}
+button.on .plus,
+button .minus {
+    display: none;
 }
 
+#faq {
+    scroll-margin-top: calc(105px + 1rem);
+    width: 100%;
+}
+.questions {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+}
+.questions.on {
+    display: flex;
+}
+.questions button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    background-color: transparent;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+    color: var(--azul);
+    transition: all .3s ease;
+}
+.questions button:hover {
+    color: var(--azul-white);
+}
+.questions svg {
+    min-width: 17px;
+    width: 17px;
+    fill: var(--azul);
+}
+.questions button:hover svg {
+    fill: var(--azul-white);
+}
+
+.questions .item {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--cinza);
+}
+.questions .item div {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+.questions .item.on div {
+    display: flex;
+}
+.questions .item svg {
+    transition: transform .3s ease;
+}
+.questions .item.on svg {
+    transform: rotate(90deg);
+}
+
+@media (max-width: 1200px) {
+    .faq .conteudo {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .conteudo .left {
+        min-width: 100%;
+    }
+}
 @media (max-width: 800px) {
     .title-default {
         flex-direction: column;
