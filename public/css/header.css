@@ -136,9 +136,6 @@ header.active ul.navigation-links {
         width: 200px;
         height: auto;
     }
-    header .right li a {
-        font-size: 0.8rem;
-    }
 }
 @media (max-width: 1150px) {
     header .right .ul .separator {

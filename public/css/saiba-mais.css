@@ -35,6 +35,7 @@ section.saiba-mais .area-text h3 a span {
     transition: all .3s ease;
 }
 section.saiba-mais .tag-arrow {
+    min-width: 35px;
     width: 35px;
     height: 35px;
     display: flex;
@@ -42,6 +43,7 @@ section.saiba-mais .tag-arrow {
     justify-content: center;
     border-radius: 50%;
     background: #fff;
+    margin: 0 auto;
 }
 section.saiba-mais .tag-arrow svg {
     fill: var(--azul);
@@ -58,6 +60,11 @@ section.saiba-mais .area-text h3 a:hover svg {
     transition: all .3s ease;
     fill: var(--azul-white);
 }
+@media (max-width: 600px) {
+    section.saiba-mais .area-text h3 a {
+        display: inline-block;
+    }
+}
 @media (max-width: 500px) {
     section.saiba-mais .area-text img {
         width: 80px;
@@ -65,6 +72,7 @@ section.saiba-mais .area-text h3 a:hover svg {
     section.saiba-mais .area-text h3 {
         font-size: 1.6rem;
     }
+
     section.saiba-mais .area-text {
         gap: 10px;
     }
