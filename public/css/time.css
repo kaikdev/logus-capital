@@ -65,7 +65,7 @@ main .content > div {
 }
 button.item {
     position: relative;
-    padding: 2rem;
+    padding: 2rem 1rem;
     aspect-ratio: 2 / 4;
     width: 100%;
     max-width: 300px;

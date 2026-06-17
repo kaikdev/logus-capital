@@ -48,7 +48,11 @@
                             </p>
 
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis obcaecati veritatis quidem eaque, natus fugit eveniet neque molestias, unde praesentium libero at, nostrum assumenda voluptas.
+                                {!! __('decisao.item1.text2') !!}
+                            </p>
+
+                            <p>
+                                {!! __('decisao.item1.text3') !!}
                             </p>
                         </div>
 
@@ -68,7 +72,11 @@
                             </p>
 
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis obcaecati veritatis quidem eaque, natus fugit eveniet neque molestias, unde praesentium libero at, nostrum assumenda voluptas.
+                                {!! __('decisao.item2.text2') !!}
+                            </p>
+
+                            <p>
+                                {!! __('decisao.item2.text3') !!}
                             </p>
                         </div>
 
@@ -88,7 +96,15 @@
                             </p>
 
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis obcaecati veritatis quidem eaque, natus fugit eveniet neque molestias, unde praesentium libero at, nostrum assumenda voluptas.
+                                {!! __('decisao.item3.text2') !!}
+                            </p>
+
+                            <p>
+                                {!! __('decisao.item3.text3') !!}
+                            </p>
+
+                            <p>
+                                {!! __('decisao.item3.text4') !!}
                             </p>
                         </div>
 
@@ -108,7 +124,11 @@
                             </p>
 
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis obcaecati veritatis quidem eaque, natus fugit eveniet neque molestias, unde praesentium libero at, nostrum assumenda voluptas.
+                                {!! __('decisao.item4.text2') !!}
+                            </p>
+
+                            <p>
+                                {!! __('decisao.item4.text3') !!}
                             </p>
                         </div>
 
@@ -128,7 +148,11 @@
                             </p>
 
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis obcaecati veritatis quidem eaque, natus fugit eveniet neque molestias, unde praesentium libero at, nostrum assumenda voluptas.
+                                {!! __('decisao.item5.text2') !!}
+                            </p>
+
+                            <p>
+                                {!! __('decisao.item5.text3') !!}
                             </p>
                         </div>
 
@@ -148,7 +172,11 @@
                             </p>
 
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis obcaecati veritatis quidem eaque, natus fugit eveniet neque molestias, unde praesentium libero at, nostrum assumenda voluptas.
+                                {!! __('decisao.item6.text2') !!}
+                            </p>
+
+                            <p>
+                                {!! __('decisao.item6.text3') !!}
                             </p>
                         </div>
                     </div>
