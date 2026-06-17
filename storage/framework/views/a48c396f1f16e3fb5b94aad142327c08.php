@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="diferenciais">
-                <div class="title-default">
+                <div class="title-default animate" data-animate="fade">
                     <h1>
                         <?php echo __('diferenciais.title1'); ?>
 

@@ -84,43 +84,43 @@
 
                 <div class="conteudo animate" data-animate="fade">
                     <div class="top">
-                        <div class="item">
+                        <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
                             <img src="<?php echo e(asset('img/home/diferenciais-1.webp')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais1'); ?>
 
                             </p>
-                        </div>
+                        </a>
 
-                        <div class="item">
+                        <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
                             <img src="<?php echo e(asset('img/home/diferenciais-2.webp')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais2'); ?>
 
                             </p>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="bottom">
-                        <div class="item">
+                        <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
                             <img src="<?php echo e(asset('img/home/diferenciais-3.webp')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais3'); ?>
 
                             </p>
-                        </div>
+                        </a>
 
-                        <div class="item">
+                        <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
                             <img src="<?php echo e(asset('img/home/diferenciais-4.webp')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais4'); ?>
 
                             </p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
