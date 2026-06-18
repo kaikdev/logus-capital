@@ -72,7 +72,7 @@ main .content {
     color: var(--cinza-dark);
 }
 main p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: var(--azul);
 }
@@ -95,7 +95,7 @@ main a.link {
     align-items: center;
     gap: 5px;
     max-width: max-content;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     font-style: italic;
     color: var(--azul);
@@ -138,8 +138,12 @@ main a.link:hover {
     height: 100%;
     object-fit: cover;
     z-index: 0;
-    opacity: 0.1;
+    opacity: 0.3;
     pointer-events: none;
+}
+.diferenciais .bottom .item:last-child img {
+    opacity: 0.2;
+    filter: brightness(0.9);
 }
 .diferenciais .item p {
     font-size: 1.5rem;
@@ -167,6 +171,7 @@ main a.link:hover {
 }
 .diferenciais .bottom .item:last-child {
     width: 100%;
+    background-color: #001e3f;
 }
 .diferenciais .bottom .item {
     min-height: 350px;
@@ -230,7 +235,7 @@ main .visao {
     transition: all .3s ease;
 }
 .visao a span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     display: flex;
     align-items: center;

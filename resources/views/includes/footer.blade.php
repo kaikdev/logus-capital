@@ -60,7 +60,8 @@
                             {{ __('main.header.link_8') }}
                         </a>
                     </li>
-
+                    
+                    {{--
                     <li>
                         <a href="#">
                             {{ __('main.header.link_9') }}
@@ -72,6 +73,7 @@
                             {{ __('main.header.link_10') }}
                         </a>
                     </li>
+                    --}}
                 </ul>
             </div>
 

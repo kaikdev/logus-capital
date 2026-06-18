@@ -31,7 +31,7 @@ main .content {
     color: var(--cinza-dark);
 }
 main p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: var(--azul);
 }
@@ -68,7 +68,7 @@ form.form-contato input[type="text"],
 form.form-contato input[type="email"],
 form.form-contato textarea,
 form.form-contato label {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: var(--azul);
 }
@@ -114,7 +114,7 @@ button.btn-default {
     max-width: 170px;
     margin: 0 auto;
     margin-top: 10px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     background-color: var(--azul);
     color: #fff;

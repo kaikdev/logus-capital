@@ -4,8 +4,8 @@ section.page-terms {
     position: relative;
     height: auto;
     color: #fff;
-    scroll-margin-top: 250px;
-    padding: 250px 1rem 1rem;
+    scroll-margin-top: calc(105px + 1rem);
+    padding: 1rem;
     background: #f1f1f1;
     color: #2e2d2d;
     font-weight: 500;
@@ -234,7 +234,7 @@ article form .group-button button {
     cursor: pointer;
     background: var(--verde);
     color: #fff;
-    border: 1px solid #0000002f;
+    border: 1px solid var(--azul-white);
     outline: none;
     padding: 3px 22px;
     font-size: 15px;
@@ -242,17 +242,17 @@ article form .group-button button {
 }
 
 section.page-terms .menu {
-    top: 120px;
+    top: 105px;
     color: #fff;
-    background: #954d1c;
-    border-color: #000000;
+    background: var(--azul-dark);
+    border-color: var(--azul-white);
 }
 section.page-terms .menu a {
     color: #fff;
 }
 section.page-terms .menu a:before,
 main h1:after {
-    background: #000000;
+    background: var(--azul-white);
 }
 
 section.page-terms .top-info h3 {
@@ -262,17 +262,18 @@ section.page-terms .top-info h3 {
 }
 
 main article {
-    border-color: #954d1c;
+    border-color: var(--azul-dark);
 }
 
 article form .group-button button {
-    background: #954d1c;
+    background: var(--azul-dark);
     color: #fff;
+    border-color: var(--azul-dark);
 }
 
 article form .group-button button:hover {
     transition: .3s;
-    background: #7e4a25;
+    background: var(--azul-dark);
 }
 
 main article:first-child {

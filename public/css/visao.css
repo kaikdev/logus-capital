@@ -31,7 +31,7 @@ main .content {
     color: var(--cinza-dark);
 }
 main p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: var(--azul);
 }
@@ -81,7 +81,7 @@ a.link {
     transition: all .3s ease;
 }
 a.link span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -98,6 +98,24 @@ a.link span svg {
 a.link:hover {
     background-color: var(--azul-white);
 }
+
+#visao {
+    scroll-margin-top: calc(105px + 1rem);
+}
+#visao {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all .5s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#visao.active {
+    max-height: 5000px;
+    opacity: 1;
+}
+
 .conteudo h3 {
     font-size: 1.5rem;
     font-weight: 600;

@@ -26,7 +26,7 @@ return [
     'text4' => '
         Atuamos como parceiro patrimonial ao longo do tempo, como uma extensão da sua própria capacidade de decisão, coordenando interações com bancos e instituições financeiras e garantindo consistência na implementação de cada decisão.
     ',
-    'link2' => 'O que isso signigica na prática?',
+    'link2' => 'O que isso significa na prática?',
     'title4' => 'Decisões',
     'subtitle4' => 'Nosso trabalho não é reagir ao mercado. É <br> tomar decisões melhores dentro dele.',
     'text5' => '

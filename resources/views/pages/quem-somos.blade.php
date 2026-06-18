@@ -47,22 +47,22 @@
                         {!! __('quem-somos.text4') !!}
                     </p>
 
-                    <div class="servico animate" data-animate="fade">
+                    <div class="servico">
                         <div class="left">
-                            <p>
+                            <p class="animate" data-animate="left">
                                 {!! __('quem-somos.service1') !!}
                             </p>
 
-                            <p>
+                            <p class="animate" data-animate="bottom">
                                 {!! __('quem-somos.service2') !!}
                             </p>
                         </div>
 
-                        <div class="img">
+                        <div class="img animate" data-animate="scale">
                             <img src="{{ asset('img/icone-logus-capital.webp') }}" alt="Logus Capital" width="100" height="115">
                         </div>
 
-                        <div class="right">
+                        <div class="right animate" data-animate="top">
                             <p>
                                 {!! __('quem-somos.service3') !!}
                             </p>

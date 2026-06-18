@@ -68,7 +68,7 @@
                         </div>
                     </div>
 
-                    <div class="item-def animate" data-animate="top" id="mini4">
+                    <div class="item-def two animate" data-animate="top" id="mini4">
                         <div class="text">
                             <h3>
                                 {!! __('diferenciais.item2.title') !!}
