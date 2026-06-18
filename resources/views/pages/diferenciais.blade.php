@@ -22,8 +22,8 @@
                     </h2>
                 </div>
 
-                <div class="conteudo animate" data-animate="fade">
-                    <div class="item-def" id="mini1">
+                <div class="conteudo">
+                    <div class="item-def animate" data-animate="top" id="mini1">
                         <div class="area-img">
                             <img src="{{ asset('img/home/diferenciais-1.webp') }}" alt="{!! __('diferenciais.item1.title') !!}">
                         </div>
@@ -68,7 +68,7 @@
                         </div>
                     </div>
 
-                    <div class="item-def" id="mini4">
+                    <div class="item-def animate" data-animate="top" id="mini4">
                         <div class="text">
                             <h3>
                                 {!! __('diferenciais.item2.title') !!}
@@ -113,7 +113,7 @@
                         </div>
                     </div>
 
-                    <div class="item-def" id="mini3">
+                    <div class="item-def animate" data-animate="top" id="mini3">
                         <div class="text">
                             <h3>
                                 {!! __('diferenciais.item3.title') !!}
@@ -158,7 +158,7 @@
                         </div>
                     </div>
 
-                    <div class="item-def" id="mini2">
+                    <div class="item-def animate" data-animate="top" id="mini2">
                         <div class="area-img">
                             <img src="{{ asset('img/home/diferenciais-4.webp') }}" alt="{!! __('diferenciais.item4.title') !!}">
                         </div>
@@ -244,6 +244,13 @@
 
                     setTimeout(() => {
                         full.classList.add('on');
+
+                        if (window.innerWidth < 1000) {
+                            full.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }
                     }, 200);
                 });
             });
@@ -262,6 +269,13 @@
 
                     setTimeout(() => {
                         mini.classList.remove('hidden');
+
+                        if (window.innerWidth < 1000) {
+                            mini.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }
                     }, 300);
                 });
             });

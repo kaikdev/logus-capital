@@ -116,13 +116,13 @@ main .content > div {
 .area-itens .item:nth-child(5){ z-index:5; }
 .area-itens .item:nth-child(6){ z-index:6; }
 
-.area-itens .item.active {
+.area-itens .item.on {
     background-color: var(--azul);
     transform: scale(1);
     flex: 1.2 1 0;
     z-index: 7;
 }
-.item.active p {
+.item.on p {
     color: #fff;
 }
 @media (max-width: 900px) {
