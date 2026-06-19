@@ -142,6 +142,9 @@ button .minus {
     gap: 1rem;
     padding-top: 1rem;
 }
+.questions .item div p {
+    color: #1c1c1c;
+}
 .questions .item.on div {
     display: flex;
 }
@@ -150,6 +153,63 @@ button .minus {
 }
 .questions .item.on svg {
     transform: rotate(90deg);
+}
+
+button.anim-ent:nth-child(1) {
+    transition-delay: 0.2s !important;
+}
+button.anim-ent:nth-child(2) {
+    transition-delay: 0.6s !important;
+}
+button.anim-ent:nth-child(3) {
+    transition-delay: 1s !important;
+}
+button.anim-ent:nth-child(4) {
+    transition-delay: 1.4s !important;
+}
+button.anim-ent:nth-child(5) {
+    transition-delay: 1.8s !important;
+}
+button.anim-ent:nth-child(6) {
+    transition-delay: 2.2s !important;
+}
+
+.questions.on.first-load .item:nth-child(1) {
+    transition-delay: 1.8s;
+}
+.questions.on.first-load .item:nth-child(2) {
+    transition-delay: 2.2s;
+}
+.questions.on.first-load .item:nth-child(3) {
+    transition-delay: 2.6s;
+}
+.questions.on.first-load .item:nth-child(4) {
+    transition-delay: 3s;
+}
+.questions.on.first-load .item:nth-child(5) {
+    transition-delay: 3.4s;
+}
+.questions.on.first-load .item:nth-child(6) {
+    transition-delay: 3.8s;
+}
+
+.questions.on .item:nth-child(1) {
+    transition-delay: 0s;
+}
+.questions.on .item:nth-child(2) {
+    transition-delay: .4s;
+}
+.questions.on .item:nth-child(3) {
+    transition-delay: .8s;
+}
+.questions.on .item:nth-child(4) {
+    transition-delay: 1.2s;
+}
+.questions.on .item:nth-child(5) {
+    transition-delay: 1.6s;
+}
+.questions.on .item:nth-child(6) {
+    transition-delay: 2s;
 }
 
 @media (max-width: 1200px) {

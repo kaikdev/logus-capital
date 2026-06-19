@@ -60,7 +60,7 @@
 
                             </p>
 
-                            <p class="animate" data-animate="bottom">
+                            <p class="animate" data-animate="top">
                                 <?php echo __('quem-somos.service2'); ?>
 
                             </p>

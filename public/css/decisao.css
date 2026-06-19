@@ -67,6 +67,7 @@ main .content > div {
     transition: all .3s ease;
     flex: 1 1 0;
     min-width: 0;
+    min-height: 250px;
     cursor: pointer;
     transform: scale(0.96);
 }
@@ -109,6 +110,15 @@ main .content > div {
 .item p {
     transition: all .3s ease;
 }
+#conteudo-item {
+    scroll-margin-top: calc(105px + 2rem);
+}
+#conteudo-item .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
 .area-itens .item:nth-child(1){ z-index:1; }
 .area-itens .item:nth-child(2){ z-index:2; }
 .area-itens .item:nth-child(3){ z-index:3; }
@@ -136,6 +146,7 @@ main .content > div {
     .area-itens .item {
         margin: 0 !important;
         transform: scale(1);
+        min-width: 100%;
     }
 }
 @media (max-width: 800px) {

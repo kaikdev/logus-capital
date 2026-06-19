@@ -23,8 +23,8 @@
                 </div>
 
                 <div class="conteudo">
-                    <div class="left animate" data-animate="top">
-                        <button type="button" class="section on">
+                    <div class="left">
+                        <button type="button" class="section on animate" data-animate="left">
                             {!! __('faq.section1') !!}
                             
                             <div class="icon">
@@ -34,7 +34,7 @@
                             </div>
                         </button>
 
-                        <button type="button" class="section">
+                        <button type="button" class="section animate" data-animate="left">
                             {!! __('faq.section2') !!}
 
                             <div class="icon">
@@ -44,7 +44,7 @@
                             </div>
                         </button>
 
-                        <button type="button" class="section">
+                        <button type="button" class="section animate" data-animate="left">
                             {!! __('faq.section3') !!}
 
                             <div class="icon">
@@ -54,7 +54,7 @@
                             </div>
                         </button>
 
-                        <button type="button" class="section">
+                        <button type="button" class="section animate" data-animate="left">
                             {!! __('faq.section4') !!}
 
                             <div class="icon">
@@ -64,7 +64,7 @@
                             </div>
                         </button>
 
-                        <button type="button" class="section">
+                        <button type="button" class="section animate" data-animate="left">
                             {!! __('faq.section5') !!}
 
                             <div class="icon">
@@ -74,7 +74,7 @@
                             </div>
                         </button>
 
-                        <button type="button" class="section">
+                        <button type="button" class="section animate" data-animate="left">
                             {!! __('faq.section6') !!}
 
                             <div class="icon">
@@ -87,7 +87,7 @@
 
                     <div class="right" id="faq">
                         <div class="questions on animate" data-animate="fade">
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions1.title1') !!}
 
@@ -99,7 +99,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions1.title2') !!}
 
@@ -111,7 +111,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions1.title3') !!}
 
@@ -125,7 +125,7 @@
                         </div>
 
                         <div class="questions animate" data-animate="fade">
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions2.title1') !!}
 
@@ -137,7 +137,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions2.title2') !!}
 
@@ -149,7 +149,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions2.title3') !!}
 
@@ -161,7 +161,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions2.title4') !!}
 
@@ -175,7 +175,7 @@
                         </div>
 
                         <div class="questions animate" data-animate="fade">
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions3.title1') !!}
 
@@ -187,7 +187,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions3.title2') !!}
 
@@ -199,7 +199,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions3.title3') !!}
 
@@ -211,7 +211,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions3.title4') !!}
 
@@ -223,7 +223,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions3.title5') !!}
 
@@ -237,7 +237,7 @@
                         </div>
 
                         <div class="questions animate" data-animate="fade">
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions4.title1') !!}
 
@@ -249,7 +249,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions4.title2') !!}
 
@@ -261,7 +261,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions4.title3') !!}
 
@@ -275,7 +275,7 @@
                         </div>
 
                         <div class="questions animate" data-animate="fade">
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions5.title1') !!}
 
@@ -287,7 +287,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions5.title2') !!}
 
@@ -301,7 +301,7 @@
                         </div>
 
                         <div class="questions animate" data-animate="fade">
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions6.title1') !!}
 
@@ -313,7 +313,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <div class="item animate" data-animate="top">
                                 <button type="button">
                                     {!! __('faq.questions6.title2') !!}
 
@@ -347,6 +347,16 @@
 @section('scripts')
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            const firstQuestions = document.querySelector('.questions.on');
+
+            if (firstQuestions) {
+                firstQuestions.classList.add('first-load');
+
+                setTimeout(() => {
+                    firstQuestions.classList.remove('first-load');
+                }, 4000);
+            }
+
             const sections = document.querySelectorAll('.left .section');
             const questionBlocks = document.querySelectorAll('.right .questions');
             const faq = document.getElementById('faq');
@@ -378,6 +388,30 @@
                     item.classList.toggle('on');
                 });
             });
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const buttons = document.querySelectorAll('button.section');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+
+                    const el = entry.target;
+
+                    el.classList.add('anim-ent');
+
+                    setTimeout(() => {
+                        el.classList.remove('anim-ent');
+                    }, 3000);
+
+                    observer.unobserve(el);
+                });
+            }, {
+                threshold: 0.2
+            });
+
+            buttons.forEach(button => observer.observe(button));
         });
     </script>
 @endsection

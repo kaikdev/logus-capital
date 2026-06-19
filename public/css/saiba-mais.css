@@ -1,9 +1,10 @@
 section.saiba-mais {
     background-color: var(--azul);
-    background-image: url("../img/saiba-mais/bg.webp");
+    background-image: url("../img/saiba-mais/faixa-filtro.jpg");
     background-position: center right;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 section.saiba-mais .area-text {
     padding: 1rem;

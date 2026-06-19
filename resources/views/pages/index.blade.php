@@ -79,7 +79,7 @@
                 <div class="conteudo animate" data-animate="fade">
                     <div class="top">
                         <a href="{{ route_lang('diferenciais') }}" class="item">
-                            <img src="{{ asset('img/home/diferenciais-1.webp') }}" alt="Imagem Diferenciais">
+                            <img src="{{ asset('img/home/diferenciais-1-ajuste.png') }}" alt="Imagem Diferenciais">
 
                             <p>
                                 {!! __('home.diferenciais1') !!}
@@ -87,7 +87,7 @@
                         </a>
 
                         <a href="{{ route_lang('diferenciais') }}" class="item">
-                            <img src="{{ asset('img/home/diferenciais-2.webp') }}" alt="Imagem Diferenciais">
+                            <img src="{{ asset('img/home/diferenciais-2-ajuste.png') }}" alt="Imagem Diferenciais">
 
                             <p>
                                 {!! __('home.diferenciais2') !!}
@@ -97,7 +97,7 @@
 
                     <div class="bottom">
                         <a href="{{ route_lang('diferenciais') }}" class="item">
-                            <img src="{{ asset('img/home/diferenciais-3.webp') }}" alt="Imagem Diferenciais">
+                            <img src="{{ asset('img/home/diferenciais-3-ajuste.png') }}" alt="Imagem Diferenciais">
 
                             <p>
                                 {!! __('home.diferenciais3') !!}
@@ -105,7 +105,7 @@
                         </a>
 
                         <a href="{{ route_lang('diferenciais') }}" class="item">
-                            <img src="{{ asset('img/home/diferenciais-4.webp') }}" alt="Imagem Diferenciais">
+                            <img src="{{ asset('img/home/diferenciais-4-ajuste.png') }}" alt="Imagem Diferenciais">
 
                             <p>
                                 {!! __('home.diferenciais4') !!}

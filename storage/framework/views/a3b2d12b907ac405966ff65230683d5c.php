@@ -85,7 +85,7 @@
                 <div class="conteudo animate" data-animate="fade">
                     <div class="top">
                         <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
-                            <img src="<?php echo e(asset('img/home/diferenciais-1.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-1-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais1'); ?>
@@ -94,7 +94,7 @@
                         </a>
 
                         <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
-                            <img src="<?php echo e(asset('img/home/diferenciais-2.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-2-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais2'); ?>
@@ -105,7 +105,7 @@
 
                     <div class="bottom">
                         <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
-                            <img src="<?php echo e(asset('img/home/diferenciais-3.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-3-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais3'); ?>
@@ -114,7 +114,7 @@
                         </a>
 
                         <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
-                            <img src="<?php echo e(asset('img/home/diferenciais-4.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-4-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais4'); ?>

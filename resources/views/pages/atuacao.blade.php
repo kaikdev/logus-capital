@@ -46,7 +46,7 @@
                             </p>
                         </div>
 
-                        <div class="area-img">
+                        <div class="area-img animate" data-animate="fade">
                             <img src="{{ asset('img/icone-logus-capital.webp') }}" alt="Logus Capital" width="150" height="auto">
                         </div>
 

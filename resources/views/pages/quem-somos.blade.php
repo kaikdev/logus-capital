@@ -53,7 +53,7 @@
                                 {!! __('quem-somos.service1') !!}
                             </p>
 
-                            <p class="animate" data-animate="bottom">
+                            <p class="animate" data-animate="top">
                                 {!! __('quem-somos.service2') !!}
                             </p>
                         </div>
