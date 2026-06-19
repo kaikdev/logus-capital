@@ -1,28 +1,36 @@
 <?php
 
 return [
-    'title1' => 'Atuação',
+    'title1' => 'WHAT WE DO',
+
     'subtitle1' => '
-        Somos responsáveis por transformar complexidade <br>
-        financeira em decisões claras e alinhadas.
+        We transform financial complexity into <br>
+        clear, aligned decisions.
     ',
+
     'text1' => '
-        Atuamos como o ponto central de decisão financeira dos nossos clientes, combinando uma visão global de mercados com uma base própria de tecnologia, inteligência e parcerias institucionais. Integramos análises, filtramos o ruído e asseguramos que cada escolha seja feita com critério, independência e total aderência aos seus objetivos.
+        Logus acts as the central point of financial decision-making, combining a global market perspective with proprietary technology, analytical insight and institutional partnerships. We integrate information, filter noise and ensure that each decision is made with discipline, independence and full alignment with the client’s objectives.
     ',
+
     'text2' => '
-        Atuamos como parceiro patrimonial ao longo do tempo, como uma extensão da sua própria capacidade de decisão, coordenando interações com bancos e instituições financeiras e garantindo consistência na implementação de cada decisão.
+        Over time, we act as a natural extension of our clients’ decision-making capacity — coordinating interactions with financial institutions and ensuring consistency in execution.
     ',
-    'word1' => 'Clareza',
-    'word2' => 'Coordenação',
-    'word3' => 'Controle',
-    'word4' => 'Acesso <br> institucional',
-    'word5' => 'Governança e <br> alinhamento',
-    'word6' => 'Eficiência <br> e constância',
-    'title-text' => 'Abrangência com especialização',
-    'text3' => 'Nosso foco é claro: gestão de patrimônio nos mercados financeiros.',
+
+    'word1' => 'Clarity',
+    'word2' => 'Coordination',
+    'word3' => 'Control',
+    'word4' => 'Reduced <br> conflicts',
+    'word5' => 'Access',
+    'word6' => 'Consistency',
+
+    'title-text' => 'Scope with specialisation',
+
+    'text3' => 'Our focus is clear: wealth management in financial markets.',
+
     'text4' => '
-        Quando necessário, atuamos em conjunto com especialistas em áreas como planejamento sucessório, estruturação patrimonial, M&A ou soluções offshore, sempre coordenando o processo e garantindo coerência entre todas as decisões envolvidas.
+        Where appropriate, we work alongside specialised advisors in areas such as succession, structuring or cross-border solutions — always coordinating the process and ensuring coherence across all decisions.
     ',
+
     'saiba' => [
         'title' => 'Saiba como tomar a',
         'subtitle' => 'Decisão',

@@ -70,20 +70,8 @@
 
                         </a>
                     </li>
-
-                    <li>
-                        <a href="#">
-                            <?php echo e(__('main.header.link_9')); ?>
-
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <?php echo e(__('main.header.link_10')); ?>
-
-                        </a>
-                    </li>
+                    
+                    
                 </ul>
             </div>
 

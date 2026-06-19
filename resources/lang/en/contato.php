@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'title1' => 'Contato',
+    'title1' => 'Contact',
     'subtitle1' => '
-        Uma nova forma de acompanhar o seu <br>
-        patrimônio começa com uma conversa.
+        For further information or to begin a conversation,
+        <br> please contact us via the form below.
     ',
 
-    'label_1' => 'Nome',
+    'label_1' => 'Name',
     'label_2' => 'WhatsApp',
     'label_3' => 'E-mail',
     'label_4' => 'Conte brevemente como podemos ajudar',
-    'botao' => 'Enviar',
+    'botao' => 'Send',
 
     'saiba' => [
         'title' => 'Descubra',

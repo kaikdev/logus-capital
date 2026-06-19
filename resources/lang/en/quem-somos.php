@@ -1,19 +1,21 @@
 <?php
 
 return [
-    'title1' => 'Quem Somos',
-    'subtitle1' => '
-        Experiência molda perspectiva.<br>
-        Perspectiva influencia decisões.<br>
-        Decisões transformam trajetórias de longo prazo.
-    ',
-    'text1' => 'A Logus Capital nasceu da convergência entre uma inquietação legítima e uma visão construída ao longo de uma trajetória internacional de mais de 20 anos nos principais centros financeiros globais.',
-    'text2' => 'Fundada em 2017, a empresa surge com uma proposta clara desde a sua origem: atuar de forma independente na tomada de decisões, sem vínculos com produtos ou instituições, em contraste com o modelo tradicional no mercado.',
-    'text3' => 'Essa independência não foi uma adaptação ao longo do tempo, mas com uma convicção presente desde o início - refletida na forma como pensamos, decidimos e nos posicionamos ao lado dos nossos clientes.',
-    'text4' => 'Mais do que gerir ativos, a Logus se posiciona como parceira patrimonial, atuando com:',
+    'title1' => 'WHO WE ARE',
+    'subtitle1' => 'A discomfort with the market gave rise to a <br> fundamentally different way of operating.',
+    
+    'text1' => 'Logus Capital was born from the convergence of a genuine concern and a perspective shaped by more than 20 years of international experience across the world’s leading financial centres.',
+
+    'text2' => 'Founded in 2017, the firm was established with a clear principle from the outset: to operate independently in decision-making, free from ties to products or institutions, in contrast to prevailing market structures.',
+
+    'text3' => 'This independence is not an adaptation developed over time, but a foundational conviction — reflected in how we think, decide and position ourselves alongside our clients.',
+
+    'text4' => 'More than managing assets, Logus acts as a long-term wealth partner, combining an ownership mindset, an integrated perspective and a deliberately selective client base.',
+
     'service1' => 'Mentalidade de dono',
     'service2' => 'Visão integrada',
     'service3' => 'Um modelo que privilegia relações próximas com um número restrito de famílias.',
+
     'saiba' => [
         'title' => 'Descubra nossos',
         'subtitle' => 'Diferenciais',

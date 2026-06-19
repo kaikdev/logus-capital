@@ -1,174 +1,189 @@
 <?php
 
 return [
-    'title1' => 'Time',
+    'title1' => 'Team',
     'subtitle1' => '
         Diferentes experiências. Um único <br>
         compromisso: o cliente.
     ',
-    'title-text1' => 'Nosso time',
-    'title-text2' => 'Nosso conselho',
+
+    'title-text1' => 'Our Team',
+    'title-text2' => 'Board',
+
+
     'employee1' => [
         'name' => 'Holger Bre',
         'subtitle' => '
-            Sócio Fundador CFA® / CAIA® / CFP® / CGA® / CETF®
+            Founding Partner CFA® / CAIA® / CFP® / CGA® / CETF®
         ',
-        'text' => '
+        'text' => "
             <p>
-                Holger tem mais de 25 anos de experiência em diversas posições no Mercado Financeiro. Começou sua carreira em 1997 no UBS Investment Bank em Londres, onde atuou em áreas como Mergers&Acquisitions, Capital Markets and Equity Derivatives. Posteriormente mudou seu foco para Private Banking na sede de Wealth Management do UBS em Zurique, Suíça. Ao longo da sua carreira no UBS ele assumiu diversas posições de Gestão, como Head Investment Consulting para as Américas e Business Development para o mercado brasileiro de Gestão de Patrimônio (Family Office).
+                Holger has over 25 years of experience in various positions in the Financial Market. He began his career in 1997 at UBS Investment Bank in London, where he worked in areas such as Mergers & Acquisitions, Capital Markets and Equity Derivatives. He subsequently shifted his focus to Private Banking at UBS Wealth Management headquarters in Zurich, Switzerland. Throughout his career at UBS, he held various Management positions, such as Head of Investment Consulting for the Americas and Business Development for the Brazilian Wealth Management market (Family Office).
             </p>
 
             <p>
-                Somada à sua experiência no Mercado Financeiro incluí-se também Asset Management, Alternative Investments e Hedge Funds; treinando times inteiros de Private Banker em soluções sofisticadas de investimentos, como também reestruturar o negócio de Family Office do UBS no Brasil. Nos últimos 15 anos se dedicou exclusivamente a clientes brasileiros do segmento Private, com recursos onshore e offshore.
+                In addition to his experience in the Financial Market, he also has a background in Asset Management, Alternative Investments and Hedge Funds; training entire teams of Private Bankers in sophisticated investment solutions, as well as restructuring UBS's Family Office business in Brazil. Over the last 15 years, he has dedicated himself exclusively to Brazilian Private segment clients, with onshore and offshore resources.
             </p>
 
             <p>
-                Holger tem uma graduação dupla em Gestão Internacional da ESB Business School e uma pós-graduação da Management School Lancaster/Inglaterra. Sócio das instituições internacionais CFA Institute, CFA Society, CAIA Association e ETF Institute, ele é certificado como CFA®, CAIA® charterholder e Certified ETF Advisor (CETF®). No Brasil ele é associado ao Planejar, certificado como Planejador Financeiro CFP®; licenciado pela ANBIMA em gestão de recursos em fundos (CGA®); como também oficialmente registrado perante a CVM para atuar como Consultor de Valores Mobiliários.
+                Holger earned a BSc Double-Degree in International Management from the ESB Business School and holds a Postgraduate Degree from the Management School in Lancaster (UK). On an international level, he is a CFA® and CAIA® charterholder, Certified ETF Advisor (CETF®), plus a Full Member of the CFA Institute, CFA Society, the CAIA Association and the ETF Institute. In Brazil, he is certified by the Brazilian Association of Financial Planners (Planejar) as a Certified Financial Planner (CFP®) and licensed as Fund Manager (CGA®) by the Brazilian Association of Financial and Capital Market Entities (ANBIMA). Last but not least, he is officially registered with the Securities and Exchange Commission of Brazil (CVM) to act as a Financial Consultant.
             </p>
-        ',
+        "
     ],
+
     'employee2' => [
         'name' => 'Hilda Martins',
         'subtitle' => 'Partner C&O',
-        'text' => '
+        'text' => "
             <p>
-                Hilda é sócia e C&O Manager (Compliance & Operations) na Logus Capital, com mais de 20 anos de experiência no Mercado Financeiro. Começou sua carreira em 1992 no Citibank, atuou em áreas de Atendimento ao Cliente, Controles Internos e Cash Management, sendo nesta última área por cinco anos. Transferiu-se para o Banco Santander em 2004, onde permaneceu por 14 anos, onde o seu foco foi voltado para clientes Private Banking, passando pela área operacional, sendo seu último cargo como Gerente de Atendimento.
+                Hilda is Partner and C&O Manager (Compliance & Operations) at Logus Capital, with over 20 years of experience in the Financial Market. She began her career in 1992 at Citibank, worked in Customer Service, Internal Controls and Cash Management. In 2004 she moved to Santander, where she worked for 14 years focusing on Private Banking clients, Operations, and as Customer Service Manager.
             </p>
 
             <p>
-                Participou e atuou em desenvolvimento de sistemas workflow de movimentações bancárias, padronizando as solicitações efetuadas pelos clientes, foi responsável por elaboração e treinamento de equipes para implantação de controles internos de operações de transferências bancárias, resultando na melhoria e otimização de processos. Como Gerente de Atendimento, atuava na rotina da agência Private, e dava suporte à área comercial e de produtos.
+                While having experience in the development of banking-movement workflows, standardization of customer requests, she was responsible for preparing and training teams with the implementation of internal controls for bank-transfer operations. As a Service Manager, she worked in a Private Banking branch, supporting both the commercial and product areas.
             </p>
 
             <p>
-                Formada em Administração de Empresas pela Universidade Cidade de São Paulo, com Pós-Graduação em Finanças e Banking pelo Centro Universitário das Faculdades Metropolitanas Unidas.
+                She holds a degree in Business Administration from the Universidade Cidade de São Paulo, with a postgraduate degree in Finance and Banking from the Centro Universitário das Faculdades Metropolitanas Unidas.
             </p>
-        ',
+        "
     ],
+
     'employee3' => [
         'name' => 'Fernanda Retes',
         'subtitle' => 'Partner CFP®',
-        'text' => '
+        'text' => "
             <p>
-                Fernanda tem mais de 25 anos de experiência profissional em diversas posições nas áreas de relações com investidores, financeira, governança corporativa, planejamento estratégico, auditoria e no mercado financeiro.
+                Fernanda has more than 25 years of professional experience in various positions in the areas of investor relations, finance, corporate governance, strategic planning, auditing and the financial market. 
             </p>
 
             <p>
-                Começou sua carreira em 1998 na Arthur Andersen, na área de auditoria. Em 2000, migrou para a área de relações com investidores e planejamento financeiro, onde atuou por mais de 20 anos como executiva, em empresas de grande porte (Brasil Telecom, Gafisa, Boa Vista Serviços/Equifax, Grupo Rodobens) e também como consultora, assessorando várias empresas a estruturarem seus programas de relações com investidores.
+                She began her career in 1998 at Arthur Andersen, in the auditing area. In 2000, she moved to investor relations and financial planning area, where she worked for more than 20 years as executive in large companies (Brasil Telecom, Gafisa, Boa Vista Serviços/Equifax, Grupo Rodobens) and as a consultant, advising several companies to structure their investor relations programs.
             </p>
 
             <p>
-                Participou do Conselho de Administração na Alphaville Urbanismo e foi responsável pela gestão do investimento/participação da Gafisa na Alphaville Urbanismo.
+                She was a member of the Board of Directors at Alphaville Urbanismo and was responsible for managing Gafisa's investment/participation in Alphaville Urbanismo.
             </p>
 
             <p>
-                Na Luminus Capital, gestora de ativos, foi a sócia responsável pela área de captação de recursos, comunicação e compliance.
+                At Luminus Capital, an asset management, she was the partner responsible for fundraising, communication and compliance.
             </p>
 
             <p>
-                Fernanda é formada em Administração de Empresas pela UFMG, com MBA em finanças pelo IBMEC.
+                Fernanda holds a degree in Business Administration from the Federal University of Minas Gerais (UFMG) and an MBA in finance from IBMEC.
             </p>
-        ',
+        "
     ],
+
     'employee4' => [
         'name' => 'Fábio Granato',
         'subtitle' => 'Partner Private Banker',
-        'text' => '
+        'text' => "
             <p>
-                Fábio é sócio e Banker na Logus Capital, com mais de 10 anos de atuação como Private Banker da Ativore Global Investments, assessoria especializada em ativos imobiliários privados nos EUA e planejamento tributário internacional voltado a famílias de alta renda.
+                Fábio is Partner at Logus Capital, has more than 10 years of experience as Private Banker at Ativore Global Investments, real-estate investment firm specialized in the US markets and international tax consultancy for high-income families.
             </p>
 
             <p>
-                Reconhecida experiência no relacionamento com investidores high e ultra-high net worth, sendo o Sócio responsável pelo relacionamento com mais de 160 famílias, cuja soma ultrapassa R$1,5 bilhão na Gestão Fiscal e R$850 milhões em ativos imobiliários.
+                Recognized expertise in dealing with high and ultra-high-net-worth investors, being the Partner responsible for over 160 client families, with a combined portfolio exceeding R$1.5 billion in tax management and R$850 million in real estate assets.
             </p>
 
             <p>
-                Ele liderou a implementação de estruturações internacionais (Estados Unidos, Ilhas Virgens Britânicas, Ilhas Cayman, entre outras jurisdições) e aquisições de investimentos para investidores internacionais individuais.
+                Fabio has led the implementation of hundreds of international structuring projects (United States, British Virgin Islands, Cayman Islands, among other jurisdictions) and investment acquisitions for individual international investors.
             </p>
 
             <p>
-                Formado em Administração pela Universidade Federal do Estado do Rio de Janeiro (UNIRIO) com experiência prévia na área de consultoria através das empresas Elogroup e Yolo Experience.
+                Fábio holds a degree in Business Administration from the Federal University of the State of Rio de Janeiro (UNIRIO) and has prior experience in consulting in Elogroup and Yolo Experience.
             </p>
-        ',
+        "
     ],
+
     'employee5' => [
         'name' => 'Juliana Camblor',
         'subtitle' => 'Partner Back Office',
-        'text' => '
+        'text' => "
             <p>
-                Juliana é sócia na área operacional e de suporte para os clientes na Logus Capital, com mais de 20 anos de experiência no Mercado Financeiro.  Iniciou sua carreira em 2003 no HSBC. Em 2007, ingressou no Santander, onde atuou no Back Office do Private Banking, realizando rotinas operacionais, suporte à área comercial e de produtos.
+                Juliana is a partner in the operational and client support area at Logus Capital. With over 20 years of experience in the financial market, she has built a solid career at leading national and international institutions.
             </p>
 
             <p>
-                Em 2017, migrou para o BTG Pactual, onde trabalhou na área de Onboarding, participou de projetos de melhorias em processos operacionais e treinamento de equipes.
+                She began her career in 2003 at HSBC and, from 2007 onwards, consolidated her experience at Santander, working in the Private Banking Back Office, with a focus on operations, controls and strategic support to the Commercial and Products areas.
             </p>
 
             <p>
-                Juliana é formada em Administração de Empresas pela Universidade Presbiteriana Mackenzie, com MBA em Gestão de Negócios pela FGV. Possui as certificações CPA-20 (ANBIMA) e PQO Cadastro de Clientes (ANCORD).
+                In 2017, she joined BTG Pactual, joining the Onboarding area. Throughout her work, she led operational processes, ensuring information compliance, adherence to internal flows and compliance with regulatory requirements. She also participated in initiatives aimed at gaining efficiency and continuously improving the area's routines.
             </p>
-        ',
+
+            <p>
+                She holds a degree in Business Administration from Universidade Presbiteriana Mackenzie, an MBA in Business Management from Fundação Getulio Vargas (FGV) and the certifications C-Pro R (ANBIMA) and PQO Client Registration (ANCORD).
+            </p>
+        "
     ],
+
     'advisor1' => [
         'name' => 'Maurício Moulon',
-        'subtitle' => 'Conselheiro',
-        'text' => '
+        'subtitle' => 'Board Member',
+        'text' => "
             <p>
-                Graduado em Administração de Empresas pela Fundação Getúlio Vargas e com título de mestre (strictu senso) em Economia pela mesma instituição. Certificado CGA pela Anbima. Possui 35 anos de experiência no mercado financeiro, tendo passado por instituições como Bradesco e Santander. No Bradesco chefiou a área de Análise e Pesquisa Macroeconômica e no Santander desempenhou a função de economista-chefe. Nos últimos 6 anos tem atuado como consultor na Pezco Economics se dedicado ao Conselho Consultivo da Logus Capital..    
+                He holds a Bachelor's degree in Business Administration from Fundação Getúlio Vargas and a Master's degree (strictu senso) in Economics from the same institution. He is CGA certified by Anbima. With 35 years of experience in the financial market, he has held prominent positions at leading institutions such as Bradesco and Santander. At Bradesco, he served as Head of Macroeconomic Analysis and Research, while at Santander he held the position of Chief Economist. Over the past six years, he has been engaged as a consultant at Pezco Economics, concurrently dedicating himself to the Advisory Board of Logus Capital. 
             </p>
             
             <p>
-                Mauricio é Chair do Conselho Logus Capital.
+                Mauricio is Member and chairs the Board Logus Capital.
             </p>
-        ',
+        ",
     ],
+
     'advisor2' => [
         'name' => 'Reinaldo Le Grazie',
-        'subtitle' => 'Conselheiro',
+        'subtitle' => 'Board Member',
         'text' => '
             <p>
-                Graduado em Administração Pública pela Fundação Getúlio Vargas SP e extensão pelo INSEAD. Trabalhou no Banco Central do Brasil, como Diretor de Política Monetária. Antes disso foi CEO da Bradesco Asset Management, Membro do Conselho de Administração da CETIP e Vice-Presidente da ANBIMA.
+                He holds a degree in Public Administration from Fundação Getúlio Vargas SP and an extension from INSEAD. He worked at the Central Bank of Brazil as Director of Monetary Policy. Prior to that, he served as CEO of Bradesco Asset Management, Member of the Board of Directors of CETIP and Vice-President of ANBIMA.
             </p>
 
             <p>
-                É membro do Conselho do NEASF – Núcleo de Estudos do Sistema Financeiro da Fundação Getulio Vargas – RJ. Foi consultor em projetos de Mercado Secundário de Títulos Soberanos e Privados, no Banco Interamericano de Desenvolvimento – BID, como também Diretor Executivo de Tesouraria, Lloyds Bank PLC.
+                He is a member of the Board of NEASF – Center for Financial System Studies at Fundação Getúlio Vargas – RJ. He has served as a consultant on Secondary Market projects for Sovereign and Private Securities at the Inter-American Development Bank – IDB, as well as Executive Director of Treasury at Lloyds Bank PLC.
             </p>
 
             <p>
-                Reinaldo é Membro do Conselho para Análise e Cobertura de Mercados na Logus Capital.
+                Reinaldo is Board Member for Market Analysis and Coverage at Logus Capital.
             </p>
         ',
     ],
+
     'advisor3' => [
         'name' => 'Rosangela dos Santos',
-        'subtitle' => 'Conselheira',
+        'subtitle' => 'Board Member',
         'text' => '
             <p>
-                Executiva e conselheira independente com mais de 35 anos de experiência nos setores financeiro e de real estate, com sólida atuação em posições C-level em gestão de riscos, finanças e governança corporativa no Brasil e na América Latina.
+                Executive and independent board member with over 35 years of experience in the financial and real estate sectors, with a solid track record in C-level positions in risk management, finance and corporate governance in Brazil and Latin America.
             </p>
 
             <p>
-                Atualmente, é membro independente do Comitê de Auditoria, Riscos e Finanças da Cyrela Brazil Realty S.A., companhia listada no Novo Mercado da B3, e do Comitê de Auditoria do Deutsche Bank no Brasil.
+                She is currently an independent member of the Audit, Risk and Finance Committee of Cyrela Brazil Realty S.A., a company listed on the Novo Mercado of B3, and of the Audit Committee of Deutsche Bank in Brazil.
             </p>
 
             <p>
-                Foi conselheira independente e coordenadora do comitê de auditoria e riscos da Maestro Locadora de Veículos S.A.. Ao longo da carreira, atuou em instituições como JPMorgan Chase, Standard Bank Group, Banco Inbursa e PwC.
+                She served as an independent board member and coordinator of the audit and risk committee of Maestro Locadora de Veículos S.A. Throughout her career, she has held positions at institutions such as JPMorgan Chase, Standard Bank Group, Banco Inbursa and PwC.
             </p>
 
             <p>
-                É membro do IBGC e associada ao IBEF-SP, com atuação na liderança de estudos técnicos no mercado financeiro e de capitais.
+                She is a member of IBGC and an associate of IBEF-SP, with a leading role in technical studies in the financial and capital markets.
             </p>
 
             <p>
-                Bacharel em Administração e Ciências Contábeis pela Pontifícia Universidade Católica de São Paulo, possui MBA em Governança Corporativa, com módulos internacionais em Yale, Columbia e Nova SBE, e certificações do IBGC e GoNew.
+                She holds a bachelor’s degree in business administration and accounting sciences from Pontifícia Universidade Católica de São Paulo, an MBA in Corporate Governance with international modules at Yale, Columbia and Nova SBE, and certifications from IBGC and GoNew.
             </p>
 
             <p>
-                Rosangela é Membro do Conselho para Riscos na Logus Capital.
+                Rosangela is Board Member for Risk at Logus Capital.
             </p>
         ',
     ],
+
     'advisor4' => [
         'name' => 'Fátima Teixeira',
-        'subtitle' => 'Conselheira',
+        'subtitle' => 'Board Member',
         'text' => '
             <p>
                 Graduada em Economia pela PUC-SP e Mestre em Psicologia Educacional pela mesma instituição, Fátima Teixeira possui certificação em Psicologia do Planejamento Financeiro. Atua há mais de vinte anos na formação e desenvolvimento de planejadores financeiros e líderes do mercado financeiro no Brasil.
@@ -183,6 +198,7 @@ return [
             </p>
         ',
     ],
+    
     'saiba' => [
         'title' => 'Descubra as',
         'subtitle' => 'perguntas frequentes',

@@ -62,6 +62,9 @@ return [
             </p>
         ',
     ],
+    
+    'link-2' => 'Leia menos',
+
     'text' => '
         Por trás dessa proposta <strong>existe uma estrutura integrada,</strong> que combina tecnologia, consolidação patrimonial, inteligência de mercado, network institucional e apoio especializado, permitindo <strong>transformar visão em execução com consistência.</strong>
     ',

@@ -3,33 +3,32 @@
 return [
     'header' => [
         'link_0' => 'Home',
-        'link_1' => 'Quem Somos',
-        'link_2' => 'Diferenciais',
-        'link_3' => 'Atuação',
-        'link_4' => 'Decisão',
-        'link_5' => 'Visão',
-        'link_6' => 'Time',
+        'link_1' => 'Who we are',
+        'link_2' => 'Our edge',
+        'link_3' => 'What we do',
+        'link_4' => 'Decisions',
+        'link_5' => 'Vision',
+        'link_6' => 'Team ',
         'link_7' => 'FAQ',
-        'link_8' => 'Contato',
-        'link_9' => 'Cliente',
-        'link_10' => 'Parceiro'
+        'link_8' => 'Contact',
+        'link_9' => 'Client',
+        'link_10' => 'Advisor'
     ],
     'footer' => [
-        'title' => 'Navegue',
+        'title' => 'Navigation',
     ],
     'contato' => [
-        'title' => 'Contato',
+        'title' => 'Contact',
         'phone_1' => '+55 11 3071-4449',
         'whats_1' => '+55 11 3071-4449',
         'endereco' => '
-            Rua Bandeira Paulista, 726 <br>
-            Conjunto 111 <br>
-            The Flag Corporate Center <br> 
-            São Paulo/SP <br>
-            CEP: 04532-002
+            726 Bandeira Paulista St, Suite 111 <br>
+            The Flag Corporate Center <br>
+            São Paulo - SP <br>
+            04532-002 - Brazil
         ',
     ],
     'siga' => [
-        'title' => 'Siga-nos',
+        'title' => 'Follow us',
     ]
 ];

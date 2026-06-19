@@ -1,48 +1,68 @@
 <?php
 
 return [
-    'banner' => 'Redefinindo a forma <br> como patrimônios <br> são geridos',
-    'title1' => 'Propósito da Logus',
-    'subtitle1' => 'Da inquietação com o mercado <br> nasceu uma forma diferente de atuar',
+    'banner' => 'Redefining how <br> wealth is managed',
+    
+    'title1' => 'WHO WE ARE',
+    'subtitle1' => 'A discomfort with the market gave rise to a <br> fundamentally different way of operating.',
+
     'text1' => '
-        A Logus Capital nasceu da convergência entre uma inquietação legítima e uma visão construída ao longo de uma trajetória internacional de mais de 20 anos nos principais centros financeiros globais.
+        Logus Capital was born from the convergence of a genuine concern and a perspective shaped by more than 20 years of international experience across the world’s leading financial centres.
     ',
     'text2' => '
-        Fundada em 2017, a empresa surge com uma proposta clara desde a sua origem: atuar de forma independente na tomada de decisões, sem vínculos com produtos ou instituições, em contraste com o modelo tradicional no mercado.
+        Founded in 2017, the firm was established with a clear principle from the outset: to operate independently in decision-making, free from ties to products or institutions, in contrast to prevailing market structures.
     ',
-    'link1' => 'Descubra mais',
+    'link1' => 'Read more',
+    
     'title2' => 'Nossos diferenciais',
-    'subtitle2' => 'Propósito que se traduz em <br> excelência no atendimento',
-    'diferenciais1' => 'Propósito que se traduz em <br> excelência no atendimento',
-    'diferenciais2' => 'Inteligência institucional: <br> o fim da complexidade na <br> gestão de patrimônio',
-    'diferenciais3' => 'Ecossistema Global de <br> Ivestimentos e Network',
-    'diferenciais4' => 'Independência que se traduz <br> em paz de espírito',
-    'title3' => 'Atuação',
-    'subtitle3' => 'Somos resposáveis por transformar <br> complexidade financeira em decisões',
+
+    'subtitle2' => '
+        Experience shapes perspective.<br>
+        Perspective shapes decisions.<br>
+        Decisions shape long-term journeys.
+    ',
+
+    'diferenciais1' => 'Purpose Translated into <br> Excellence in Service.',
+    'diferenciais2' => 'Institutional Intelligence: <br> The End of Complexity in <br> Wealth Management',
+    'diferenciais3' => 'Global Investment <br> Ecosystem & Network',
+    'diferenciais4' => 'Independence Translated <br> into Peace of Mind',
+
+    'title3' => 'WHAT WE DO',
+    'subtitle3' => 'We transform financial complexity into <br> clear, aligned decisions.',
+
     'text3' => '
-        Atuamos como <strong>o ponto central de decisão financeira dos nossos clientes, combinando uma visão global de mercados com uma base própria de tecnologia, inteligência e parcerias institucionais.</strong> Integramos análises, filtramos o ruído e asseguramos que cada escolha seja feita com critério, independência e total aderência aos seus objetivos.
+        <strong>Logus acts as the central point of financial decision-making, combining a global market perspective with proprietary technology, analytical insight and institutional partnerships.</strong> We integrate information, filter noise and ensure that each decision is made with discipline, independence and full alignment with the client’s objectives.
     ',
     'text4' => '
-        Atuamos como parceiro patrimonial ao longo do tempo, como uma extensão da sua própria capacidade de decisão, coordenando interações com bancos e instituições financeiras e garantindo consistência na implementação de cada decisão.
+        Over time, we act as a natural extension of our clients’ decision-making capacity — coordinating interactions with financial institutions and ensuring consistency in execution.
     ',
+
     'link2' => 'O que isso signigica na prática?',
-    'title4' => 'Decisões',
-    'subtitle4' => 'Nosso trabalho não é reagir ao mercado. É <br> tomar decisões melhores dentro dele.',
+
+    'title4' => 'DECISIONS',
+
+    'subtitle4' => 'Our role is not to react to the market, <br> but to make better decisions within it.',
+
     'text5' => '
-        Nosso foco é a qualidade das decisões ao longo do tempo, utilizando um sistema disciplinado que une tecnologia, experiência internacional e suporte especializado para gerar valor real na gestão patrimonial.
+        Our focus is on the quality of decisions over time — through a disciplined approach that combines technology, international expertise, and specialized support to deliver real value in wealth management.
     ',
+
     'link3' => 'Conheça como tomamos decisões de investimento',
-    'title5' => 'Visão',
-    'subtitle5' => 'Uma visão que cresce com propósito',
+
+    'title5' => 'VISION',
+
+    'subtitle5' => 'A model built for the future.',
+
     'text6' => '
-        A Logus parte da convicção de que o futuro da gestão patrimonial será definido por modelos verdadeiramente independentes, transparentes e integralmente alinhados ao cliente.
+        Logus is grounded in the conviction that wealth management will evolve towards independent, transparent and fully aligned models.
     ',
     'text7' => '
-        Desde 2017, expandimos nossa atuação levando esse padrão a um número crescente de famílias e regiões, sempre preservando os princípios que sustentam nossa atuação: profundidade analítica, consistência na tomada de decisão e excelência na execução, dentro de uma estrutura de boutique.
+        Since 2017, we have expanded this approach to a growing number of families and regions with discipline, maintaining analytical depth, consistency in decision-making and excellence in execution.
     ',
     'text8' => '
-        Crescemos de forma disciplinada para consolidar esse modelo, e para reunir profissionais e clientes que reconhecem, nesse padrão, a evolução natural do mercado.
+        We continue to develop this model alongside clients and professionals who recognise it as the natural evolution of the industry.
     ',
-    'link4' => 'Para profissionais',
-    'sublink4' => 'Uma forma diferente de atuar',
+
+    'link4' => 'For Professionals',
+    'sublink4' => 'A different way to operate',
 ];

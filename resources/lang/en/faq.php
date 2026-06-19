@@ -1,328 +1,317 @@
 <?php
 
 return [
-    'title1' => 'Perguntas Frequentes',
+    'title1' => 'FREQUENTLY ASKED QUESTIONS',
+
     'subtitle1' => '
-        Deixamos aqui as perguntas mais comuns de nossos clientes, <br>
-        talvez vocês compartilhem da mesma dúvida. Ficaremos <br>
-        felizes em atendê-los caso tenham outras dúvidas.
+        We have outlined below the most common questions from our clients. 
+        <br>
+        You may share similar considerations — and we would 
+        <br>
+        be pleased to assist further should additional questions arise.
     ',
-    'section1' => 'Modelo e independência',
-    'section2' => 'Como atuamos',
-    'section3' => 'Estrutura e segurança',
-    'section4' => 'Investimentos e processo',
-    'section5' => 'Perfil de cliente',
-    'section6' => 'Custos e eficiência',
+
+    'section1' => 'Model & Independence',
+    'section2' => 'How We Operate',
+    'section3' => 'Structure & Security',
+    'section4' => 'Investments & Process',
+    'section5' => 'Client Profile',
+    'section6' => 'Costs & Efficiency',
 
     'questions1' => [
         'title1' => '
-            A Logus possui vínculo com bancos ou instituições financeiras?    
+            Is Logus affiliated with banks or financial institutions?   
         ',
         'answer1' => '
             <p>
-                Não.
+                No.
             </p>
 
             <p>
-                A Logus atua de forma totalmente independente, sem vínculos comerciais com bancos, corretoras ou gestores que possam influenciar suas recomendações.
+                Logus operates fully independently, without commercial ties to banks, brokers or asset managers that could influence its recommendations.
             </p>
 
             <p>
-                Nosso modelo foi desenhado justamente para eliminar conflitos estruturais comuns no mercado financeiro, permitindo que cada decisão seja tomada exclusivamente com base no que faz mais sentido para o cliente.
+                Our model has been deliberately structured to eliminate common conflicts found in the financial industry, ensuring that each decision is taken solely in the client’s interest.
             </p>
         ',
         'title2' => '
-            Como a Logus é remunerada?    
+            How is Logus remunerated?    
         ',
         'answer2' => '
             <p>
-                Nossa remuneração é transparente e alinhada ao cliente.
+                Our remuneration is transparent and aligned with the client.
             </p>
 
             <p>
-                Não recebemos comissões, rebates ou incentivos pela distribuição de produtos financeiros. Isso elimina vieses e garante que nossas recomendações sejam sempre isentas.
+                We do not receive commissions, rebates or distribution incentives. This removes bias and ensures that our recommendations remain independent.
             </p>
 
             <p>
-               Esse modelo também contribui para uma maior eficiência na estrutura de custos e melhor resultado líquido ao longo do tempo. 
+               This structure also contributes to greater cost efficiency and improved net outcomes over time. 
             </p>
         ',
         'title3' => '
-            O que significa, na prática, atuação sem conflito de interesse?   
+            What does “conflict-free” advice mean in practice?   
         ',
         'answer3' => '
             <p>
-                Significa que não há incentivo externo influenciando decisões.
+                It means that no external incentives influence decisions.
             </p>
 
             <p>
-                Não temos produtos próprios para vender, metas comerciais ou acordos que direcionem recomendações. Isso permite que atuemos como um filtro real do mercado — analisando, selecionando e estruturando soluções com total liberdade e responsabilidade.
+                We do not offer proprietary products, operate under commercial targets or maintain agreements that direct recommendations. This allows us to act as a true filter of the market — assessing, selecting and structuring solutions with independence and responsibility.
             </p>
         ',
     ],
 
     'questions2' => [
         'title1' => '
-            O que a Logus faz na prática?   
+            What does Logus do in practice?   
         ',
         'answer1' => '
             <p>
-                A Logus atua como o ponto central de decisão financeira dos seus clientes, exercendo o papel de parceira patrimonial.
+                Logus acts as the central point of financial decision-making, assuming the role of a long-term wealth partner.
             </p>
 
             <p>
-                Coordenamos, estruturamos e acompanhamos todas as decisões relevantes relacionadas ao patrimônio, integrando informações, filtrando o mercado e garantindo que cada escolha seja feita com clareza e critério.
+                We coordinate, structure and oversee all relevant decisions related to the client’s wealth — integrating information, filtering the market and ensuring that each decision is made with clarity and discipline.
             </p>
         ',
         'title2' => '
-            A Logus toma decisões ou apenas recomenda investimentos?   
+            Does Logus make decisions or simply provide recommendations?  
         ',
         'answer2' => '
             <p>
-                Nosso papel vai além da recomendação.
+                Our role extends beyond recommendation.
             </p>
 
             <p>
-                Atuamos como uma extensão da capacidade de decisão de nossos clientes — trazendo análise, organização e consistência ao processo, como um verdadeiro parceiro patrimonial, apoiando em suas decisões de investimento para atingir seus objetivos de longo prazo.
+                We act as an extension of the client’s decision-making capacity — bringing structure, analysis and consistency to the process, supporting decisions aligned with long-term objectives.
             </p>
         ',
         'title3' => '
-            Qual é o papel da Logus no dia a dia do cliente e no relacionamento com os bancos e corretoras?  
+            What is Logus’ role in the client’s day-to-day relationship with banks and platforms?  
         ',
         'answer3' => '
             <p>
-                A Logus atua como o principal ponto de interface entre o cliente e o sistema financeiro, exercendo o papel de parceiro patrimonial.
+                Logus serves as the primary interface between the client and the financial system, acting as a dedicated wealth partner.
             </p>
 
             <p>
-                Coordenamos a relação com bancos, gestores e instituições, analisamos propostas, acompanhamos investimentos e organizamos as decisões de forma contínua.
+                We coordinate relationships with banks, managers and institutions, assess proposals, monitor investments and organise decisions on an ongoing basis.
             </p>
 
             <p>
-                O cliente deixa de lidar com abordagens comerciais e passa a ter um processo estruturado de decisão, onde cada interação com o mercado é conduzida com critério e alinhamento.
+                The client moves away from fragmented, commercially driven interactions towards a structured and coherent decision-making process.
             </p>
         ',
         'title4' => '
-            Com que frequência a Logus interage com o cliente?  
+            How frequently does Logus interact with clients?  
         ',
         'answer4' => '
             <p>
-                A Logus combina disciplina e proximidade na relação com o cliente.
+                Logus combines discipline with proximity in its client relationships.
             </p>
 
             <p>
-                Realizamos reuniões periódicas estruturadas, baseadas em relatórios e análises próprias, garantindo acompanhamento consistente do patrimônio. Ao mesmo tempo, mantemos uma relação próxima no dia a dia, viabilizada por um número restrito de clientes por sócio.
+                We hold structured periodic reviews, supported by proprietary reports and analysis, ensuring consistent oversight of the client’s wealth. At the same time, we maintain close day-to-day contact, enabled by a deliberately selective client base per partner.
             </p>
 
             <p>
-                Em momentos de maior volatilidade, atuamos de forma proativa — antecipando cenários e orientando decisões.
+                In periods of market volatility, we act proactively — anticipating developments and guiding decisions.
             </p>
 
             <p>
-                Mais do que frequência, o que define a relação é a presença nos momentos certos.
+                More than frequency, what defines the relationship is presence at the right moments.
             </p>
         ',
     ],
 
     'questions3' => [
         'title1' => '
-            Onde ficam os recursos do cliente?
+            Where are client assets held?
         ',
         'answer1' => '
             <p>
-                Os recursos permanecem sempre em nome do cliente, custodiados em instituições financeiras de primeira linha, no Brasil ou no exterior.
+                Assets remain at all times in the client’s name, under custody with leading financial institutions in Brazil or abroad.
             </p>
 
             <p>
-                A Logus não possui custódia nem movimenta recursos diretamente.
-            </p>
-
-            <p>
-                Nosso papel é estruturar, acompanhar e orientar — garantindo transparência e segurança em toda a estrutura.
+                Logus does not provide custody nor directly control client assets. Our role is to structure, oversee and advise — ensuring transparency and security across the entire framework.
             </p>
         ',
         'title2' => '
-            Quem executa as operações e implementa os investimentos?  
+            Who executes transactions and implements investments?  
         ',
         'answer2' => '
             <p>
-                A execução das operações é realizada pelas instituições financeiras onde os recursos estão custodiados, sempre em nome do cliente.
+                Execution is carried out by the financial institutions where assets are held, always in the client’s name.
             </p>
 
             <p>
-                A Logus estrutura as decisões, coordena o processo e acompanha a implementação, garantindo que tudo seja executado conforme planejado.
+                Logus structures decisions, coordinates execution and oversees implementation, ensuring alignment with the agreed strategy.
             </p>
 
             <p>
-                Essa separação entre decisão, execução e custódia traz mais segurança, transparência e controle.
+                This separation between decision-making, execution and custody enhances transparency, control and security.
             </p>
         ',
         'title3' => '
-            Como a Logus define onde o patrimônio deve ser custodiado?
+            How does Logus determine where assets should be custodied?
         ',
         'answer3' => '
             <p>
-                A escolha da jurisdição e da instituição financeira faz parte do nosso processo de decisão.
+                The choice of jurisdiction and financial institution is part of our decision-making process.
             </p>
 
             <p>
-                Avaliamos perfil, objetivos e estratégia para definir a estrutura mais adequada, considerando eficiência, qualidade de execução e custos. Essa decisão antecede a construção do portfólio e impacta diretamente os resultados ao longo do tempo.
+                We assess the client’s profile, objectives and strategy to define the most appropriate structure, considering efficiency, execution quality and costs. This decision precedes portfolio construction and has a direct impact on long-term outcomes.
             </p>
 
             <p>
-                Contamos com experiência prática nos principais mercados internacionais para identificar diferenças estruturais nem sempre evidentes ao investidor.
+                Our approach is supported by practical experience across global markets, allowing us to identify structural differences that may not be immediately evident to the investor.
             </p>
         ',
         'title4' => '
-            Qual é o risco operacional do modelo?
+            What is the operational risk of the model?
         ',
         'answer4' => '
             <p>
-                O modelo foi estruturado para mitigar riscos operacionais de forma consistente.
+                The model is designed to mitigate operational risks in a consistent manner.
             </p>
 
             <p>
-                Os ativos permanecem sob custódia em instituições independentes e em nome do cliente, garantindo uma separação clara entre gestão e custódia.
+                Assets remain under custody with independent institutions and in the client’s name, ensuring a clear separation between management and custody.
             </p>
 
             <p>
-                Além disso, a Logus opera com processos estruturados, monitoramento contínuo e transparência, assegurando controle, visibilidade e proteção do patrimônio.
+                Logus operates with structured processes, continuous monitoring and transparency, ensuring control, visibility and protection of the client’s wealth.
             </p>
         ',
         'title5' => '
-            A Logus é regulada e supervisionada por algum órgão?
+            Is Logus regulated?
         ',
         'answer5' => '
             <p>
-                Sim.
+                Yes.
             </p>
 
             <p>
-                A Logus Capital é registrada como Consultoria de Investimentos junto à Comissão de Valores Mobiliários (CVM), seguindo todas as normas e padrões regulatórios aplicáveis ao setor.
+                Logus Capital is registered as an Investment Advisory firm with the Brazilian Securities and Exchange Commission (CVM), operating in full compliance with applicable regulations.
             </p>
 
             <p>
-                Atuamos com transparência e independência total na tomada de decisão, dentro de um ambiente supervisionado e disciplinado, oferecendo segurança institucional.
+                We act with independence and transparency within a supervised and disciplined regulatory framework.
             </p>
         ',
     ],
 
     'questions4' => [
         'title1' => '
-            Como a Logus toma decisões de investimento?  
+            How does Logus make investment decisions?  
         ',
         'answer1' => '
             <p>
-                As decisões seguem um processo estruturado que começa com uma visão completa do patrimônio, passa pela definição da estrutura adequada, filtragem do mercado e construção de portfólio, e se mantém com acompanhamento contínuo.
+                Investment decisions follow a structured process that begins with a comprehensive view of the client’s wealth, moves through appropriate structuring, market filtering and portfolio construction, and is maintained through continuous monitoring.
             </p>
 
             <p>
-                Mais do que reagir a oportunidades pontuais, buscamos consistência e coerência ao longo do tempo.
+                Rather than reacting to isolated opportunities, we prioritise consistency and coherence over time.
             </p>
         ',
         'title2' => '
-            A Logus trabalha com produtos específicos?   
+            Does Logus work with specific products?  
         ',
         'answer2' => '
             <p>
-                Não.
+                No.
             </p>
 
             <p>
-                Não trabalhamos com produtos pré-definidos ou listas fechadas.
-            </p>
-
-            <p>
-                Selecionamos e estruturamos investimentos de forma independente, com base em critérios técnicos e no contexto específico de cada cliente.
+                We do not operate with predefined product lists. Investments are selected and structured independently, based on technical criteria and the specific context of each client.
             </p>
         ',
         'title3' => '
-            Vocês trabalham com investimentos no exterior? 
+            Do you work with international investments?
         ',
         'answer3' => '
             <p>
-                Sim.
+                Yes.
             </p>
 
             <p>
-                A atuação global faz parte do DNA da Logus.
+                A global approach is intrinsic to the Logus model. It is built on direct experience across leading financial centres, including investment banking in London and private banking at the highest level in Zurich.
             </p>
 
             <p>
-                Nosso modelo foi construído a partir de experiência direta nos principais centros financeiros do mundo, com décadas de atuação em instituições de referência — incluindo investment banking em Londres e private banking no mais alto nível em Zurique.
+                We understand how different markets operate — their structures, cost dynamics, execution frameworks and relative advantages.
             </p>
-
-            <p>
-                Entendemos como diferentes mercados operam: suas estruturas, seus custos, suas regras de execução e suas vantagens relativas.
-            </p>
-        ',
-        'title4' => '
-            Com que frequência a Logus interage com o cliente?  
         ',
     ],
 
     'questions5' => [
         'title1' => '
-            Para quem a Logus é indicada?  
+            Who is Logus best suited for? 
         ',
         'answer1' => '
             <p>
-                A Logus é indicada para investidores que buscam uma gestão patrimonial mais estruturada, independente e alinhada aos seus interesses, e que valorizam a presença de um parceiro patrimonial na condução de decisões relevantes.
+                Logus is designed for investors seeking a more structured, independent and aligned approach to wealth management, and who value the presence of a dedicated wealth partner in guiding key decisions.
             </p>
 
             <p>
-                Em geral, são clientes que já acumularam patrimônio relevante e desejam maior clareza, controle e qualidade nas decisões financeiras.
+                Typically, these are clients who have already accumulated significant wealth and seek greater clarity, control and quality in financial decision-making.
             </p>
         ',
         'title2' => '
-            Quando a Logus pode não ser a melhor solução?   
+            When might Logus not be the right fit? 
         ',
         'answer2' => '
             <p>
-                Quando o cliente busca apenas execução pontual de investimentos ou uma relação baseada exclusivamente em produtos.
+                When the objective is purely transactional execution or a product-driven relationship.
             </p>
 
             <p>
-                Nosso modelo é mais adequado para quem valoriza estrutura, acompanhamento contínuo e decisões de longo prazo.
+                Our model is better suited for those who value structure, ongoing engagement and long-term decision-making.
             </p>
         ',
     ],
 
     'questions6' => [
         'title1' => '
-            A estrutura da Logus é mais cara do que a de bancos ou corretoras? 
+            Is Logus more expensive than banks or platforms?
         ',
         'answer1' => '
             <p>
-                Não. Ela costuma ser mais eficiente para o cliente desde o início.
+                No — in most cases, it is more efficient from the outset.
             </p>
 
             <p>
-                A Logus combina independência na tomada de decisão com acesso a condições institucionais no Brasil e no exterior. Isso significa que nossos clientes frequentemente se beneficiam de estruturas de custo, execução e acesso mais vantajosas do que as normalmente oferecidas em relações tradicionais com bancos, plataformas ou intermediários.
+                Logus combines independent decision-making with institutional access in Brazil and internationally. Clients benefit from more favourable cost structures, execution conditions and access compared to traditional relationships.
             </p>
 
             <p>
-                Além disso, tratamos com transparência integral benefícios econômicos que, no modelo convencional, costumam permanecer dentro do sistema — como rebates e outras condições comerciais — assegurando que esses ganhos sejam revertidos em favor do cliente.
+                We also ensure full transparency regarding economic benefits — such as rebates and commercial terms — which are typically retained within the system, ensuring these advantages are passed on the client.
             </p>
 
             <p>
-                Essa lógica tem impacto direto na eficiência líquida do patrimônio.
+                This has a direct impact on net efficiency over time.
             </p>
         ',
         'title2' => '
-            Como funciona o início da relação com a Logus?   
+            How does the relationship with Logus begin?   
         ',
         'answer2' => '
             <p>
-                O relacionamento começa com um processo estruturado de entendimento do cliente e construção da relação com seu parceiro patrimonial.
+                The relationship begins with a structured process of understanding the client and building the connection with their dedicated wealth partner.
             </p>
 
             <p>
-                Avaliamos patrimônio, objetivos e contexto para definir como a Logus pode contribuir de forma efetiva.
+                We assess wealth, objectives and context to determine how Logus can contribute effectively.
             </p>
 
             <p>
-                A partir daí, estruturamos a atuação de forma gradual e coordenada, envolvendo organização do patrimônio, definição de estrutura e construção de portfólio, sempre respeitando o tempo e as prioridades do cliente.
+                From there, we structure the engagement in a gradual and coordinated manner — encompassing wealth organisation, structuring and portfolio construction — always respecting the client’s priorities and timing.
             </p>
         ',
     ],

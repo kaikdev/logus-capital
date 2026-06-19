@@ -1,70 +1,93 @@
 <?php
 
 return [
-    'title1' => 'Diferenciais',
+    'title1' => 'OUR EDGE',
     'subtitle1' => '
-        Propósito que se traduz em<br>
-        excelência no atendimento
+        Experience shapes perspective.<br>
+        Perspective shapes decisions.<br>
+        Decisions shape long-term journeys.
     ',
+
     'item1' => [
-        'title' => 'Propósito que se traduz em excelência no atendimento.',
-        'subtitle' => '<strong>Cultura de dono,</strong> decisões conscientes e relações genuínas: na Logus, <span>performance e cuidado caminham juntos.</span>',
-        'link' => 'Leia mais',
-        'text' => '
+        'title' => 'Purpose Translated into Excellence in Service.',
+
+        'subtitle' => '
+            <strong>Ownership mindset,</strong> conscious decisions, and genuine relationships: at Logus, <span>performance and care go hand in hand.</span>
+        ',
+
+        'link' => 'Read more',
+
+        'text' => "
             <p>
-                Na Logus, o diferencial nasce de dentro para fora. Nossa estrutura foi desenhada para que os sócios atuem com a mentalidade de dono, unidos por um propósito compartilhado e pela responsabilidade direta sobre o impacto na vida de cada cliente. Esse alinhamento sustenta um ecossistema onde alta performance e bem-estar coexistem, resultando em decisões conscientes e uma entrega que transcende a técnica: um cuidado humano, responsável e consistente. 
+                At Logus, our distinction runs deeper than structure — it is embedded in our culture. Our firm is built so that partners operate with an ownership mindset, united by a shared purpose and a direct sense of accountability for the impact we have on each client's life. This alignment fosters an ecosystem where high performance and genuine care coexist, giving rise to conscious, well-considered decisions and a standard of delivery that transcends technical expertise: a standard of care that is human, responsible, and enduring. 
             </p>
             
             <p>
-                Esse modelo assegura um acompanhamento altamente personalizado, conduzido por profissionais seniores que atuam como parceiros patrimoniais de um número restrito de famílias. Mais do que gerir patrimônio, a Logus constrói relações duradouras pautadas pela discrição e pelo envolvimento genuíno, garantindo uma compreensão integral das necessidades financeiras e sucessórias de cada cliente.
+                This model enables highly personalized experience, led by senior professionals who serve as true wealth partners to a carefully selected number of families. Beyond managing wealth, Logus cultivates lasting relationships built on discretion, trust, and genuine involvement — ensuring a thorough and nuanced understanding of each client's financial and succession needs
             </p>
-        ',
+        ",
     ],
+
     'item2' => [
-        'title' => 'Inteligência institucional: o fim da complexidade na gestão de patrimônio',
-        'subtitle' => 'Decisões mais inteligentes começam com uma visão holística do patrimônio.',
-        'link' => 'Leia mais',
+        'title' => 'Institutional Intelligence: The End of Complexity in Wealth Management',
+
+        'subtitle' => 'Smarter decisions begin with a holistic view of wealth.',
+
+        'link' => 'Read more',
+
         'text' => '
             <p>
-                A Logus integra tecnologia proprietária e inteligência de gestão para oferecer uma visão consolidada e em tempo real do patrimônio global, transformando dados complexos em decisões estratégicas por meio de um portal exclusivo e aplicativo dedicado. Esse diferencial tecnológico é potencializado por um processo de investimento rigoroso e institucionalizado, desenvolvidos a partir de experiência institucional em mercados internacionais e adaptados à realidade dos clientes no Brasil, que priorizam a descorrelação e a otimização de risco-retorno. Ao substituir a dependência de talentos isolados por modelos analíticos avançados, garantimos transparência, consistência e a geração de valor perene para cada cliente. 
+                Logus integrates proprietary technology and management intelligence to deliver a consolidated, real-time view of global wealth — transforming complex data into strategic decisions through an exclusive client portal and dedicated application. This technological edge is further strengthened by a rigorous and institutionalized investment process, developed from deep experience in international markets and carefully adapted to the reality of clients in Brazil, with a focus on decorrelation and risk-return optimization. By moving beyond reliance on isolated talent and embracing advanced analytical models, we ensure transparency, consistency, and the enduring generation of value for every client.
             </p>
         ',
     ],
+
     'item3' => [
-        'title' => 'Ecossistema Global de Investimentos e Network',
-        'subtitle' => 'Onde a experiência internacional encontra o acesso direto às maiores instituições, <strong>garantindo uma diversificação sem fronteiras e sem conflitos.</strong>',
-        'link' => 'Leia mais',
-        'text' => '
+        'title' => 'Global Investment Ecosystem & Network',
+
+        'subtitle' => "Where international experience meets direct access to the world's leading institutions — <strong>ensuring diversification without borders and without conflicts.</strong>",
+
+        'link' => 'Read more',
+
+        'text' => "
             <p>
-                O diferencial da Logus está na sua capacidade de conectar clientes a um ecossistema global de investimentos com profundidade, acesso e eficiência. Por meio de parcerias estratégicas no Brasil e no exterior, a Logus realiza uma curadoria independente que seleciona oportunidades diferenciadas, com rigor técnico e foco em transparência. Seus acordos institucionais permitem condições significativamente mais competitivas, reduzindo custos de transação e ampliando o acesso a estruturas normalmente disponíveis apenas para investidores institucionais. Essa abordagem é sustentada por uma equipe com sólida experiência internacional, construída a partir de atuação direta em instituições de referência nos principais centros financeiros globais. Essa vivência permite traduzir complexidade em decisões estruturadas, fortalecendo a diversificação e promovendo a preservação e o crescimento sustentável do patrimônio.  
+                Logus's edge lies in its ability to connect clients to a global investment ecosystem with depth, access, and efficiency. Through strategic partnerships in Brazil and abroad, Logus conducts an independent curation process that identifies differentiated opportunities with technical rigor and an unwavering focus on transparency. Its institutional agreements enable significantly more competitive terms, reducing transaction costs and broadening access to structures typically reserved for institutional investors. This approach is underpinned by a team with deep international experience, built through direct engagement with leading institutions across the world's foremost financial centers. Drawing on this background, we transform complexity into structured, purposeful decisions — fostering diversification and the long-term preservation and growth of wealth.  
             </p>
-        ',
+        ",
     ],
+
     'item4' => [
-        'title' => 'Independência que se traduz em paz de espírito',
+        'title' => 'Independence Translated into Peace of Mind',
+
         'subtitle' => '
-            Sem interesses ocultos. Sem vieses.
+            No hidden interests. No bias.
             <br> 
-            <strong>Apenas decisões alinhadas ao cliente.</strong>
+            <strong>Only decisions aligned with the client.</strong>
         ',
-        'link' => 'Leia mais',
+
+        'link' => 'Read more',
+
         'text' => '
             <p>
-                A independência está no centro do modelo da Logus. Não possuímos produtos próprios que possam influenciar nossas recomendações. Atuamos de forma aberta com o mercado, selecionando as melhores alternativas sem restrições e com total isenção. Nosso compromisso com a transparência é integral — incluindo a devolução de benefícios econômicos, como rebates e condições comerciais, que no modelo tradicional permanecem com instituições ou intermediários.  
+                Independence is at the core of the Logus model. We hold no proprietary products that could influence our recommendations. We operate with full market openness — selecting the best available alternatives without restrictions and with complete impartiality. 
             </p>
 
             <p>
-                Isso resulta em uma estrutura mais eficiente, redução de custos implícitos e melhor resultado líquido ao longo do tempo.  
+                Our commitment to transparency is absolute. This includes the restitution of economic benefits — such as rebates and commercial arrangements — which in the traditional model are typically retained by institutions or intermediaries. 
             </p>
 
             <p>
-                Nosso modelo de remuneração é transparente e alinhado ao cliente, evitando incentivos comerciais que distorçam recomendações.     
+                The result is a more efficient structure, lower implicit costs, and stronger net returns over time.     
             </p>
         ',
     ],
-    'text' => '
-        Por trás dessa proposta <strong>existe uma estrutura integrada,</strong> que combina tecnologia, consolidação patrimonial, inteligência de mercado, network institucional e apoio especializado, permitindo <strong>transformar visão em execução com consistência.</strong>
-    ',
+
+    'link-2' => 'Read less',
+
+    'text' => "
+        Our compensation model <strong>is transparent and fully aligned with our clients' interests</strong> — deliberately designed to eliminate commercial incentives that <strong>could compromise the integrity of our advice.</strong>
+    ",
+
     'saiba' => [
         'title' => 'Saiba sobre a nossa',
         'subtitle' => 'Atuação',

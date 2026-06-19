@@ -1,38 +1,52 @@
 <?php
 
 return [
-    'title1' => 'Visão',
-    'subtitle1' => 'Uma visão que cresce com propósito.',
+    'title1' => 'VISION',
+
+    'subtitle1' => 'A model built for the future.',
+
     'text1' => '
-        A Logus parte da convicção de que o futuro da gestão patrimonial será definido por modelos verdadeiramente independentes, transparentes e integralmente alinhados ao cliente.
+        Logus is grounded in the conviction that wealth management will evolve towards independent, transparent and fully aligned models.
     ',
+
     'text2' => '
-        Desde 2017, expandimos nossa atuação levando esse padrão a um número crescente de famílias e regiões, sempre preservando os princípios que sustentam nossa atuação: profundidade analítica, consistência na tomada de decisão e excelência na execução, dentro de uma estrutura de boutique.
+        Since 2017, we have expanded this approach to a growing number of families and regions with discipline, maintaining analytical depth, consistency in decision-making and excellence in execution.
     ',
+
     'text3' => '
-        Crescemos de forma disciplinada para consolidar esse modelo, e para reunir profissionais e clientes que reconhecem, nesse padrão, a evolução natural do mercado.
+        We continue to develop this model alongside clients and professionals who recognise it as the natural evolution of the industry.
     ',
-    'link' => 'Para profissionais',
-    'sublink' => 'Uma forma diferente de atuar',
-    'title-text' => 'Para quem busca independência real',
+
+    'link' => 'For Professionals',
+
+    'sublink' => 'A different way to operate',
+
+    'title-text' => 'For Those seeking real independence',
+
     'text4' => '
-        Existe um momento na trajetória profissional em que a forma de atuar passa a ser tão relevante quanto os resultados alcançados.
+        There comes a point in a professional’s journey when how one operates becomes as relevant as the results achieved.
     ',
+
     'text5' => '
-        A evolução da gestão patrimonial passa por modelos mais independentes, mais estruturados e integralmente alinhados ao cliente, não a venda de produtos e metas enviesadas. 
+        The evolution of wealth management lies in models that are independent, structured and fully aligned with the client — rather than driven by product distribution or commercial incentives.
     ',
+
     'text6' => '
-        A Logus foi construída para esse momento. 
+        Logus was built for that moment.
     ',
+
     'text7' => '
-        Um ambiente que permite atuar com autonomia e responsabilidade, sustentado por um ecossistema que combina tecnologia, inteligência, acesso institucional e uma base integrada de suporte à tomada de decisão.
+        We provide an environment that enables autonomy and responsibility, supported by an integrated ecosystem of technology, intelligence, institutional access and decision support.
     ',
+
     'text8' => '
-        Buscamos profissionais que compartilham dessa visão e que entendem que a excelência na gestão patrimonial exige mais do que acesso, exige estrutura, critério e responsabilidade.
+        We work with professionals who share this perspective and understand that excellence in wealth management requires structure, discipline and long-term responsibility.
     ',
+
     'text9' => '
-        Mais do que uma mudança de plataforma, trata-se de uma evolução na forma de atuar.
+        More than a change of platform, this represents an evolution in how one operates.
     ',
+
     'saiba' => [
         'title' => 'Conheça nosso',
         'subtitle' => 'time',
