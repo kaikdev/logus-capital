@@ -61,7 +61,15 @@
                         </a>
                     </div>
 
-                    <img src="{{ asset('img/home/proposito.webp') }}" alt="Propósito">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/WHIAfmFGbCQ?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&playsinline=1&loop=1&playlist=WHIAfmFGbCQ"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
                 </div>
             </div>
 

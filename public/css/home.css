@@ -111,10 +111,12 @@ main a.link svg {
 main a.link:hover {
     border-color: var(--azul);
 }
-.proposito img {
+.proposito img,
+.proposito iframe {
+    aspect-ratio: 16 / 9;
     width: 100%;
     height: auto;
-    max-width: 600px;
+    max-width: 500px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .diferenciais .item {
@@ -257,7 +259,8 @@ main .visao {
         flex-direction: column;
         gap: 2rem;
     }
-    .proposito img {
+    .proposito img,
+    .proposito iframe {
         max-width: 100%;
     }
 }
