@@ -15,7 +15,7 @@ return [
     'item1' => [
         'title' => 'VISÃO COMPLETA',
 
-        'title2' => 'Toda decisão começa com uma compreensão integral do patrimônio.',
+        'title2' => 'Uma visão completa antes de qualquer decisão',
 
         'text1' => 'Entendimento Integral do patrimônio.',
 
