@@ -38,18 +38,30 @@
                     <div class="polygon-img">
                         <div class="left">
                             <p class="animate" data-animate="top">
-                                <?php echo __('atuacao.word1'); ?>
+                                <a href="#" class="open-modal"
+                                data-title="<?php echo e(__('atuacao.word1')); ?>"
+                                data-text1="<?php echo e(__('atuacao.textw1')); ?>">
+                                    <?php echo __('atuacao.word1'); ?>
 
+                                </a>
                             </p>
 
                             <p class="animate" data-animate="right">
-                                <?php echo __('atuacao.word3'); ?>
+                                <a href="#" class="open-modal"
+                                data-title="<?php echo e(__('atuacao.word3')); ?>"
+                                data-text1="<?php echo e(__('atuacao.textw3')); ?>">
+                                    <?php echo __('atuacao.word3'); ?>
 
+                                </a>
                             </p>
 
                             <p class="animate" data-animate="bottom">
-                                <?php echo __('atuacao.word5'); ?>
+                                <a href="#" class="open-modal"
+                                data-title="<?php echo e(__('atuacao.word5-2')); ?>"
+                                data-text1="<?php echo e(__('atuacao.textw5')); ?>">
+                                    <?php echo __('atuacao.word5'); ?>
 
+                                </a>
                             </p>
                         </div>
 
@@ -59,18 +71,30 @@
 
                         <div class="right">
                             <p class="animate" data-animate="bottom">
-                                <?php echo __('atuacao.word2'); ?>
+                                <a href="#" class="open-modal"
+                                data-title="<?php echo e(__('atuacao.word2')); ?>"
+                                data-text1="<?php echo e(__('atuacao.textw2')); ?>">
+                                    <?php echo __('atuacao.word2'); ?>
 
+                                </a>
                             </p>
 
                             <p class="animate" data-animate="left">
-                                <?php echo __('atuacao.word4'); ?>
+                                <a href="#" class="open-modal"
+                                data-title="<?php echo e(__('atuacao.word4-2')); ?>"
+                                data-text1="<?php echo e(__('atuacao.textw4')); ?>">
+                                    <?php echo __('atuacao.word4'); ?>
 
+                                </a>
                             </p>
 
                             <p class="animate" data-animate="top">
-                                <?php echo __('atuacao.word6'); ?>
+                                <a href="#" class="open-modal"
+                                data-title="<?php echo e(__('atuacao.word6-2')); ?>"
+                                data-text1="<?php echo e(__('atuacao.textw6')); ?>">
+                                    <?php echo __('atuacao.word6'); ?>
 
+                                </a>
                             </p>
                         </div>
                     </div>
@@ -94,6 +118,16 @@
         </div>
     </main>
 
+    <div class="modal-overlay" id="modal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">
+                ×
+            </button>
+
+            <h2 id="modalTitle"></h2>
+            <p id="modalText1"></p>
+        </div>
+    </div>
 
     <?php echo $__env->make('includes.saiba-mais', [
         'title' => __('atuacao.saiba.title'),
@@ -106,5 +140,39 @@
         'subtitle' => __('leads.lead.subtitle'),
         'botao' => __('leads.lead.botao'),
     ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('scripts'); ?>
+    <script>
+        const modal = document.getElementById('modal');
+        const closeModal = document.getElementById('closeModal');
+
+        const modalTitle = document.getElementById('modalTitle');
+        const modalText1 = document.getElementById('modalText1');
+
+        document.querySelectorAll('.open-modal').forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.preventDefault();
+
+                const title = item.getAttribute('data-title');
+                const text1 = item.getAttribute('data-text1');
+
+                modalTitle.textContent = title;
+                modalText1.textContent = text1;
+
+                modal.classList.add('active');
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.classList.remove('active');
+        });
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+            }
+        });
+    </script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.layout', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\kaikg\Downloads\logus-capital\resources\views/pages/atuacao.blade.php ENDPATH**/ ?>

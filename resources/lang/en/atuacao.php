@@ -17,11 +17,37 @@ return [
     ',
 
     'word1' => 'Clarity',
+    'textw1' => '
+        A consolidated view of your wealth.
+    ',
+
     'word2' => 'Coordination',
+    'textw2' => '
+        Seamless integration across jurisdictions.
+    ',
+
     'word3' => 'Control',
-    'word4' => 'Reduced <br> conflicts',
-    'word5' => 'Access',
+    'textw3' => '
+        Decisions grounded in analysis, not commercial incentives.
+    ',
+
+    'word4' => 'Access',
+    'word4-2' => 'Access',
+    'textw4' => '
+        Institutional opportunities under favourable conditions.
+    ',
+
+    /*
+    'word5' => '',
+    'word5-2' => '',
+    'textw5' => '',
+    */
+    
     'word6' => 'Consistency',
+    'word6-2' => 'Consistency',
+    'textw6' => '
+        Disciplined risk-return management over time. 
+    ',
 
     'title-text' => 'Scope with specialisation',
 

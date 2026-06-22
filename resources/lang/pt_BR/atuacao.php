@@ -13,11 +13,39 @@ return [
         Atuamos como parceiro patrimonial ao longo do tempo, como uma extensão da sua própria capacidade de decisão, coordenando interações com bancos e instituições financeiras e garantindo consistência na implementação de cada decisão.
     ',
     'word1' => 'Clareza',
+    'textw1' => '
+        Uma visão consolidada e contínua do patrimônio.
+    ',
+
     'word2' => 'Coordenação',
+    'textw2' => '
+        Integração entre investimentos locais e internacionais. 
+    ',
+
     'word3' => 'Controle',
+    'textw3' => '
+        Decisões fundamentadas em análise, não em estímulos comerciais.
+    ',
+
     'word4' => 'Acesso <br> institucional',
+    'word4-2' => 'Acesso institucional',
+    'textw4' => '
+        Conexão com oportunidades globais em condições diferenciadas.
+    ',
+
     'word5' => 'Governança e <br> alinhamento',
+    'word5-2' => 'Governança e alinhamento',
+    'textw5' => '
+        Falta enviar esse texto.
+    ',
+
     'word6' => 'Eficiência <br> e constância',
+    'word6-2' => 'Eficiência e constância',
+    'textw6' => '
+        Otimização da relação risco-retorno ao longo do tempo.
+    ',
+
+
     'title-text' => 'Abrangência com especialização',
     'text3' => 'Nosso foco é claro: gestão de patrimônio nos mercados financeiros.',
     'text4' => '
