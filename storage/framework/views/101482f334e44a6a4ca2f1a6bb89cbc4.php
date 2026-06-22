@@ -51,7 +51,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="<?php echo __('time.employee2.name'); ?>" loading="lazy">
+                                <img src="<?php echo e(asset('img/time/hilda.webp')); ?>" alt="<?php echo __('time.employee2.name'); ?>" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -105,7 +105,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="<?php echo __('time.employee5.name'); ?>" loading="lazy">
+                                <img src="<?php echo e(asset('img/time/juliana.webp')); ?>" alt="<?php echo __('time.employee5.name'); ?>" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">

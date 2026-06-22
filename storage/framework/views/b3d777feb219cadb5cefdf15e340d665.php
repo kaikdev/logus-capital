@@ -36,38 +36,26 @@
                     </p>
 
                     <div class="area-videos">
-                        <iframe
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/nJ02rvwH2uU?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&playsinline=1&loop=1&playlist=nJ02rvwH2uU"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="autoplay; encrypted-media; picture-in-picture"
-                            referrerpolicy="strict-origin-when-cross-origin"
-                            allowfullscreen>
-                        </iframe>
+                        <div class="video animate" data-animate="top">
+                            <video autoplay muted loop playsinline>
+                                <source src="<?php echo e(asset('video/quem-somos-1.mp4')); ?>" type="video/mp4">
+                                Seu navegador não suporta vídeo HTML5.
+                            </video>
+                        </div>
 
-                        <iframe
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/CpzzDKFQ3YM?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&playsinline=1&loop=1&playlist=CpzzDKFQ3YM"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="autoplay; encrypted-media; picture-in-picture"
-                            referrerpolicy="strict-origin-when-cross-origin"
-                            allowfullscreen>
-                        </iframe>
+                        <div class="video animate" data-animate="top">
+                            <video autoplay muted loop playsinline>
+                                <source src="<?php echo e(asset('video/quem-somos-2.mp4')); ?>" type="video/mp4">
+                                Seu navegador não suporta vídeo HTML5.
+                            </video>
+                        </div>
 
-                        <iframe
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/pu27zPLa6Mc?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&playsinline=1&loop=1&playlist=pu27zPLa6Mc"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="autoplay; encrypted-media; picture-in-picture"
-                            referrerpolicy="strict-origin-when-cross-origin"
-                            allowfullscreen>
-                        </iframe>
+                        <div class="video animate" data-animate="top">
+                            <video autoplay muted loop playsinline>
+                                <source src="<?php echo e(asset('video/quem-somos-3.mp4')); ?>" type="video/mp4">
+                                Seu navegador não suporta vídeo HTML5.
+                            </video>
+                        </div>
                     </div>
 
                     <p class="animate" data-animate="left">

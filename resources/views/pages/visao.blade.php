@@ -50,16 +50,10 @@
                         </div>
 
                         <div class="area-video animate" data-animate="bottom">
-                            <iframe
-                                width="560"
-                                height="315"
-                                src="https://www.youtube.com/embed/dgnwfTGgfN4?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1&playsinline=1&loop=1&playlist=dgnwfTGgfN4"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="autoplay; encrypted-media; picture-in-picture"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen>
-                            </iframe>
+                            <video autoplay muted loop playsinline>
+                                <source src="{{ asset('video/visao.mp4') }}" type="video/mp4">
+                                Seu navegador não suporta vídeo HTML5.
+                            </video>
                         </div>
                     </div>
                     

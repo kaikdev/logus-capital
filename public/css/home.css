@@ -112,7 +112,8 @@ main a.link:hover {
     border-color: var(--azul);
 }
 .proposito img,
-.proposito iframe {
+.proposito iframe,
+.proposito video {
     aspect-ratio: 16 / 9;
     width: 100%;
     height: auto;
@@ -260,7 +261,8 @@ main .visao {
         gap: 2rem;
     }
     .proposito img,
-    .proposito iframe {
+    .proposito iframe,
+    .proposito video {
         max-width: 100%;
     }
 }

@@ -47,7 +47,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="{{ asset('img/home/proposito.webp') }}" alt="{!! __('time.employee2.name') !!}" loading="lazy">
+                                <img src="{{ asset('img/time/hilda.webp') }}" alt="{!! __('time.employee2.name') !!}" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -98,7 +98,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="{{ asset('img/home/proposito.webp') }}" alt="{!! __('time.employee5.name') !!}" loading="lazy">
+                                <img src="{{ asset('img/time/juliana.webp') }}" alt="{!! __('time.employee5.name') !!}" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
