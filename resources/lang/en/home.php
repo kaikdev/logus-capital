@@ -14,7 +14,7 @@ return [
     ',
     'link1' => 'Read more',
     
-    'title2' => 'Nossos diferenciais',
+    'title2' => 'Our edge',
 
     'subtitle2' => '
         Experience shapes perspective.<br>

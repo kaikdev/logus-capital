@@ -1,6 +1,3 @@
-
-
-
 <?php $__env->startSection('title', __('main.header.link_0')); ?>
 <?php $__env->startSection('description-seo', $metatag->description ?? getItem('client')); ?>
 
@@ -61,7 +58,7 @@
 
                         </p>
 
-                        <a href="#" class="link">
+                        <a href="<?php echo e(route_lang('quem-somos')); ?>" class="link">
                             <?php echo __('home.link1'); ?>
 
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z"/></svg>
@@ -88,7 +85,7 @@
                 <div class="conteudo animate" data-animate="fade">
                     <div class="top">
                         <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
-                            <img src="<?php echo e(asset('img/home/diferenciais-1.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-1-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais1'); ?>
@@ -97,7 +94,7 @@
                         </a>
 
                         <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
-                            <img src="<?php echo e(asset('img/home/diferenciais-2.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-2-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais2'); ?>
@@ -108,7 +105,7 @@
 
                     <div class="bottom">
                         <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
-                            <img src="<?php echo e(asset('img/home/diferenciais-3.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-3-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais3'); ?>
@@ -117,7 +114,7 @@
                         </a>
 
                         <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
-                            <img src="<?php echo e(asset('img/home/diferenciais-4.webp')); ?>" alt="Imagem Diferenciais">
+                            <img src="<?php echo e(asset('img/home/diferenciais-4-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
                                 <?php echo __('home.diferenciais4'); ?>
@@ -152,7 +149,7 @@
 
                     </p>
 
-                    <a href="#" class="link">
+                    <a href="<?php echo e(route_lang('atuacao')); ?>" class="link">
                         <?php echo __('home.link2'); ?>
 
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z"/></svg>
@@ -180,7 +177,7 @@
 
                         </p>
 
-                        <a href="#" class="link">
+                        <a href="<?php echo e(route_lang('decisao')); ?>" class="link">
                             <?php echo __('home.link3'); ?>
 
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z"/></svg>
@@ -222,7 +219,7 @@
 
                     </p>
 
-                    <a href="#">
+                    <a href="<?php echo e(route_lang('visao')); ?>?visao=1">
                         <span>
                             <?php echo __('home.link4'); ?>
 

@@ -43,7 +43,7 @@
                             </p>
 
                             <div class="area-link animate" data-animate="top">
-                                <a href="#" class="link">
+                                <a href="#visao" class="link" id="btn-visao">
                                     <span>
                                         <?php echo __('visao.link'); ?>
 
@@ -60,43 +60,45 @@
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/WWEt1EOje68?si=iZuJBz9rAsMo_oG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
+                    
+                    <div id="visao">
+                        <h3 class="animate" data-animate="fade">
+                            <?php echo __('visao.title-text'); ?>
 
-                    <h3 class="animate" data-animate="fade">
-                        <?php echo __('visao.title-text'); ?>
+                        </h3>
 
-                    </h3>
+                        <p class="animate" data-animate="left">
+                            <?php echo __('visao.text4'); ?>
 
-                    <p class="animate" data-animate="left">
-                        <?php echo __('visao.text4'); ?>
+                        </p>
 
-                    </p>
+                        <p class="animate" data-animate="left">
+                            <?php echo __('visao.text5'); ?>
 
-                    <p class="animate" data-animate="left">
-                        <?php echo __('visao.text5'); ?>
+                        </p>
 
-                    </p>
+                        <p class="animate" data-animate="left">
+                            <?php echo __('visao.text6'); ?>
 
-                    <p class="animate" data-animate="left">
-                        <?php echo __('visao.text6'); ?>
+                        </p>
 
-                    </p>
+                        <p class="animate" data-animate="left">
+                            <?php echo __('visao.text7'); ?>
 
-                    <p class="animate" data-animate="left">
-                        <?php echo __('visao.text7'); ?>
+                        </p>
 
-                    </p>
+                        <p class="animate" data-animate="left">
+                            <?php echo __('visao.text8'); ?>
 
-                    <p class="animate" data-animate="left">
-                        <?php echo __('visao.text8'); ?>
+                        </p>
 
-                    </p>
+                        <p class="animate" data-animate="left">
+                            <?php echo __('visao.text9'); ?>
 
-                    <p class="animate" data-animate="left">
-                        <?php echo __('visao.text9'); ?>
+                        </p>
 
-                    </p>
-
-                    <img src="<?php echo e(asset('img/home/visao.webp')); ?>" class="img-end animate" data-animate="top" alt="Visão" loading="lazy">
+                        <img src="<?php echo e(asset('img/home/visao.webp')); ?>" class="img-end animate" data-animate="top" alt="Visão" loading="lazy">
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,5 +115,36 @@
         'subtitle' => __('leads.lead.subtitle'),
         'botao' => __('leads.lead.botao'),
     ], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('scripts'); ?>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const btn = document.getElementById('btn-visao');
+            const visao = document.getElementById('visao');
+
+            function abrirVisao() {
+                visao.classList.add('active');
+            }
+
+            btn.addEventListener('click', (e) => {
+                if (visao.classList.contains('active')) {
+                    return;
+                }
+
+                e.preventDefault();
+                abrirVisao();
+            });
+
+            const params = new URLSearchParams(window.location.search);
+
+            if (
+                params.get('visao') === '1' ||
+                window.location.hash === '#visao'
+            ) {
+                abrirVisao();
+            }
+        });
+    </script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.layout', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH /home2/logus670/public_html/novo/resources/views/pages/visao.blade.php ENDPATH**/ ?>

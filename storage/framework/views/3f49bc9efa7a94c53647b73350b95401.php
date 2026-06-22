@@ -11,7 +11,7 @@
 
                 <h3>
                     <?php echo e(__('lgpd.updated')); ?> 
-                    <span>29/04/2026</span>
+                    <span>18/06/2026</span>
                 </h3>
             </div>
 

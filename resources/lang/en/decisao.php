@@ -19,6 +19,8 @@ return [
     'item1' => [
         'title' => 'COMPLETE VIEW',
 
+        'title2' => 'A complete view before any decision',
+
         'text1' => 'Comprehensive Understanding of client’s wealth.',
 
         'text2' => 'Every decision begins with a comprehensive understanding of the client’s wealth.',
@@ -28,6 +30,8 @@ return [
 
     'item2' => [
         'title' => 'STRUCTURING AND JURISDICTION',
+
+        'title2' => 'Structure precedes allocation',
 
         'text1' => 'Establishing the Right Foundations.',
 
@@ -42,6 +46,8 @@ return [
 
     'item3' => [
         'title' => 'MARKET FILTER',
+
+        'title2' => 'We filter the market',
 
         'text1' => 'Separation of what matters from the noise.',
 
@@ -61,6 +67,8 @@ return [
     'item4' => [
         'title' => 'PORTFOLIO CONSTRUCTION',
 
+        'title2' => 'We build portfolios, not products',
+
         'text1' => 'Structured and Differentiated Allocation.',
 
         'text2' => '
@@ -75,6 +83,8 @@ return [
     'item5' => [
         'title' => 'CONTINUOUS MONITORING',
 
+        'title2' => 'Continuous monitoring and disciplined adjustments',
+
         'text1' => 'Disciplined Tracking.',
 
         'text2' => '
@@ -88,6 +98,8 @@ return [
 
     'item6' => [
         'title' => 'ALIGNED DECISION-MAKING',
+
+        'title2' => 'Decisions guided by a single principle',
 
         'text1' => 'A process that begins with the correct structuring of wealth, evolves through portfolio construction and is sustained over time with discipline and consistency.',
 

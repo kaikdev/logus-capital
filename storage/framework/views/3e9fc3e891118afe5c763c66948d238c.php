@@ -53,24 +53,24 @@
 
                     </p>
 
-                    <div class="servico animate" data-animate="fade">
+                    <div class="servico">
                         <div class="left">
-                            <p>
+                            <p class="animate" data-animate="left">
                                 <?php echo __('quem-somos.service1'); ?>
 
                             </p>
 
-                            <p>
+                            <p class="animate" data-animate="top">
                                 <?php echo __('quem-somos.service2'); ?>
 
                             </p>
                         </div>
 
-                        <div class="img">
+                        <div class="img animate" data-animate="scale">
                             <img src="<?php echo e(asset('img/icone-logus-capital.webp')); ?>" alt="Logus Capital" width="100" height="115">
                         </div>
 
-                        <div class="right">
+                        <div class="right animate" data-animate="top">
                             <p>
                                 <?php echo __('quem-somos.service3'); ?>
 
