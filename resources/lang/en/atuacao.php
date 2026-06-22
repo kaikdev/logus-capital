@@ -37,11 +37,11 @@ return [
         Institutional opportunities under favourable conditions.
     ',
 
-    /*
-    'word5' => '',
-    'word5-2' => '',
-    'textw5' => '',
-    */
+    'word5' => 'Governance <br> and Alignment',
+    'word5-2' => 'Governance and Alignment',
+    'textw5' => '
+        Independent filtering of the market opportunities.
+    ',
     
     'word6' => 'Consistency',
     'word6-2' => 'Consistency',

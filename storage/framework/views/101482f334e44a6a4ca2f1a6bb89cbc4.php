@@ -33,7 +33,7 @@
                     <div class="area-time">
                         <div class="itens">
                             <button type="button" class="item on animate" data-animate="top">
-                                <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="<?php echo __('time.employee1.name'); ?>" loading="lazy">
+                                <img src="<?php echo e(asset('img/time/holger.webp')); ?>" alt="<?php echo __('time.employee1.name'); ?>" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -69,7 +69,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="<?php echo __('time.employee3.name'); ?>" loading="lazy">
+                                <img src="<?php echo e(asset('img/time/fernanda.webp')); ?>" alt="<?php echo __('time.employee3.name'); ?>" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -87,7 +87,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="<?php echo __('time.employee4.name'); ?>" loading="lazy">
+                                <img src="<?php echo e(asset('img/time/fabio.webp')); ?>" alt="<?php echo __('time.employee4.name'); ?>" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -159,7 +159,7 @@
                     <div class="area-time">
                         <div class="itens">
                             <button type="button" class="item on animate" data-animate="top">
-                                <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="<?php echo __('time.advisor1.name'); ?>" loading="lazy">
+                                <img src="<?php echo e(asset('img/time/mauricio.webp')); ?>" alt="<?php echo __('time.advisor1.name'); ?>" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -177,7 +177,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="<?php echo __('time.advisor2.name'); ?>" loading="lazy">
+                                <img src="<?php echo e(asset('img/time/reinaldo.webp')); ?>" alt="<?php echo __('time.advisor2.name'); ?>" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -195,7 +195,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="<?php echo __('time.advisor3.name'); ?>" loading="lazy">
+                                <img src="<?php echo e(asset('img/time/rosangela.webp')); ?>" alt="<?php echo __('time.advisor3.name'); ?>" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -213,7 +213,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="<?php echo e(asset('img/home/proposito.webp')); ?>" alt="<?php echo __('time.advisor4.name'); ?>" loading="lazy">
+                                <img src="<?php echo e(asset('img/time/fatima.webp')); ?>" alt="<?php echo __('time.advisor4.name'); ?>" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">

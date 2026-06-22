@@ -30,7 +30,7 @@
                     <div class="area-time">
                         <div class="itens">
                             <button type="button" class="item on animate" data-animate="top">
-                                <img src="{{ asset('img/home/proposito.webp') }}" alt="{!! __('time.employee1.name') !!}" loading="lazy">
+                                <img src="{{ asset('img/time/holger.webp') }}" alt="{!! __('time.employee1.name') !!}" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -64,7 +64,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="{{ asset('img/home/proposito.webp') }}" alt="{!! __('time.employee3.name') !!}" loading="lazy">
+                                <img src="{{ asset('img/time/fernanda.webp') }}" alt="{!! __('time.employee3.name') !!}" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -81,7 +81,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="{{ asset('img/home/proposito.webp') }}" alt="{!! __('time.employee4.name') !!}" loading="lazy">
+                                <img src="{{ asset('img/time/fabio.webp') }}" alt="{!! __('time.employee4.name') !!}" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -145,7 +145,7 @@
                     <div class="area-time">
                         <div class="itens">
                             <button type="button" class="item on animate" data-animate="top">
-                                <img src="{{ asset('img/home/proposito.webp') }}" alt="{!! __('time.advisor1.name') !!}" loading="lazy">
+                                <img src="{{ asset('img/time/mauricio.webp') }}" alt="{!! __('time.advisor1.name') !!}" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -162,7 +162,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="{{ asset('img/home/proposito.webp') }}" alt="{!! __('time.advisor2.name') !!}" loading="lazy">
+                                <img src="{{ asset('img/time/reinaldo.webp') }}" alt="{!! __('time.advisor2.name') !!}" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -179,7 +179,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="{{ asset('img/home/proposito.webp') }}" alt="{!! __('time.advisor3.name') !!}" loading="lazy">
+                                <img src="{{ asset('img/time/rosangela.webp') }}" alt="{!! __('time.advisor3.name') !!}" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">
@@ -196,7 +196,7 @@
                             </button>
 
                             <button type="button" class="item animate" data-animate="top">
-                                <img src="{{ asset('img/home/proposito.webp') }}" alt="{!! __('time.advisor4.name') !!}" loading="lazy">
+                                <img src="{{ asset('img/time/fatima.webp') }}" alt="{!! __('time.advisor4.name') !!}" loading="lazy">
 
                                 <div class="area-text">
                                     <p class="title">

@@ -36,7 +36,7 @@ return [
     'word5' => 'Governança e <br> alinhamento',
     'word5-2' => 'Governança e alinhamento',
     'textw5' => '
-        Falta enviar esse texto.
+        Filtramos o mercado e protegemos o processo.
     ',
 
     'word6' => 'Eficiência <br> e constância',
