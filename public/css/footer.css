@@ -4,7 +4,7 @@ footer {
     position: relative;
 }
 footer .content {
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -39,6 +39,16 @@ footer .content > .left ul {
     gap: 5px;
     position: relative;
     z-index: 1;
+}
+.explorar ul {
+    flex-direction: row !important;
+    gap: 2rem !important;
+}
+.explorar .colum1, 
+.explorar .colum2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 footer svg {
     width: 20px;
@@ -90,7 +100,7 @@ footer .content > .left ul a:hover svg {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 1rem;
+    padding: 5px 1rem;
     border: 1px solid #fff;
     margin-bottom: 10px;
     width: 100%;

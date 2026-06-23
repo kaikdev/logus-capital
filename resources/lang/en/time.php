@@ -3,8 +3,8 @@
 return [
     'title1' => 'Team',
     'subtitle1' => '
-        Diferentes experiências. Um único <br>
-        compromisso: o cliente.
+        Different experiences. One single <br> 
+        commitment: the cliente.
     ',
 
     'title-text1' => 'Our Team',
@@ -184,24 +184,24 @@ return [
     'advisor4' => [
         'name' => 'Fátima Teixeira',
         'subtitle' => 'Board Member',
-        'text' => '
+        'text' => "
             <p>
-                Graduada em Economia pela PUC-SP e Mestre em Psicologia Educacional pela mesma instituição, Fátima Teixeira possui certificação em Psicologia do Planejamento Financeiro. Atua há mais de vinte anos na formação e desenvolvimento de planejadores financeiros e líderes do mercado financeiro no Brasil.
+                Holding a degree in Economics from PUC-SP and a Master's degree in Educational Psychology from the same institution, Fátima Teixeira is certified in Financial Planning Psychology. She has over twenty years of experience in the training and development of financial planners and financial market leaders in Brazil.
             </p>
 
             <p>
-                Foi Gerente de Educação e Certificação da Planejar – Associação Brasileira de Planejamento Financeiro, coordenando programas de certificação CFP®, educação continuada e parcerias institucionais. É Diretora da Nantes Academy, dedicada à formação de profissionais em crédito e financiamento no setor automotivo, e atua como mentora em desenvolvimento humano e profissional.
+                She served as Education and Certification Manager at Planejar – the Brazilian Financial Planning Association, coordinating CFP® certification programs, continuing education, and institutional partnerships. She is Director of Nantes Academy, dedicated to the training of professionals in credit and financing in the automotive sector, and works as a mentor in human and professional development.
             </p>
 
             <p>
-                Fátima é Membro do Conselho Consultivo da Logus Capital, na competência de Cultura, Ética e Desenvolvimento Profissional, contribuindo para o fortalecimento da governança, da cultura ética e da formação de talentos no mercado financeiro.
+                Fátima is a Member of the Advisory Board of Logus Capital, in the capacity of Culture, Ethics and Professional Development, contributing to the strengthening of governance, ethical culture, and talent development in the financial market.
             </p>
-        ',
+        '"
     ],
     
     'saiba' => [
-        'title' => 'Descubra as',
-        'subtitle' => 'perguntas frequentes',
+        'title' => ' Find answers to',
+        'subtitle' => 'your questions',
         'route' => 'faq',
     ],
 ];

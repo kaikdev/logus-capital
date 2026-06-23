@@ -58,8 +58,8 @@ return [
     ',
 
     'saiba' => [
-        'title' => 'Saiba como tomar a',
-        'subtitle' => 'Decisão',
+        'title' => 'Learn how to make the right',
+        'subtitle' => 'Decision',
         'route' => 'decisao',
     ],
 ];

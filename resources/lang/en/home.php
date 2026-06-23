@@ -3,7 +3,22 @@
 return [
     'banner' => 'Redefining how <br> wealth is managed',
     
+    'banner2' => '
+        Experience shapes <br> perspective.
+        <br>
+        Perspective shapes <br> decisions.
+        <br>
+        Decisions shape <br> long-term journeys.
+    ',
+
+    'banner3' => '
+        Our role is not to <br> react to the market, 
+        <br>
+        but to make better <br> decisions within it.
+    ',
+
     'title1' => 'WHO WE ARE',
+
     'subtitle1' => 'A discomfort with the market gave rise to a <br> fundamentally different way of operating.',
 
     'text1' => '
@@ -37,7 +52,7 @@ return [
         Over time, we act as a natural extension of our clients’ decision-making capacity — coordinating interactions with financial institutions and ensuring consistency in execution.
     ',
 
-    'link2' => 'O que isso signigica na prática?',
+    'link2' => 'What does this mean in practice?',
 
     'title4' => 'DECISIONS',
 
@@ -47,7 +62,7 @@ return [
         Our focus is on the quality of decisions over time — through a disciplined approach that combines technology, international expertise, and specialized support to deliver real value in wealth management.
     ',
 
-    'link3' => 'Conheça como tomamos decisões de investimento',
+    'link3' => 'Learn how we make investment decisions',
 
     'title5' => 'VISION',
 

@@ -1,11 +1,15 @@
 section.banner .swiper-slide {
     height: 600px;
+    width: 100% !important;
 }
 section.banner .swiper a {
     display: flex;
 }
 section.banner .swiper-slide img,
 section.banner .swiper-slide video {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     width: 100%;
     height: 100%;
@@ -13,18 +17,18 @@ section.banner .swiper-slide video {
     pointer-events: none;
 }
 section.banner h1.title-banner-swipper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     width: 100%;
     max-width: 1200px;
+    height: 100%;
+    align-content: center;
     padding: 0 1rem;
     margin: 0 auto;
     font-weight: 700;
     font-size: 3.5rem;
     line-height: 1;
-    color: var(--azul);
+    color: var(--azul);    
+    text-shadow: 1px 1px 3px white;
 }
 .title-banner-swipper .word {
     font-weight: 700;
@@ -268,7 +272,7 @@ main .visao {
 }
 @media (max-width: 1000px) {
     section.banner h1.title-banner-swipper {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     section.banner .swiper-slide {
         height: 400px;
@@ -315,5 +319,14 @@ main .visao {
     }
     .title-default h2 br {
         display: none;
+    }
+}
+@media (max-width: 500px) {
+    section.banner .swiper-slide {
+        height: auto;
+        min-height: 400px;
+    }
+    section.banner h1.title-banner-swipper {
+        padding: 2rem 1rem;
     }
 }

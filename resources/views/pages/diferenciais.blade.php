@@ -85,7 +85,7 @@
                         </div>
 
                         <div class="area-img">
-                            <img src="{{ asset('img/home/diferenciais-2.webp') }}" alt="{!! __('diferenciais.item2.title') !!}">
+                            <img src="{{ asset('img/diferenciais/diferenciais-2.webp') }}" alt="{!! __('diferenciais.item2.title') !!}">
                         </div>
                     </div>
                     <div class="item-full" id="full4">
@@ -160,7 +160,7 @@
 
                     <div class="item-def animate" data-animate="top" id="mini2">
                         <div class="area-img">
-                            <img src="{{ asset('img/home/diferenciais-4.webp') }}" alt="{!! __('diferenciais.item4.title') !!}">
+                            <img src="{{ asset('img/diferenciais/diferenciais-4.webp') }}" alt="{!! __('diferenciais.item4.title') !!}">
                         </div>
 
                         <div class="text">
@@ -227,6 +227,21 @@
 
 @section('scripts')
     <script>
+        function scrollToHash() {
+            const hash = window.location.hash;
+            if (!hash) return;
+
+            const el = document.querySelector(hash);
+
+            if (el) {
+                el.scrollIntoView({ behavior: "smooth", block: "start" });
+            } else {
+                setTimeout(scrollToHash, 200);
+            }
+        }
+
+        window.addEventListener("load", scrollToHash);
+
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll('.item-full').forEach(full => {
                 full.classList.remove('on');

@@ -13,7 +13,7 @@
                 <div class="swiper-slide">
                     <video src="<?php echo e(asset('video/video-home.mp4')); ?>" autoplay muted loop></video>
 
-                    <h1 class="title-banner-swipper">
+                    <h1 class="title-banner-swipper animate" data-animate="fade">
                         <?php echo __('home.banner'); ?>
 
                     </h1>
@@ -24,6 +24,15 @@
 
                     <h1 class="title-banner-swipper">
                         <?php echo __('home.banner2'); ?>
+
+                    </h1>
+                </div>
+
+                <div class="swiper-slide">
+                    <video src="<?php echo e(asset('video/video-home.mp4')); ?>" autoplay muted loop></video>
+
+                    <h1 class="title-banner-swipper">
+                        <?php echo __('home.banner3'); ?>
 
                     </h1>
                 </div>
@@ -87,7 +96,7 @@
 
                 <div class="conteudo animate" data-animate="fade">
                     <div class="top">
-                        <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
+                        <a href="<?php echo e(route_lang('diferenciais')); ?>#mini1" class="item">
                             <img src="<?php echo e(asset('img/home/diferenciais-1-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
@@ -96,7 +105,7 @@
                             </p>
                         </a>
 
-                        <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
+                        <a href="<?php echo e(route_lang('diferenciais')); ?>#mini4" class="item">
                             <img src="<?php echo e(asset('img/home/diferenciais-2-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
@@ -107,7 +116,7 @@
                     </div>
 
                     <div class="bottom">
-                        <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
+                        <a href="<?php echo e(route_lang('diferenciais')); ?>#mini3" class="item">
                             <img src="<?php echo e(asset('img/home/diferenciais-3-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
@@ -116,7 +125,7 @@
                             </p>
                         </a>
 
-                        <a href="<?php echo e(route_lang('diferenciais')); ?>" class="item">
+                        <a href="<?php echo e(route_lang('diferenciais')); ?>#mini2" class="item">
                             <img src="<?php echo e(asset('img/home/diferenciais-4-ajuste.png')); ?>" alt="Imagem Diferenciais">
 
                             <p>
@@ -259,37 +268,6 @@
                 },
                 speed: 1500,
             });
-        });
-
-        document.addEventListener('DOMContentLoaded', () => {
-            console.log('DOM carregado');
-
-            const title = document.querySelector('.title-banner-swipper');
-
-            console.log(title);
-
-            if (!title) return;
-
-            const html = title.innerHTML;
-            const parts = html.split(/(<br\s*\/?>)/i);
-
-            let delay = 0;
-
-            title.innerHTML = parts.map(part => {
-                if (part.match(/<br\s*\/?>/i)) {
-                    return part;
-                }
-
-                return part
-                    .trim()
-                    .split(/\s+/)
-                    .map(word => {
-                        const span = `<span class="word" style="animation-delay:${delay}s">${word}</span>`;
-                        delay += 0.15;
-                        return span;
-                    })
-                    .join(' ');
-            }).join('');
         });
     </script>
 <?php $__env->stopSection(); ?>

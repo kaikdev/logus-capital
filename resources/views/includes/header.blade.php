@@ -29,13 +29,13 @@
                     </div>
 
                     <div class="parceiros">
-                        <a href="#" target="_blank">
+                        <a href="https://cliente.loguscapital.com/home" target="_blank">
                             {{ __('main.header.link_9') }}
                         </a>
 
                         <span>|</span>
                         
-                        <a href="#" target="_blank">
+                        <a href="https://cliente.loguscapital.com/home" target="_blank">
                             {{ __('main.header.link_10') }}
                         </a>
                     </div>  

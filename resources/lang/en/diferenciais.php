@@ -67,7 +67,7 @@ return [
 
         'link' => 'Read more',
 
-        'text' => '
+        'text' => "
             <p>
                 Independence is at the core of the Logus model. We hold no proprietary products that could influence our recommendations. We operate with full market openness — selecting the best available alternatives without restrictions and with complete impartiality. 
             </p>
@@ -79,18 +79,22 @@ return [
             <p>
                 The result is a more efficient structure, lower implicit costs, and stronger net returns over time.     
             </p>
-        ',
+
+            <p>
+                Our compensation model <strong>is transparent and fully aligned with our clients' interests</strong> — deliberately designed to eliminate commercial incentives that <strong>could compromise the integrity of our advice.</strong>
+            </p>   
+        ",
     ],
 
     'link-2' => 'Read less',
 
     'text' => "
-        Our compensation model <strong>is transparent and fully aligned with our clients' interests</strong> — deliberately designed to eliminate commercial incentives that <strong>could compromise the integrity of our advice.</strong>
+        Behind this proposition lies an integrated structure — combining technology, wealth consolidation, market intelligence, institutional network and specialized support — enabling the transformation of vision into execution with consistency. 
     ",
 
     'saiba' => [
-        'title' => 'Saiba sobre a nossa',
-        'subtitle' => 'Atuação',
+        'title' => 'Learn about',
+        'subtitle' => 'our approach',
         'route' => 'atuacao',
     ],
 ];

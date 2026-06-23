@@ -137,28 +137,49 @@
         const modalTitle = document.getElementById('modalTitle');
         const modalText1 = document.getElementById('modalText1');
 
-        document.querySelectorAll('.open-modal').forEach(item => {
-            item.addEventListener('click', (e) => {
-                e.preventDefault();
+        const items = document.querySelectorAll('.open-modal');
 
-                const title = item.getAttribute('data-title');
-                const text1 = item.getAttribute('data-text1');
+        function openModal(item) {
+            const title = item.getAttribute('data-title');
+            const text1 = item.getAttribute('data-text1');
 
-                modalTitle.textContent = title;
-                modalText1.textContent = text1;
+            modalTitle.textContent = title;
+            modalText1.textContent = text1;
 
-                modal.classList.add('active');
-            });
-        });
+            modal.classList.add('active');
+        }
 
-        closeModal.addEventListener('click', () => {
+        function close() {
             modal.classList.remove('active');
-        });
+        }
+
+        closeModal.addEventListener('click', close);
 
         modal.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                modal.classList.remove('active');
-            }
+            if (e.target === modal) close();
         });
+
+        function setupEvents() {
+            const isDesktop = window.matchMedia('(min-width: 1000px)').matches;
+
+            items.forEach(item => {
+                item.onmouseenter = null;
+                item.onmouseleave = null;
+                item.onclick = null;
+
+                if (isDesktop) {
+                    item.addEventListener('mouseenter', () => openModal(item));
+                } 
+                else {
+                    item.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        openModal(item);
+                    });
+                }
+            });
+        }
+
+        window.addEventListener('DOMContentLoaded', setupEvents);
+        window.addEventListener('resize', setupEvents);
     </script>
 @endsection

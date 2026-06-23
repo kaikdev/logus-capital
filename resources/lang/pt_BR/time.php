@@ -8,6 +8,7 @@ return [
     ',
     'title-text1' => 'Nosso time',
     'title-text2' => 'Nosso conselho',
+
     'employee1' => [
         'name' => 'Holger Bre',
         'subtitle' => '
@@ -27,6 +28,7 @@ return [
             </p>
         ',
     ],
+
     'employee2' => [
         'name' => 'Hilda Martins',
         'subtitle' => 'Partner C&O',
@@ -44,6 +46,7 @@ return [
             </p>
         ',
     ],
+
     'employee3' => [
         'name' => 'Fernanda Retes',
         'subtitle' => 'Partner CFP®',
@@ -69,6 +72,7 @@ return [
             </p>
         ',
     ],
+
     'employee4' => [
         'name' => 'Fábio Granato',
         'subtitle' => 'Partner Private Banker',
@@ -90,29 +94,39 @@ return [
             </p>
         ',
     ],
+
     'employee5' => [
         'name' => 'Juliana Camblor',
         'subtitle' => 'Partner Back Office',
         'text' => '
             <p>
-                Juliana é sócia na área operacional e de suporte para os clientes na Logus Capital, com mais de 20 anos de experiência no Mercado Financeiro.  Iniciou sua carreira em 2003 no HSBC. Em 2007, ingressou no Santander, onde atuou no Back Office do Private Banking, realizando rotinas operacionais, suporte à área comercial e de produtos.
+                Juliana é sócia na área operacional e de suporte ao cliente na Logus Capital.
             </p>
 
             <p>
-                Em 2017, migrou para o BTG Pactual, onde trabalhou na área de Onboarding, participou de projetos de melhorias em processos operacionais e treinamento de equipes.
+                Com mais de 20 anos de experiência no mercado financeiro, construiu uma sólida trajetória em instituições de referência, nacionais e internacionais.
             </p>
 
             <p>
-                Juliana é formada em Administração de Empresas pela Universidade Presbiteriana Mackenzie, com MBA em Gestão de Negócios pela FGV. Possui as certificações CPA-20 (ANBIMA) e PQO Cadastro de Clientes (ANCORD).
+                Iniciou sua carreira em 2003 no HSBC e, a partir de 2007, consolidou sua experiência no Santander, atuando no Back Office do Private Banking, com foco em operações, controles e suporte estratégico às áreas Comercial e de Produtos.
+            </p>
+
+            <p>
+                Em 2017, ingressou no BTG Pactual, integrando a área de Onboarding. Ao longo de sua atuação, conduziu processos operacionais, assegurando a conformidade das informações, a aderência aos fluxos internos e o atendimento às exigências regulatórias. Também participou de iniciativas voltadas ao ganho de eficiência e à melhoria contínua das rotinas da área.
+            </p>
+
+            <p>
+                É graduada em Administração de Empresas pela Universidade Presbiteriana Mackenzie, possui MBA em Gestão de Negócios pela Fundação Getulio Vargas (FGV) e as certificações C-Pro R (ANBIMA) e PQO Cadastro de Clientes (ANCORD).
             </p>
         ',
     ],
+
     'advisor1' => [
         'name' => 'Maurício Moulon',
         'subtitle' => 'Conselheiro',
         'text' => '
             <p>
-                Graduado em Administração de Empresas pela Fundação Getúlio Vargas e com título de mestre (strictu senso) em Economia pela mesma instituição. Certificado CGA pela Anbima. Possui 35 anos de experiência no mercado financeiro, tendo passado por instituições como Bradesco e Santander. No Bradesco chefiou a área de Análise e Pesquisa Macroeconômica e no Santander desempenhou a função de economista-chefe. Nos últimos 6 anos tem atuado como consultor na Pezco Economics se dedicado ao Conselho Consultivo da Logus Capital..    
+                Graduado em Administração de Empresas pela Fundação Getúlio Vargas e com título de mestre (strictu senso) em Economia pela mesma instituição. Certificado CGA pela Anbima. Possui 35 anos de experiência no mercado financeiro, tendo passado por instituições como Bradesco e Santander. No Bradesco chefiou a área de Análise e Pesquisa Macroeconômica e no Santander desempenhou a função de economista-chefe. Nos últimos 6 anos tem atuado como consultor na Pezco Economics se dedicado ao Conselho Consultivo da Logus Capital.   
             </p>
             
             <p>
@@ -183,6 +197,7 @@ return [
             </p>
         ',
     ],
+
     'saiba' => [
         'title' => 'Descubra as',
         'subtitle' => 'perguntas frequentes',

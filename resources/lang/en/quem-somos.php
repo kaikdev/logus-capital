@@ -10,15 +10,15 @@ return [
 
     'text3' => 'This independence is not an adaptation developed over time, but a foundational conviction — reflected in how we think, decide and position ourselves alongside our clients.',
 
-    'text4' => 'More than managing assets, Logus acts as a long-term wealth partner, combining an ownership mindset, an integrated perspective and a deliberately selective client base.',
+    'text4' => 'Beyond asset management, Logus positions itself as a true wealth partner, working with:',
 
-    'service1' => 'Mentalidade de dono',
-    'service2' => 'Visão integrada',
-    'service3' => 'Um modelo que privilegia relações próximas com um número restrito de famílias.',
+    'service1' => 'Ownership mindset',
+    'service2' => 'Integrated View',
+    'service3' => 'Built on close relationships with a select few families.',
 
     'saiba' => [
-        'title' => 'Descubra nossos',
-        'subtitle' => 'Diferenciais',
+        'title' => 'Discover what sets',
+        'subtitle' => 'us apart',
         'route' => 'diferenciais',
     ],
 ];

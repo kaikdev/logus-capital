@@ -3,9 +3,11 @@
 return [
     'title1' => 'Diferenciais',
     'subtitle1' => '
-        Propósito que se traduz em<br>
-        excelência no atendimento
+        Experiência molda perspectiva. <br>
+        Perspectiva influencia decisões. <br>
+        Decisões transformam trajetória de longo prazo.
     ',
+    
     'item1' => [
         'title' => 'Propósito que se traduz em excelência no atendimento.',
         'subtitle' => '<strong>Cultura de dono,</strong> decisões conscientes e relações genuínas: na Logus, <span>performance e cuidado caminham juntos.</span>',

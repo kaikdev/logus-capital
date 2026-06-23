@@ -2,7 +2,21 @@
 
 return [
     'banner' => 'Redefinindo a forma <br> como patrimônios <br> são geridos',
-    'banner2' => 'Exemplo de titulo <br> para outros banners <br> do site.',
+
+    'banner2' => '
+        Experiência molda <br> perspectiva. 
+        <br>
+        Perspectiva influencia <br> decisões.
+        <br>
+        Decisões transformam <br> trajetórias de longo prazo.
+    ',
+
+    'banner3' => '
+        Nosso trabalho não é <br> reagir ao mercado.
+        <br>
+        É tomar decisões <br> melhores dentro dele.
+    ',
+
     'title1' => 'Propósito da Logus',
     'subtitle1' => 'Da inquietação com o mercado <br> nasceu uma forma diferente de atuar',
     'text1' => '
@@ -12,12 +26,22 @@ return [
         Fundada em 2017, a empresa surge com uma proposta clara desde a sua origem: atuar de forma independente na tomada de decisões, sem vínculos com produtos ou instituições, em contraste com o modelo tradicional no mercado.
     ',
     'link1' => 'Descubra mais',
+
     'title2' => 'Nossos diferenciais',
-    'subtitle2' => 'Propósito que se traduz em <br> excelência no atendimento',
+    'subtitle2' => '
+        Experiência molda perspectiva. <br>
+        Perspectiva influencia decisões. <br>
+        Decisões transformam trajetória de longo prazo.
+    ',
+
     'diferenciais1' => 'Propósito que se traduz em <br> excelência no atendimento',
+
     'diferenciais2' => 'Inteligência institucional: <br> o fim da complexidade na <br> gestão de patrimônio',
-    'diferenciais3' => 'Ecossistema Global de <br> Ivestimentos e Network',
+
+    'diferenciais3' => 'Ecossistema Global de <br> Investimentos e Network',
+
     'diferenciais4' => 'Independência que se traduz <br> em paz de espírito',
+
     'title3' => 'Atuação',
     'subtitle3' => 'Somos resposáveis por transformar <br> complexidade financeira em decisões',
     'text3' => '

@@ -13,7 +13,7 @@ return [
     ',
 
     'text2' => '
-        Um processo que começa na estruturação correta do patrimônio, evolui na construção dos investimentos e se mantém ao longo do tempo com disciplina e coerência.
+        A process that begins with the correct structuring of wealth, evolves through portfolio construction and is sustained over time with discipline and consistency.
     ',
 
     'item1' => [
@@ -101,7 +101,7 @@ return [
 
         'title2' => 'Decisions guided by a single principle',
 
-        'text1' => 'A process that begins with the correct structuring of wealth, evolves through portfolio construction and is sustained over time with discipline and consistency.',
+        'text1' => 'An unwavering focus on the client.',
 
         'text2' => '
             At every stage, one principle guides the process:
@@ -125,8 +125,8 @@ return [
     ',
 
     'saiba' => [
-        'title' => 'Entenda a nossa',
-        'subtitle' => 'Visão',
+        'title' => 'Understand our',
+        'subtitle' => 'vision',
         'route' => 'visao',
     ],
 ];

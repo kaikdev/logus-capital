@@ -317,8 +317,8 @@ return [
     ],
 
     'saiba' => [
-        'title' => 'Descubra como entrar',
-        'subtitle' => 'em contato',
+        'title' => 'Find out how to',
+        'subtitle' => 'reach us',
         'route' => 'contato',
     ],
 ];

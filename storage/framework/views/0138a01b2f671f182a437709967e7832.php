@@ -144,35 +144,58 @@
 
 <?php $__env->startSection('scripts'); ?>
     <script>
-        const modal = document.getElementById('modal');
-        const closeModal = document.getElementById('closeModal');
+    const modal = document.getElementById('modal');
+    const closeModal = document.getElementById('closeModal');
 
-        const modalTitle = document.getElementById('modalTitle');
-        const modalText1 = document.getElementById('modalText1');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalText1 = document.getElementById('modalText1');
 
-        document.querySelectorAll('.open-modal').forEach(item => {
-            item.addEventListener('click', (e) => {
-                e.preventDefault();
+    const items = document.querySelectorAll('.open-modal');
 
-                const title = item.getAttribute('data-title');
-                const text1 = item.getAttribute('data-text1');
+    function openModal(item) {
+        const title = item.getAttribute('data-title');
+        const text1 = item.getAttribute('data-text1');
 
-                modalTitle.textContent = title;
-                modalText1.textContent = text1;
+        modalTitle.textContent = title;
+        modalText1.textContent = text1;
 
-                modal.classList.add('active');
-            });
-        });
+        modal.classList.add('active');
+    }
 
-        closeModal.addEventListener('click', () => {
-            modal.classList.remove('active');
-        });
+    function close() {
+        modal.classList.remove('active');
+    }
 
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                modal.classList.remove('active');
+    closeModal.addEventListener('click', close);
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) close();
+    });
+
+    function setupEvents() {
+        const isDesktop = window.matchMedia('(min-width: 1000px)').matches;
+
+        items.forEach(item => {
+            // limpa eventos antigos (evita duplicação)
+            item.onmouseenter = null;
+            item.onmouseleave = null;
+            item.onclick = null;
+
+            if (isDesktop) {
+                // 👉 HOVER no desktop
+                item.addEventListener('mouseenter', () => openModal(item));
+            } else {
+                // 👉 CLICK no mobile/tablet
+                item.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    openModal(item);
+                });
             }
         });
-    </script>
+    }
+
+    window.addEventListener('DOMContentLoaded', setupEvents);
+    window.addEventListener('resize', setupEvents);
+</script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.layout', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\kaikg\Downloads\logus-capital\resources\views/pages/atuacao.blade.php ENDPATH**/ ?>
