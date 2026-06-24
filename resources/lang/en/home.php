@@ -1,20 +1,20 @@
 <?php
 
 return [
-    'banner' => 'Redefining how <br> wealth is managed',
+    'banner' => '<span>Redefining how <br> wealth is managed</span>',
     
     'banner2' => '
-        Experience shapes <br> perspective.
+        <span>Experience shapes <br> perspective.</span>
         <br>
-        Perspective shapes <br> decisions.
+        <span>Perspective shapes <br> decisions.</span>
         <br>
-        Decisions shape <br> long-term journeys.
+        <span>Decisions shape <br> long-term journeys.</span>
     ',
 
     'banner3' => '
-        Our role is not to <br> react to the market, 
+        <span>Our role is not to <br> react to the market,</span>
         <br>
-        but to make better <br> decisions within it.
+        <span>but to make better <br> decisions within it.</span>
     ',
 
     'title1' => 'WHO WE ARE',

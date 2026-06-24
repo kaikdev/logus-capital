@@ -1,20 +1,24 @@
 <?php
 
 return [
-    'banner' => 'Redefinindo a forma <br> como patrimônios <br> são geridos',
+    'banner' => '
+        <span>
+            Redefinindo a forma <br> como patrimônios <br> são geridos
+        </span>
+    ',
 
     'banner2' => '
-        Experiência molda <br> perspectiva. 
+        <span>Experiência molda <br> perspectiva.</span> 
         <br>
-        Perspectiva influencia <br> decisões.
+        <span>Perspectiva influencia <br> decisões.</span>
         <br>
-        Decisões transformam <br> trajetórias de longo prazo.
+        <span>Decisões transformam <br> trajetórias de longo prazo.</span>
     ',
 
     'banner3' => '
-        Nosso trabalho não é <br> reagir ao mercado.
+        <span>Nosso trabalho não é <br> reagir ao mercado.</span>
         <br>
-        É tomar decisões <br> melhores dentro dele.
+        <span>É tomar decisões <br> melhores dentro dele.</span>
     ',
 
     'title1' => 'Propósito da Logus',

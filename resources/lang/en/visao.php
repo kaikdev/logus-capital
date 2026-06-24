@@ -48,8 +48,8 @@ return [
     ',
 
     'saiba' => [
-        'title' => 'Conheça nosso',
-        'subtitle' => 'time',
+        'title' => 'Meet our',
+        'subtitle' => 'Team',
         'route' => 'time',
     ],
 ];

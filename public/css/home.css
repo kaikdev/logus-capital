@@ -30,7 +30,7 @@ section.banner h1.title-banner-swipper {
     color: var(--azul);    
     text-shadow: 1px 1px 3px white;
 }
-.title-banner-swipper .word {
+.title-banner-swipper span {
     font-weight: 700;
     font-size: 3.5rem;
     line-height: 1;
@@ -271,17 +271,15 @@ main .visao {
     }
 }
 @media (max-width: 1000px) {
-    section.banner h1.title-banner-swipper {
+    section.banner h1.title-banner-swipper,
+    .title-banner-swipper span {
         font-size: 2rem;
+    }
+    .title-banner-swipper span br {
+        display: none;
     }
     section.banner .swiper-slide {
         height: 400px;
-    }
-    .title-banner-swipper .word {
-        font-size: 2rem;
-    }
-    .title-banner-swipper .word br {
-        display: none;
     }
     main .content > div {
         border-color: #e2e2e2;

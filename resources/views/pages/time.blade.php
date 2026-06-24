@@ -256,27 +256,52 @@
                 const items = area.querySelectorAll('.itens .item');
                 const textos = area.querySelectorAll('.textos > div');
 
-                if (items.length) {
-                    items[0].classList.add('on');
+                let autoPlay;
+
+                function ativarItem(index) {
+                    items.forEach(btn => btn.classList.remove('on'));
+                    textos.forEach(texto => texto.classList.remove('on'));
+
+                    items[index].classList.add('on');
+
+                    if (textos[index]) {
+                        textos[index].classList.add('on');
+                    }
+
+                    reiniciarContagem();
                 }
 
-                if (textos.length) {
-                    textos[0].classList.add('on');
+                function reiniciarContagem() {
+                    clearInterval(autoPlay);
+
+                    autoPlay = setInterval(() => {
+                        const atual = [...items].findIndex(item =>
+                            item.classList.contains('on')
+                        );
+
+                        const proximo = (atual + 1) % items.length;
+
+                        ativarItem(proximo);
+                    }, 5000);
+                }
+
+                if (items.length) {
+                    ativarItem(0);
                 }
 
                 items.forEach((item, index) => {
+                    // Clique
                     item.addEventListener('click', () => {
-                        items.forEach(btn => btn.classList.remove('on'));
-                        textos.forEach(texto => texto.classList.remove('on'));
-
-                        item.classList.add('on');
-
-                        if (textos[index]) {
-                            textos[index].classList.add('on');
-                        }
+                        ativarItem(index);
                     });
+
+                    // Hover
+                    item.addEventListener('mouseenter', () => {
+                        ativarItem(index);
+                    });
+
                 });
             });
         });
-    </script>
+</script>
 @endsection

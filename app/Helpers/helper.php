@@ -57,8 +57,8 @@
             'phone1' => '(11) 3071-4449',
 
             // social medias
-            'linkedin' => 'https://www.linkedin.com/in/',
-            'name_linkedin' => 'usuario do cliente',
+            'linkedin' => 'https://www.linkedin.com/company/loguscapital/',
+            'name_linkedin' => 'loguscapital',
             'link-facebook' => 'https://web.facebook.com/url do cliente/',
             
             'link-instagram1' => 'https://www.instagram.com/',
