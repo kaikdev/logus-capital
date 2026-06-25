@@ -3,9 +3,7 @@
 return [
     'title1' => 'Quem Somos',
     'subtitle1' => '
-        Experiência molda perspectiva.<br>
-        Perspectiva influencia decisões.<br>
-        Decisões transformam trajetórias de longo prazo.
+        Da inquietação com o mercado <br> nasceu uma forma diferente de atuar
     ',
     'text1' => 'A Logus Capital nasceu da convergência entre uma inquietação legítima e uma visão construída ao longo de uma trajetória internacional de mais de 20 anos nos principais centros financeiros globais.',
     'text2' => 'Fundada em 2017, a empresa surge com uma proposta clara desde a sua origem: atuar de forma independente na tomada de decisões, sem vínculos com produtos ou instituições, em contraste com o modelo tradicional no mercado.',
