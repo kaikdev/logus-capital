@@ -24,7 +24,7 @@
 
                 <div class="conteudo">
                     <div class="left animate" data-animate="fade">
-                        <form class="form-contato" action="{{ route('contato.enviar') }}" method="POST">
+                        <form id="contactForm" class="form-contato" action="{{ route('contato.enviar') }}" method="POST">
                             @csrf
                             
                             {{-- Honeypot --}}
@@ -46,7 +46,7 @@
                                     {{ __('contato.label_2') }}
                                 </label>
 
-                                <input class="animate" data-animate="top" type="text" id="phone" name="phone" oninput="this.value = formatPhone(this.value)" maxlength="15" required>
+                                <input class="animate" data-animate="top" type="text" id="phone" name="phone" oninput="this.value = formatPhone(this.value)" maxlength="15">
                             </div>
 
                             <div class="item-input">
@@ -54,7 +54,7 @@
                                     {{ __('contato.label_3') }}
                                 </label>
 
-                                <input class="animate" data-animate="left" type="email" id="email" name="email" required>
+                                <input class="animate" data-animate="left" type="email" id="email" name="email">
                             </div>
 
                             <div class="item-input">
@@ -113,5 +113,36 @@
                 return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
             });
         }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('contactForm');
+            const email = document.getElementById('email');
+            const phone = document.getElementById('phone');
+
+            function validateContact() {
+                const hasEmail = email.value.trim();
+                const hasPhone = phone.value.trim();
+
+                if (!hasEmail && !hasPhone) {
+                    email.setCustomValidity('Informe um e-mail ou telefone.');
+                    phone.setCustomValidity('Informe um e-mail ou telefone.');
+                    return false;
+                }
+
+                email.setCustomValidity('');
+                phone.setCustomValidity('');
+                return true;
+            }
+
+            email.addEventListener('input', validateContact);
+            phone.addEventListener('input', validateContact);
+
+            form.addEventListener('submit', function(e) {
+                if (!validateContact()) {
+                    e.preventDefault();
+                    email.reportValidity();
+                }
+            });
+        });
     </script>
 @endsection

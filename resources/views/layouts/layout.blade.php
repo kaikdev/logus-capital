@@ -598,7 +598,8 @@
             </li>
         </ul>
     </div>
-    
+    --}}
+
     <!--Popup Lgpd-->
     <div class="pop-up-cookie" id="popup">
         <div class="content-wrapper">
@@ -649,8 +650,7 @@
             </div>
         </div>
     </div>
-    --}}
-
+    
     <!-- ANIMAÇÕES -->
     <script>
         window.addEventListener("DOMContentLoaded", () => {
@@ -669,10 +669,8 @@
         });
     </script>
 
-    {{--
     <script src="{{ asset('js/script-popup-saida.js') }}" defer></script>
     <script src="{{ asset('js/scripts.js') }}" defer></script>
-    --}}
 
     <!-- Btn mobile -->
     <script>

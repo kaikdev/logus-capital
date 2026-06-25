@@ -572,6 +572,59 @@
     
     
 
+    <!--Popup Lgpd-->
+    <div class="pop-up-cookie" id="popup">
+        <div class="content-wrapper">
+            <div class="icon">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12.078 0c6.587.042 11.922 5.403 11.922 12 0 6.623-5.377 12-12 12s-12-5.377-12-12c3.887 1.087 7.388-2.393 6-6 4.003.707 6.786-2.722 6.078-6zm1.422 17c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5zm-6.837-3c1.104 0 2 .896 2 2s-.896 2-2 2-2-.896-2-2 .896-2 2-2zm11.337-3c1.104 0 2 .896 2 2s-.896 2-2 2-2-.896-2-2 .896-2 2-2zm-6-1c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1zm-9-3c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1zm13.5-2c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5zm-15-2c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5zm6-2c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5zm-3.5-1c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z"/></svg>
+            </div>
+            <p>Utilizamos cookies para você obter a melhor experiência em nosso site. Ao continuar navegando, você concorda com a nossa <a href="<?php echo e(url('/termos')); ?>">Política de Privacidade</a>.</p>
+            <div class="buttons">
+                <a href="javascript:;" itemprop="url" class="btn-privacy" id="privacy-ok">Aceitar</a>
+                <div class="close">✖</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal sair-->
+    <div id="modal-exit" class="all-modal">
+        <div class="underlay"></div>
+        <div class="modal">
+            <i class="icon-close-popup">✖</i>
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="<?php echo e(asset('img/logus-capital.png')); ?>" alt="Logo - <?php echo e(getItem('client')); ?>" title="Logo - <?php echo e(getItem('client')); ?>">
+                </div>
+                <div class="modal-content">
+                    <h2>
+                        <?php echo __('leads.lead.title'); ?> <?php echo __('leads.lead.subtitle'); ?>
+
+                    </h2>
+
+                    <form action="<?php echo e(route('lead-submit')); ?>" id="popup-exit" method="POST">
+                        <?php echo csrf_field(); ?>
+                        <div class="col-2">
+                            <input type="text" required placeholder="<?php echo e(__('leads.lead.label_1')); ?>" class="form-control"  id="name" name="name" required>
+                        </div>
+
+                        <input type="email" required placeholder="<?php echo e(__('leads.lead.label_2')); ?>" class="form-control" id="email" name="email" required>
+
+                        <div class="terms">
+                            <input type="checkbox" required name="checkbox" id="termosPopup">
+
+                            <label for="termosPopup"><?php echo e(__('leads.lead.inicio_termos')); ?> <a href="<?php echo e(route_lang('termos')); ?>"><?php echo e(__('leads.lead.termos_1')); ?></a> <?php echo e(__('leads.lead.meio_termos')); ?> <a href="<?php echo e(route_lang('termos')); ?>"><?php echo e(__('leads.lead.termos_2')); ?></a> <?php echo e(__('leads.lead.final_termos')); ?></label>
+                        </div>
+
+                        <button>
+                            <?php echo e(__('leads.lead.botao')); ?>
+
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- ANIMAÇÕES -->
     <script>
         window.addEventListener("DOMContentLoaded", () => {
@@ -590,7 +643,8 @@
         });
     </script>
 
-    
+    <script src="<?php echo e(asset('js/script-popup-saida.js')); ?>" defer></script>
+    <script src="<?php echo e(asset('js/scripts.js')); ?>" defer></script>
 
     <!-- Btn mobile -->
     <script>

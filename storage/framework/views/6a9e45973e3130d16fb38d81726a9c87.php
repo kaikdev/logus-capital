@@ -23,7 +23,7 @@
 
                 <div class="conteudo">
                     <div class="left animate" data-animate="fade">
-                        <form class="form-contato" action="<?php echo e(route('contato.enviar')); ?>" method="POST">
+                        <form id="contactForm" class="form-contato" action="<?php echo e(route('contato.enviar')); ?>" method="POST">
                             <?php echo csrf_field(); ?>
                             
                             
@@ -47,7 +47,7 @@
 
                                 </label>
 
-                                <input class="animate" data-animate="top" type="text" id="phone" name="phone" oninput="this.value = formatPhone(this.value)" maxlength="15" required>
+                                <input class="animate" data-animate="top" type="text" id="phone" name="phone" oninput="this.value = formatPhone(this.value)" maxlength="15">
                             </div>
 
                             <div class="item-input">
@@ -56,7 +56,7 @@
 
                                 </label>
 
-                                <input class="animate" data-animate="left" type="email" id="email" name="email" required>
+                                <input class="animate" data-animate="left" type="email" id="email" name="email">
                             </div>
 
                             <div class="item-input">
@@ -117,6 +117,37 @@
                 return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
             });
         }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('contactForm');
+            const email = document.getElementById('email');
+            const phone = document.getElementById('phone');
+
+            function validateContact() {
+                const hasEmail = email.value.trim();
+                const hasPhone = phone.value.trim();
+
+                if (!hasEmail && !hasPhone) {
+                    email.setCustomValidity('Informe um e-mail ou telefone.');
+                    phone.setCustomValidity('Informe um e-mail ou telefone.');
+                    return false;
+                }
+
+                email.setCustomValidity('');
+                phone.setCustomValidity('');
+                return true;
+            }
+
+            email.addEventListener('input', validateContact);
+            phone.addEventListener('input', validateContact);
+
+            form.addEventListener('submit', function(e) {
+                if (!validateContact()) {
+                    e.preventDefault();
+                    email.reportValidity();
+                }
+            });
+        });
     </script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.layout', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\kaikg\Downloads\logus-capital\resources\views/pages/contato.blade.php ENDPATH**/ ?>

@@ -15,8 +15,8 @@ class ContatoRequest extends FormRequest
     {
         return [
             'name'    => 'required|string|max:255',
-            'phone'   => 'required|string|max:20',
-            'email'   => 'required|email|max:255',
+            'phone' => 'nullable|string|max:20|required_without:email',
+            'email' => 'nullable|email|max:255|required_without:phone',
             'message' => 'required|string|min:5',
             'website' => 'nullable|size:0',
         ];
@@ -26,7 +26,10 @@ class ContatoRequest extends FormRequest
     {
         return [
             'name.required'    => 'Informe seu nome',
-            'email.required'   => 'Informe seu e-mail',
+
+            'email.required_without' => 'Informe um e-mail ou telefone',
+            'phone.required_without' => 'Informe um e-mail ou telefone',
+
             'email.email'      => 'E-mail inválido',
             'message.required' => 'Digite sua mensagem',
             'website.size'     => 'Ação inválida.',

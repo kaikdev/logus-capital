@@ -16,12 +16,14 @@ class LeadMail extends Mailable
     public $name;
     public $url;
     public $email;
+    public $whatsapp;
 
     public function __construct($dados)
     {
         $this->name = $dados['name'];
         $this->url = $dados['url'];
         $this->email = $dados['email'];
+        $this->whatsapp = $dados['whatsapp'];
     }
 
     /**

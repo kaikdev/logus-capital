@@ -12,7 +12,7 @@
                 <span>{!! $subtitle !!}</span>
             </h2>
 
-            <form action="{{ route('lead-submit') }}" method="POST">
+            <form id="leadForm" action="{{ route('lead-submit') }}" method="POST">
                 @csrf
                 <div class="area-inputs-lead">
                     <div class="item-input">
@@ -20,11 +20,11 @@
                     </div>
 
                     <div class="item-input">
-                        <input placeholder="{{ __('leads.lead.label_2') }}" type="text" id="phone" name="phone" oninput="this.value = formatPhone(this.value)" maxlength="15" required>
+                        <input placeholder="{{ __('leads.lead.label_2') }}" type="text" id="whatsapp" name="whatsapp" oninput="this.value = formatPhone(this.value)" maxlength="15">
                     </div>
 
                     <div class="item-input">
-                        <input type="email" id="email" name="email" placeholder="{{ __('leads.lead.label_3') }}" required>
+                        <input type="email" id="email" name="email" placeholder="{{ __('leads.lead.label_3') }}">
                     </div>
                 </div>
 
@@ -56,4 +56,34 @@
             return c ? `(${a}) ${b}-${c}` : `(${a}) ${b}`;
         });
     }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('leadForm');
+        const email = document.getElementById('email');
+        const whatsapp = document.getElementById('whatsapp');
+
+        form.addEventListener('submit', function(e) {
+            const hasEmail = email.value.trim() !== '';
+            const hasWhatsapp = whatsapp.value.trim() !== '';
+
+            if (!hasEmail && !hasWhatsapp) {
+                e.preventDefault();
+
+                email.setCustomValidity('Preencha o e-mail ou WhatsApp.');
+                email.reportValidity();
+
+                return false;
+            }
+
+            email.setCustomValidity('');
+        });
+
+        email.addEventListener('input', () => {
+            email.setCustomValidity('');
+        });
+
+        whatsapp.addEventListener('input', () => {
+            email.setCustomValidity('');
+        });
+    });
 </script>

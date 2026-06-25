@@ -19,9 +19,11 @@ class ContatoMail extends Mailable
 
     public function build()
     {
-        return $this
-            ->subject('Novo contato pelo site')
-            ->replyTo($this->dados['email'], $this->dados['name'])
-            ->view('emails.contato');
+        $mail = $this
+        ->subject('Novo contato pelo site');
+        if (!empty($this->dados['email'])) {
+            $mail->replyTo($this->dados['email'], $this->dados['name']);
+        }
+        return $mail->view('emails.contato');
     }
 }

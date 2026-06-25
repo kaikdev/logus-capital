@@ -12,6 +12,8 @@ class ContatoController extends Controller
 {
     public function enviar(ContatoRequest $request)
     {
+        app()->setLocale(session('locale', config('app.locale')));
+        
         try {
             $tempo = now()->timestamp - $request->form_time;
 
@@ -30,8 +32,8 @@ class ContatoController extends Controller
             
             $dados = $request->only(['name', 'phone', 'email', 'message']);
             
-            //Mail::to('web@engenhodeimagens.com.br')->send(new ContatoMail($dados));
-            Mail::to(getItem('email-client'))->send(new ContatoMail($dados));
+            Mail::to('web@engenhodeimagens.com.br')->send(new ContatoMail($dados));
+            //Mail::to(getItem('email-client'))->send(new ContatoMail($dados));
 
             ToastMagic::success(__('toast.contact_success'));
 
