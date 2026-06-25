@@ -630,11 +630,17 @@
 
                     <form action="{{ route('lead-submit') }}" id="popup-exit" method="POST">
                         @csrf
-                        <div class="col-2">
-                            <input type="text" required placeholder="{{ __('leads.lead.label_1') }}" class="form-control"  id="name" name="name" required>
+                        <div class="item-input">
+                            <input type="text" id="name" name="name" placeholder="{{ __('leads.lead.label_1') }}" required>
                         </div>
 
-                        <input type="email" required placeholder="{{ __('leads.lead.label_2') }}" class="form-control" id="email" name="email" required>
+                        <div class="item-input">
+                            <input placeholder="{{ __('leads.lead.label_2') }}" type="text" id="whatsapp" name="whatsapp" oninput="this.value = formatPhone(this.value)" maxlength="15">
+                        </div>
+
+                        <div class="item-input">
+                            <input type="email" id="email" name="email" placeholder="{{ __('leads.lead.label_3') }}">
+                        </div>
 
                         <div class="terms">
                             <input type="checkbox" required name="checkbox" id="termosPopup">

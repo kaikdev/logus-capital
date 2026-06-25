@@ -65,7 +65,7 @@
     width: 150px;
     height: 40px;
     cursor: pointer;
-    background: var(--color-marrom);
+    background: var(--azul);
     color: #fff;
     border: 1px solid #0000002f;
     outline: none;
@@ -103,7 +103,7 @@ div.all-modal > .underlay{
     left: 0;
 }
 div.all-modal .modal{
-    border-radius: 15px;
+    border-radius: 0px;
     padding: 30px;
     position: relative;
     transform: translateX(-50%) translateY(-50%);
@@ -116,7 +116,7 @@ div.all-modal .modal{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-cinza-dark);
+    background-color: var(--azul);
     color: #fff;
 }
 div.all-modal .modal i.icon-close-popup{
@@ -127,13 +127,10 @@ div.all-modal .modal i.icon-close-popup{
     margin: 30px;
     font-style: normal;
 }
-div.all-modal .modal .logo{
-}
 div.all-modal .modal .logo img{
-    max-width: 220px;
-    object-fit: contain;
-    width: auto;
-    height: 110px;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
 }
 div.all-modal .modal .wrapper{
     display: flex;
@@ -160,7 +157,7 @@ div.all-modal .modal .modal-content h2{
     font-weight: 600;
     font-size: 25px;
     line-height: 1;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     text-transform: uppercase;
 }
 div.all-modal .modal .modal-content p{
@@ -186,7 +183,7 @@ div.all-modal .modal form input[type="email"]{
     padding: 0 15px;
     width: 100%;
     height: 38px;
-    border-radius: 4px;
+    border-radius: 0px;
     border: 1px solid #0000006b;
     outline: none;
     transition: all .5s ease-in-out;
@@ -217,18 +214,20 @@ div.all-modal .modal form .terms label a:hover {
 div.all-modal .modal form button{
     height: 42px;
     cursor: pointer;
-    background: var(--color-marrom);
+    background: var(--azul-white);
     color: #fff;
-    border: 1px solid #0000002f;
+    border: 2px solid #0000002f;
     outline: none;
     padding: 3px 22px;
     font-size: 0.9rem;
     font-weight: 600;
-    border-radius: 5px;
+    border-radius: 0px;
     transition: all .5s ease-out;
 }
 div.all-modal .modal form button:hover{
-    filter: saturate(2);
+    background-color: var(--azul);
+    border-color: var(--azul-white);
+    color: #fff;
 }
 @media(max-width: 1100px){
     #popup{
@@ -243,16 +242,10 @@ div.all-modal .modal form button:hover{
     #popup .content-wrapper p{
         width: 100%;
     }
-    div.all-modal .modal .logo img {
-        height: 70px;
-    }
 }
 @media (max-width: 390px) {
     div.all-modal .modal form .col-2 {
         flex-direction: column;
         gap: 15px;
-    }
-    div.all-modal .modal .logo img {
-        height: 80px;
     }
 }

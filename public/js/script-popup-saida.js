@@ -86,3 +86,37 @@
     })
 }
 )()
+
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('popup-exit');
+
+    const email = form.querySelector('[name="email"]');
+    const whatsapp = form.querySelector('[name="whatsapp"]');
+
+    form.addEventListener('submit', function(e) {
+        const hasEmail = email.value.trim() !== '';
+        const hasWhatsapp = whatsapp.value.trim() !== '';
+
+        if (!hasEmail && !hasWhatsapp) {
+            e.preventDefault();
+
+            email.setCustomValidity('Preencha o e-mail ou WhatsApp.');
+            email.reportValidity();
+
+            return false;
+        }
+
+        email.setCustomValidity('');
+        whatsapp.setCustomValidity('');
+    });
+
+    email.addEventListener('input', () => {
+        email.setCustomValidity('');
+        whatsapp.setCustomValidity('');
+    });
+
+    whatsapp.addEventListener('input', () => {
+        email.setCustomValidity('');
+        whatsapp.setCustomValidity('');
+    });
+});
