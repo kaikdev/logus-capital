@@ -10,14 +10,16 @@ class SetLocale
 {
     public function handle($request, Closure $next)
     {
-        $locale = $request->route('locale') 
-            ?? Session::get('locale') 
-            ?? config('app.locale');
+        $urlLocale = $request->route('locale')
+            ?? Session::get('locale')
+            ?? 'pt_br';
 
-        if (in_array($locale, config('app.available_locales'))) {
-            App::setLocale($locale);
-            Session::put('locale', $locale);
-        }
+        Session::put('locale', $urlLocale);
+
+        App::setLocale(match ($urlLocale) {
+            'pt_br' => 'pt_BR',
+            default => $urlLocale,
+        });
 
         return $next($request);
     }

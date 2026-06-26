@@ -28,8 +28,10 @@
             $params = ['param' => $params];
         }
 
+        $locale = session('locale') ?? config('app.locale');
+
         return route($name, array_merge(
-            ['locale' => app()->getLocale()],
+            ['locale' => $locale],
             $params
         ));
     }
@@ -61,8 +63,8 @@
             'name_linkedin' => 'loguscapital',
             'link-facebook' => 'https://web.facebook.com/url do cliente/',
             
-            'link-instagram1' => 'https://www.instagram.com/',
-            'instagram1' => 'user',
+            'link-instagram1' => 'https://www.instagram.com/logus_capital/',
+            'instagram1' => 'logus_capital',
 
             'link-youtube' => 'https://www.youtube.com.br/',
             'link-pinterest' => 'https://br.pinterest.com/',

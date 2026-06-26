@@ -35,8 +35,8 @@ class LeadSubmitController extends Controller
         ];
 
         if ($leads) {
-            Mail::to('web@engenhodeimagens.com.br',)->send(new LeadMail($dados));
-            //Mail::to(getItem('email-client'))->send(new LeadMail($dados));
+            //Mail::to('web@engenhodeimagens.com.br',)->send(new LeadMail($dados));
+            Mail::to(getItem('email-client'))->send(new LeadMail($dados));
 
             ToastMagic::success(__('toast.lead_success'));
         }

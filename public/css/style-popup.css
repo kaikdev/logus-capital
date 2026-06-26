@@ -155,7 +155,8 @@ div.all-modal .modal .modal-content {
 }
 div.all-modal .modal .modal-content h2{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 1.2rem;
+    text-align: center;
     line-height: 1;
     margin-bottom: 2rem;
     text-transform: uppercase;

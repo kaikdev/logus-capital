@@ -32,8 +32,8 @@ class ContatoController extends Controller
             
             $dados = $request->only(['name', 'phone', 'email', 'message']);
             
-            Mail::to('web@engenhodeimagens.com.br')->send(new ContatoMail($dados));
-            //Mail::to(getItem('email-client'))->send(new ContatoMail($dados));
+            //Mail::to('web@engenhodeimagens.com.br')->send(new ContatoMail($dados));
+            Mail::to(getItem('email-client'))->send(new ContatoMail($dados));
 
             ToastMagic::success(__('toast.contact_success'));
 
